@@ -17,6 +17,9 @@
 
     <title>Ryan Web - Portfólio</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./static/logo/ryan-web-logo.svg" type="image/svg">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,16 +27,102 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/global-config/style.css">
-    <link rel="stylesheet" href="./assets/css/card-default/style.css">
-    <link rel="stylesheet" href="./assets/css/card-project/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/global-config.css">
+    <link rel="stylesheet" href="./assets/css/card-default.css">
+    <link rel="stylesheet" href="./assets/css/card-project.css">
 
     <!-- Scripts -->
     <script src="./assets/js/main.js" defer></script>
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__container">
+            <figure class="header__logo">
+                <a href="./index.html">
+                    <img 
+                        src="./static/logo/ryan-web-logo.svg" 
+                        alt="Logo Ryan Web"
+                        title="Logo Ryan Web"
+                        width="50"
+                        draggable="false"
+                    >
+                </a>
+            </figure>
+    
+            <nav class="nav">
+                <ul>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link" alt="Alt + 1" title="Alt + 1">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link" alt="Alt + 2" title="Alt + 2">
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link" alt="Alt + 3" title="Alt + 3">
+                            Projetos
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#knowledges" class="nav__link" alt="Alt + 4" title="Alt + 4">
+                            Conhecimentos
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <figure>
+                            <img 
+                                src="./static/icons/website-theme/light-theme.svg" 
+                                alt="Alt + 5"
+                                title="Alt + 5"
+                                width="30"
+                                height="30"
+                                draggable="false"
+                            >
+                        </figure>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section class="section-initial">
+        <article>
+            <h1 class="section-initial__title">
+                <span class="section-initial__text">Olá, eu sou o</span> <br>
+                Ryan Oliveira
+            </h1>
+    
+            <p class="section-initial__text">
+                Desenvolvedor Front-End!
+            </p>
+    
+            <div class="btn-group">
+                <a href="#" class="btn-group__contact" alt="Entrar em contato" title="Entrar em contato">
+                    Contato
+                </a>
+    
+                <a download="#" class="btn-group__resume" alt="Baixar currículo" title="Baixar currículo">
+                    Currículo
+                </a>
+            </div>
+        </article>
+
+        <figure class="section-initial__illustration">
+            <img 
+                src="./static/illustration.svg" 
+                alt=""
+                title=""
+                width="400"
+                draggable="false"
+            >
+        </figure>
+    </section>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<img src="./static/logo/" alt="Logo Ryan Web" width="80">
+<img src="./static/logo/ryan-web-logo.svg" alt="Logo Ryan Web" title="Logo Ryan Web" width="80">
 
 # Ryan Web
 
@@ -7,7 +7,7 @@ Ryan Web is my portfolio in website format and it contains all my projects, deve
 
 ### Technologies
 - HTML 5
-- CSS 3
+- SCSS
 - JavaScript (ECMAScript 2015+)
 
 ### Architecture / Conventions

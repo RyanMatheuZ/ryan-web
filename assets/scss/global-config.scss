@@ -1,0 +1,41 @@
+// To run => sass --watch assets/scss/global-config.scss:assets/css/global-config.css
+
+:root {
+    --primary-color: #FF3E00;
+    --secondary-color: #FF9572;
+    --black-color: #222;
+    --gray-medium-color: #8C8C8C;
+    --gray-light-color: #C0BEBE;
+    --white-color: #FFF;
+}
+
+.dark-mode:root {
+    --white-color: var(--black-color);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: linear-gradient(
+        65deg,
+        var(--white-color) 50%,
+        var(--primary-color) 50%
+    );
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
