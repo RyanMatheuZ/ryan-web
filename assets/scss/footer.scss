@@ -1,0 +1,7 @@
+// To run => sass --watch assets/scss/footer.scss:assets/css/footer.css
+
+@use 'mixins';
+
+.footer {
+    flex-shrink: 0;
+}

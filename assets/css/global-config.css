@@ -17,21 +17,32 @@
   padding: 0;
 }
 
-html,
 body {
-  background: linear-gradient(65deg, var(--white-color) 50%, var(--primary-color) 50%);
+  background: linear-gradient(65deg, var(--white-color) 65%, var(--primary-color) 35%);
   font-family: "Poppins", sans-serif;
   height: 100%;
-  width: 100%;
 }
 
 a {
   text-decoration: none;
+  user-select: none;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+abbr {
+  border-bottom: 1px solid var(--secondary-color);
+  cursor: help;
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  body {
+    background: linear-gradient(65deg, var(--white-color) 65%, var(--primary-color));
+  }
 }
 
 /*# sourceMappingURL=global-config.css.map */
