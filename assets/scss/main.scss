@@ -1,4 +1,4 @@
-// To run => sass --watch assets/scssmain.scss:assets/css/main.css/
+// To run => sass --watch assets/scss/main.scss:assets/css/main.css
 
 @use 'mixins';
 
@@ -107,7 +107,8 @@
     }
 }
 
-.section-services {
+.section-services,
+.section-knowledges {
     background-color: var(--white-color);
 
     &__container {

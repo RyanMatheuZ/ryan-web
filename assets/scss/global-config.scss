@@ -3,12 +3,12 @@
 @use 'mixins';
 
 :root {
+    --black-color: #222; // or #212529
+    --gray-light-color: #C0BEBE;
+    --gray-medium-color: #8C8C8C;
     --primary-color: #FF3E00;
     --secondary-color: #FF9572;
-    --black-color: #222; // or #212529
-    --gray-medium-color: #8C8C8C;
-    --gray-light-color: #C0BEBE;
-    --white-color: #FFF; 
+    --white-color: #FFF;
 }
 
 .dark-mode:root {
@@ -28,8 +28,8 @@ html {
 body {
     background: linear-gradient(
         65deg,
-        var(--white-color) 60%,
-        var(--primary-color) 40%  
+        var(--white-color) 70%,
+        var(--primary-color) 30%  
     );
     font-family: 'Poppins', sans-serif;
     height: 100%;
@@ -67,7 +67,7 @@ abbr {
     body {
         background: linear-gradient(
             65deg,
-            var(--white-color) 80%,
+            var(--white-color) 85%,
             var(--primary-color)
         );
     }

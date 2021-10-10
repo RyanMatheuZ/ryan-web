@@ -93,10 +93,12 @@
   }
 }
 
-.section-services {
+.section-services,
+.section-knowledges {
   background-color: var(--white-color);
 }
-.section-services__container {
+.section-services__container,
+.section-knowledges__container {
   margin: 0 auto;
   max-width: 1300px;
   padding: 2rem;
@@ -105,11 +107,13 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.section-services__subtitle {
+.section-services__subtitle,
+.section-knowledges__subtitle {
   padding-top: 2rem;
   text-align: center;
 }
-.section-services__subtitle-description {
+.section-services__subtitle-description,
+.section-knowledges__subtitle-description {
   align-items: center;
   display: flex;
   justify-content: center;

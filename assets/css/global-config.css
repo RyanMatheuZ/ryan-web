@@ -1,9 +1,9 @@
 :root {
+  --black-color: #222;
+  --gray-light-color: #C0BEBE;
+  --gray-medium-color: #8C8C8C;
   --primary-color: #FF3E00;
   --secondary-color: #FF9572;
-  --black-color: #222;
-  --gray-medium-color: #8C8C8C;
-  --gray-light-color: #C0BEBE;
   --white-color: #FFF;
 }
 
@@ -22,14 +22,14 @@ html {
 }
 
 body {
-  background: linear-gradient(65deg, var(--white-color) 60%, var(--primary-color) 40%);
+  background: linear-gradient(65deg, var(--white-color) 70%, var(--primary-color) 30%);
   font-family: "Poppins", sans-serif;
   height: 100%;
 }
 
 h2 {
   color: var(--primary-color);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1,
@@ -58,7 +58,7 @@ abbr {
 
 @media (max-width: 850px) {
   body {
-    background: linear-gradient(65deg, var(--white-color) 80%, var(--primary-color));
+    background: linear-gradient(65deg, var(--white-color) 85%, var(--primary-color));
   }
 }
 
