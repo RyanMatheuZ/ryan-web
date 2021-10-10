@@ -13,7 +13,7 @@
     <meta name="url" content="https://ryan-web.vercel.app">
     <meta name="creator" content="Ryan Matheus de Oliveira">
     <meta name="generator" content="Visual Studio Code">
-    <meta name="theme-color" content="#222222">
+    <meta name="theme-color" content="#FF9572">
 
     <title>Ryan Web - Portfólio</title>
 
@@ -32,12 +32,16 @@
     <link rel="stylesheet" href="./assets/css/global-config.css">
     <link rel="stylesheet" href="./assets/css/card-default.css">
     <link rel="stylesheet" href="./assets/css/card-project.css">
-
-    <!-- Scripts -->
-    <script src="./assets/js/main.js" defer></script>
 </head>
 
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
     <header class="header">
         <div class="header__container">
             <figure class="header__logo">
@@ -114,7 +118,7 @@
                 </div>
             </article>
 
-            <figure class="section-initial__illustration">
+            <figure class="section-initial__image">
                 <img 
                     src="./static/illustration.svg" 
                     alt="Foguete"
@@ -124,7 +128,7 @@
             </figure>
         </section>
 
-        <section class="section-about">
+        <section id="about" class="section-about">
             <div class="section-about__container">
                 <figure class="section-about__image">
                     <img 
@@ -158,7 +162,125 @@
                 </article>
             </div>
         </section>
+
+        <section id="services" class="section-services">
+            <h2 class="section-services__subtitle">
+                Serviços
+            </h2>
+
+            <span class="section-services__subtitle-description">
+                O QUE EU POSSO FAZER POR VOCÊ
+            </span>
+
+            <div class="section-services__container">
+                <article class="card-default" title="Serviço de Front-End">
+                    <figure class="card-default__icon">
+                        <img 
+                            src="./static/icons/services/front-end.svg" 
+                            alt="Front-End"
+                            title="Front-End"
+                            draggable="false"
+                            width="40"
+                        >
+                    </figure>
+
+                    <h3 class="card-default__subtitle">
+                        Front-End
+                    </h3>
+
+                    <p class="card-default__text">
+                        Desenvolvimento da interface gráfica do usuário, de um site
+                    </p>
+                </article>
+
+                <article class="card-default" title="Serviço de sites responsivos">
+                    <figure class="card-default__icon">
+                        <img 
+                            src="./static/icons/services/responsive-design.svg" 
+                            alt="Sites responsivos"
+                            title="Sites responsivos"
+                            draggable="false"
+                            width="35"
+                        >
+                    </figure>
+
+                    <h3 class="card-default__subtitle">
+                        Sites Responsivos
+                    </h3>
+
+                    <p class="card-default__text">
+                        Sites que se adaptam <br> em diferentes tipos <br> de dispositivos
+                    </p>
+                </article>
+
+                <article class="card-default" title="Serviço de HTML semântico">
+                    <figure class="card-default__icon">
+                        <img 
+                            src="./static/icons/services/sematic-html.svg" 
+                            alt="HTML semântico"
+                            title="HTML semântico"
+                            draggable="false"
+                            width="40"
+                        >
+                    </figure>
+
+                    <h3 class="card-default__subtitle">
+                        HTML Semâtico
+                    </h3>
+
+                    <p class="card-default__text">
+                        Melhor compreensão <br> do HTML em motores <br> de busca
+                    </p>
+                </article>
+
+                <article class="card-default" title="Serviço de acessibilidade Web">
+                    <figure class="card-default__icon">
+                        <img 
+                            src="./static/icons/services/web-accessibility.svg" 
+                            alt="Acessibilidade Web"
+                            title="Acessibilidade Web"
+                            draggable="false"
+                            width="30"
+                        >
+                    </figure>
+
+                    <h3 class="card-default__subtitle">
+                        Acessibilidade Web
+                    </h3>
+
+                    <p class="card-default__text">
+                        Sites acessíveis para pessoas com qualquer tipo de deficiência
+                    </p>
+                </article>
+
+                <article class="card-default" title="Serviço de SEO Web">
+                    <figure class="card-default__icon">
+                        <img 
+                            src="./static/icons/services/web-seo.svg" 
+                            alt="SEO Web"
+                            title="SEO Web"
+                            draggable="false"
+                            width="40"
+                        >
+                    </figure>
+
+                    <h3 class="card-default__subtitle">
+                        SEO Web
+                    </h3>
+
+                    <p class="card-default__text">
+                        Técnicas Black e White Hat, para otimização <br> de conteúdo
+                    </p>
+                </article>
+            </div>
+        </section>
     </main>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-// To run => sass --watch assets/scss/main.scss:assets/css/main.css
+// To run => sass --watch assets/scssmain.scss:assets/css/main.css/
 
 @use 'mixins';
 
@@ -33,7 +33,6 @@
             cursor: pointer;
             font-weight: 600;
             padding: 0.65rem 0.5rem;
-            user-select: none;
             width: 120px;
         }
 
@@ -50,7 +49,7 @@
         }
     }
 
-    &__illustration {
+    &__image {
         margin-top: 2rem;
         max-width: 450px;
 
@@ -83,12 +82,6 @@
     &__text {
         margin-top: 2rem;
         max-width: 500px;
-        // user-select: none;   
-    }
-
-    &__subtitle {
-        color: var(--primary-color);
-        font-weight: 600;
     }
 
     &__subtitle-description {
@@ -101,6 +94,36 @@
         font-weight: 400;
         line-height: 1.75;
         margin-block: 1rem;
-        text-align: justify;
+    }
+
+    @media (max-width: 863px) {
+        &__image {
+            order: 1
+        }
+
+        &__text {
+            order: 0;
+        }
+    }
+}
+
+.section-services {
+    background-color: var(--white-color);
+
+    &__container {
+        @include mixins.container;
+        @include mixins.flex-center;
+        flex-wrap: wrap;
+    }
+
+    &__subtitle {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    &__subtitle-description {
+        @include mixins.flex-center;
+        color: var(--black-color);
+        font-weight: 500;
     }
 }

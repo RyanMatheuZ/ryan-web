@@ -1,0 +1,31 @@
+// To run => sass --watch assets/scss/card-default.scss:assets/css/card-default.css
+
+@use 'mixins';
+
+.card-default {
+    border-radius: 15px 15px 0 15px;
+    border: 2px solid var(--black-color);
+    margin: 1rem 2rem;
+    padding: 1.5rem;
+    width: 250px;
+
+    &__icon {
+        @include mixins.flex-center;
+        background-color: var(--primary-color);
+        border-radius: 15px 15px 0 15px;
+        height: 60px;
+        width: 60px;
+    }
+
+    &__subtitle {
+        color: var(--primary-color);
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-block: 1rem;
+    }
+
+    &__text {
+        color: var(--black-color);
+        font-weight: 400;
+    }
+}

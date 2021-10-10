@@ -1,5 +1,7 @@
 // To run => sass --watch assets/scss/global-config.scss:assets/css/global-config.css
 
+@use 'mixins';
+
 :root {
     --primary-color: #FF3E00;
     --secondary-color: #FF9572;
@@ -19,20 +21,35 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(
         65deg,
-        var(--white-color) 65%,
-        var(--primary-color) 35%  
+        var(--white-color) 60%,
+        var(--primary-color) 40%  
     );
     font-family: 'Poppins', sans-serif;
     height: 100%;
+}
 
+h2 {
+    @include mixins.h2-style;
+}
+
+h1,
+h2,
+h3,
+span,
+p,
+a {
+    user-select: none;
 }
 
 a {
     text-decoration: none;
-    user-select: none;
 }
 
 ul,
@@ -50,7 +67,7 @@ abbr {
     body {
         background: linear-gradient(
             65deg,
-            var(--white-color) 65%,
+            var(--white-color) 80%,
             var(--primary-color)
         );
     }

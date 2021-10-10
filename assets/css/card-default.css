@@ -1,0 +1,28 @@
+.card-default {
+  border-radius: 15px 15px 0 15px;
+  border: 2px solid var(--black-color);
+  margin: 1rem 2rem;
+  padding: 1.5rem;
+  width: 250px;
+}
+.card-default__icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 15px 15px 0 15px;
+  height: 60px;
+  width: 60px;
+}
+.card-default__subtitle {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-block: 1rem;
+}
+.card-default__text {
+  color: var(--black-color);
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=card-default.css.map */
