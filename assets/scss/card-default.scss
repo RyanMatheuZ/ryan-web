@@ -9,6 +9,10 @@
     padding: 1.5rem;
     width: 250px;
 
+    &:hover {
+        cursor: pointer
+    }
+
     &__icon {
         @include mixins.flex-center;
         background-color: var(--primary-color);

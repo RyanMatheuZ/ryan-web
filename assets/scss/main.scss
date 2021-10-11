@@ -108,6 +108,7 @@
 }
 
 .section-services,
+.section-projects,
 .section-knowledges {
     background-color: var(--white-color);
 
@@ -126,5 +127,13 @@
         @include mixins.flex-center;
         color: var(--black-color);
         font-weight: 500;
+    }
+}
+
+.section-projects {
+    background-color: var(--black-color);
+
+    &__subtitle-description {
+        color: var(--secondary-color);
     }
 }

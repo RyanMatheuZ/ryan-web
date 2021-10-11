@@ -27,7 +27,7 @@
 }
 .header .nav__item:hover::after {
   transition: 0.5s ease;
-  width: 70%;
+  width: 60%;
 }
 .header .nav__link {
   color: var(--white-color);

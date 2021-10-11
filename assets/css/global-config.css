@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background: linear-gradient(65deg, var(--white-color) 70%, var(--primary-color) 30%);
+  background: linear-gradient(65deg, var(--white-color) 60%, var(--primary-color));
   font-family: "Poppins", sans-serif;
   height: 100%;
 }

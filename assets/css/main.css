@@ -94,10 +94,12 @@
 }
 
 .section-services,
+.section-projects,
 .section-knowledges {
   background-color: var(--white-color);
 }
 .section-services__container,
+.section-projects__container,
 .section-knowledges__container {
   margin: 0 auto;
   max-width: 1300px;
@@ -108,17 +110,26 @@
   flex-wrap: wrap;
 }
 .section-services__subtitle,
+.section-projects__subtitle,
 .section-knowledges__subtitle {
   padding-top: 2rem;
   text-align: center;
 }
 .section-services__subtitle-description,
+.section-projects__subtitle-description,
 .section-knowledges__subtitle-description {
   align-items: center;
   display: flex;
   justify-content: center;
   color: var(--black-color);
   font-weight: 500;
+}
+
+.section-projects {
+  background-color: var(--black-color);
+}
+.section-projects__subtitle-description {
+  color: var(--secondary-color);
 }
 
 /*# sourceMappingURL=main.css.map */

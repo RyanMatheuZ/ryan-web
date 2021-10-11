@@ -1,0 +1,79 @@
+// To run => sass --watch assets/scss/card-project.scss:assets/css/card-project.css
+
+@use 'mixins';
+
+.card-project {
+    background-color: var(--white-color);
+    border-radius: 5px;
+    display: flex;
+    width: 600px;
+
+    &__logo {
+        @include mixins.flex-center;
+        border-radius: 5px 0 0 5px;
+        width: 40%;
+    }
+
+    &__logo--void-background { background-color: #7A58D4; }
+
+    &__description {
+        align-self: center;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 60%;
+    }
+
+    &__subtitle {
+        font-size: clamp(0.7rem, 3vw + 1rem, 1.25rem);
+        font-weight: 600;
+    }
+
+    &__subtitle--void-color { color: #7A58D4; }
+
+    &__text {
+        font-size: clamp(0.5rem, 3vw + 1rem, 1rem);
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    &__technologies {
+        align-items: center;
+        display: flex;
+        margin-top: 0.5rem;
+
+        img {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__btn-group {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    &__btn {
+        @include mixins.flex-center;
+        align-items: flex-start;
+        border-radius: 20px;
+        color: var(--white-color);
+        flex-wrap: wrap;
+        font-size: 0;
+        padding: 0.25rem;
+        width: 100px;
+    }
+
+    &__btn--access { 
+        background-color: var(--black-color); 
+        border: 1px solid var(--black-color);
+        margin-left: 0.5rem;
+    }
+
+    &__btn--void-github { 
+        background-color: #7A58D4; 
+        border: 1px solid #7A58D4;
+    }
+}

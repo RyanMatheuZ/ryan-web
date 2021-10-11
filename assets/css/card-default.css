@@ -5,6 +5,9 @@
   padding: 1.5rem;
   width: 250px;
 }
+.card-default:hover {
+  cursor: pointer;
+}
 .card-default__icon {
   align-items: center;
   display: flex;
