@@ -31,7 +31,7 @@
 }
 .header .nav__link {
   color: var(--white-color);
-  font-size: clamp(0.75rem, 3vw + 1rem,1.15rem);
+  font-size: clamp(0.75rem, 3vw + 1rem, 1.15rem);
 }
 
 @media (max-width: 850px) {

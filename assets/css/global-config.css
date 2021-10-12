@@ -58,7 +58,7 @@ abbr {
 
 @media (max-width: 850px) {
   body {
-    background: linear-gradient(65deg, var(--white-color) 85%, var(--primary-color));
+    background: linear-gradient(65deg, var(--white-color) 90%, var(--primary-color));
   }
 }
 

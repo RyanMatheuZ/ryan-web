@@ -131,5 +131,25 @@
   background-color: #071A52;
   border: 1px solid #071A52;
 }
+@media (max-width: 850px) {
+  .card-project {
+    flex-direction: column;
+  }
+  .card-project__logo {
+    border-radius: 5px 5px 0 0;
+    padding: 2rem;
+    width: 100%;
+  }
+  .card-project__description {
+    padding-inline: 2rem;
+    width: 100%;
+  }
+  .card-project__subtitle, .card-project__text {
+    text-align: center;
+  }
+  .card-project__technologies, .card-project__btn-group {
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=card-project.css.map */
