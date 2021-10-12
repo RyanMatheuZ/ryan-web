@@ -137,3 +137,49 @@
         color: var(--secondary-color);
     }
 }
+
+.section-contact-me {
+    background-color: var(--white-color);
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+    width: 100%;
+    
+    &__container {
+        background-color: var(--black-color);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: 1s ease;
+
+        &:hover {
+            box-shadow: 0 0 30px var(--primary-color);
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+    }
+
+    &__subtitle {
+        color: var(--secondary-color);
+    }
+
+    &__text {
+        color: var(--white-color);
+        margin: 1rem auto 0 auto;
+        max-width: 390px;
+    }
+
+    &__btn {
+        background-color: var(--white-color);
+        border-radius: 5px;
+        color: var(--primary-color);
+        font-weight: 600;
+        margin: 1rem auto 0 auto;
+        padding: 0.5rem 1rem;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}

@@ -2,7 +2,8 @@
   background-color: var(--white-color);
   border-radius: 5px;
   display: flex;
-  width: 600px;
+  margin: 1rem 10px;
+  width: 550px;
 }
 .card-project__logo {
   align-items: center;
@@ -13,6 +14,24 @@
 }
 .card-project__logo--void-background {
   background-color: #7A58D4;
+}
+.card-project__logo--soffit-background {
+  background-color: #F4F5F7;
+}
+.card-project__logo--fatec-background {
+  background-color: #B01116;
+}
+.card-project__logo--petit-glace-background {
+  background-color: #EA516D;
+}
+.card-project__logo--vruum-background {
+  background-color: #111A39;
+}
+.card-project__logo--chapa-quente-background {
+  background-color: #854C17;
+}
+.card-project__logo--cloud-master-background {
+  background-color: #071A52;
 }
 .card-project__description {
   align-self: center;
@@ -29,6 +48,24 @@
 .card-project__subtitle--void-color {
   color: #7A58D4;
 }
+.card-project__subtitle--soffit-color {
+  color: #B81C1D;
+}
+.card-project__subtitle--fatec-color {
+  color: #B01116;
+}
+.card-project__subtitle--petit-glace-color {
+  color: #EA516D;
+}
+.card-project__subtitle--vruum-color {
+  color: #111A39;
+}
+.card-project__subtitle--chapa-quente-color {
+  color: #854C17;
+}
+.card-project__subtitle--cloud-master-color {
+  color: #071A52;
+}
 .card-project__text {
   font-size: clamp(0.5rem, 3vw + 1rem, 1rem);
   font-weight: 400;
@@ -38,6 +75,9 @@
   align-items: center;
   display: flex;
   margin-top: 0.5rem;
+}
+.card-project__technologies img {
+  margin-right: 5px;
 }
 .card-project__technologies img:hover {
   cursor: pointer;
@@ -66,6 +106,30 @@
 .card-project__btn--void-github {
   background-color: #7A58D4;
   border: 1px solid #7A58D4;
+}
+.card-project__btn--soffit-github {
+  background-color: #B81C1D;
+  border: 1px solid #B81C1D;
+}
+.card-project__btn--fatec-github {
+  background-color: #B01116;
+  border: 1px solid #B01116;
+}
+.card-project__btn--petit-glace-github {
+  background-color: #EA516D;
+  border: 1px solid #EA516D;
+}
+.card-project__btn--vruum-github {
+  background-color: #111A39;
+  border: 1px solid #111A39;
+}
+.card-project__btn--chapa-quente-github {
+  background-color: #854C17;
+  border: 1px solid #854C17;
+}
+.card-project__btn--cloud-master-github {
+  background-color: #071A52;
+  border: 1px solid #071A52;
 }
 
 /*# sourceMappingURL=card-project.css.map */

@@ -10,7 +10,13 @@
     width: 250px;
 
     &:hover {
-        cursor: pointer
+        border-image: linear-gradient(
+            225deg, 
+            var(--primary-color) 0%, 
+            var(--secondary-color) 90%
+        ) 1;
+        border-radius: 15px 15px 0 15px;
+        cursor: pointer;
     }
 
     &__icon {

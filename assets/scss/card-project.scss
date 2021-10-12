@@ -6,7 +6,8 @@
     background-color: var(--white-color);
     border-radius: 5px;
     display: flex;
-    width: 600px;
+    margin: 1rem 10px;
+    width: 550px;
 
     &__logo {
         @include mixins.flex-center;
@@ -15,6 +16,12 @@
     }
 
     &__logo--void-background { background-color: #7A58D4; }
+    &__logo--soffit-background { background-color: #F4F5F7; }
+    &__logo--fatec-background { background-color: #B01116; }
+    &__logo--petit-glace-background { background-color: #EA516D; }
+    &__logo--vruum-background { background-color: #111A39; }
+    &__logo--chapa-quente-background { background-color: #854C17; }
+    &__logo--cloud-master-background { background-color: #071A52; }
 
     &__description {
         align-self: center;
@@ -31,6 +38,12 @@
     }
 
     &__subtitle--void-color { color: #7A58D4; }
+    &__subtitle--soffit-color { color: #B81C1D; }
+    &__subtitle--fatec-color { color: #B01116; }
+    &__subtitle--petit-glace-color { color: #EA516D; }
+    &__subtitle--vruum-color { color: #111A39; }
+    &__subtitle--chapa-quente-color { color: #854C17; }
+    &__subtitle--cloud-master-color { color: #071A52; }
 
     &__text {
         font-size: clamp(0.5rem, 3vw + 1rem, 1rem);
@@ -44,6 +57,8 @@
         margin-top: 0.5rem;
 
         img {
+            margin-right: 5px;
+
             &:hover {
                 cursor: pointer;
             }
@@ -75,5 +90,29 @@
     &__btn--void-github { 
         background-color: #7A58D4; 
         border: 1px solid #7A58D4;
+    }
+    &__btn--soffit-github {
+        background-color: #B81C1D;
+        border: 1px solid #B81C1D;
+    }
+    &__btn--fatec-github {
+        background-color: #B01116;
+        border: 1px solid #B01116;
+    }
+    &__btn--petit-glace-github {
+        background-color: #EA516D;
+        border: 1px solid #EA516D;
+    }
+    &__btn--vruum-github {
+        background-color: #111A39;
+        border: 1px solid #111A39;
+    }
+    &__btn--chapa-quente-github {
+        background-color: #854C17;
+        border: 1px solid #854C17;
+    }
+    &__btn--cloud-master-github {
+        background-color: #071A52;
+        border: 1px solid #071A52;
     }
 }

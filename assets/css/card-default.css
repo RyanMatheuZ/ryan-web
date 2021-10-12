@@ -6,6 +6,8 @@
   width: 250px;
 }
 .card-default:hover {
+  border-image: linear-gradient(225deg, var(--primary-color) 0%, var(--secondary-color) 90%) 1;
+  border-radius: 15px 15px 0 15px;
   cursor: pointer;
 }
 .card-default__icon {

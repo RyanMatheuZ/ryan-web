@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--primary-color);
+}
+.footer__element-one {
+  fill: var(--white-color);
+}
+.footer__element-two {
+  fill: var(--primary-color);
+}
+.footer__container {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=footer.css.map */

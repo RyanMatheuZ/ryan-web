@@ -1,3 +1,19 @@
 // To run => sass --watch assets/scss/footer.scss:assets/css/footer.css
 
 @use 'mixins';
+
+.footer {
+    background-color: var(--primary-color);
+
+    &__element-one {
+        fill: var(--white-color);
+    }
+
+    &__element-two {
+        fill: var(--primary-color);
+    }
+
+    &__container {
+        @include mixins.container;
+    }
+}
