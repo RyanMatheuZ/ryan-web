@@ -67,7 +67,7 @@
   color: #071A52;
 }
 .card-project__text {
-  font-size: clamp(0.5rem, 3vw + 1rem, 1rem);
+  font-size: clamp(0.3rem, 3vw + 1rem, 1rem);
   font-weight: 400;
   margin-bottom: 0.5rem;
 }

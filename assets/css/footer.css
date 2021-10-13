@@ -12,5 +12,42 @@
   max-width: 1300px;
   padding: 2rem;
 }
+.footer__logo {
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer__list {
+  display: flex;
+  margin: 2rem auto 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer__list-item {
+  margin-inline: 0.5rem;
+  transition: 0.3s cubic-bezier(0.25, 0.33, 0.81, 0.98);
+}
+.footer__list-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s cubic-bezier(0.25, 0.33, 0.81, 0.98);
+}
+.footer__list-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.footer__email {
+  margin-top: 2rem;
+  text-align: center;
+}
+.footer__email-link {
+  color: var(--white-color);
+  font-size: clamp(1.2rem, 3vw - 1rem, 3rem);
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=footer.css.map */

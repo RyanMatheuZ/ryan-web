@@ -16,4 +16,46 @@
     &__container {
         @include mixins.container;
     }
+
+    &__logo {
+        margin: 0 auto;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    &__list {
+        display: flex;
+        margin: 2rem auto 0 auto;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    &__list-item {
+        margin-inline: 0.5rem;
+        transition: 0.3s cubic-bezier(.25,.33,.81,.98);
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s cubic-bezier(.25,.33,.81,.98);
+        }
+    }
+
+    &__list-link {
+        @include mixins.flex-center;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+
+    &__email {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    &__email-link {
+        color: var(--white-color);
+        font-size: clamp(1.2rem, 3vw - 1rem, 3rem);
+        font-weight: 600;
+    }
 }

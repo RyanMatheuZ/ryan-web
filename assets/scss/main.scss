@@ -12,13 +12,19 @@
         color: var(--primary-color);
         font-size: clamp(1rem, 3vw + 1rem, 3.25rem);
         font-weight: 800;
-        line-height: 1;
+        line-height: 1.1;
         margin-bottom: 0.5rem;
     }
 
     &__text {
         color: var(--black-color);
-        font-size: clamp(0.5rem, 3vw + 1rem, 1.5rem);
+        font-size: clamp(0.5rem, 3vw + 1rem, 2rem);
+        font-weight: 600;
+    }
+
+    &__description {
+        color: var(--black-color);
+        font-size: clamp(1.15rem, 3vw - 1rem, 1.3rem);
         font-weight: 400;
     }
 
@@ -157,7 +163,6 @@
 
         &:hover {
             box-shadow: 0 0 30px var(--primary-color);
-            cursor: pointer;
             transition: 0.5s ease;
         }
     }
