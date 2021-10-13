@@ -32,11 +32,11 @@
 
     &__list-item {
         margin-inline: 0.5rem;
-        transition: 0.3s cubic-bezier(.25,.33,.81,.98);
+        transition: 0.3s cubic-bezier(.25, .33, .81, .98);
 
         &:hover {
             transform: scale(1.1);
-            transition: 0.3s cubic-bezier(.25,.33,.81,.98);
+            transition: 0.3s cubic-bezier(.25, .33, .81, .98);
         }
     }
 

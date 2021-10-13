@@ -141,7 +141,7 @@
     width: 100%;
   }
   .card-project__description {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
     width: 100%;
   }
   .card-project__subtitle, .card-project__text {

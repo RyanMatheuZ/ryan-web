@@ -10,7 +10,7 @@
 
     &__title {
         color: var(--primary-color);
-        font-size: clamp(1rem, 3vw + 1rem, 3.25rem);
+        font-size: clamp(2rem, 5vw - 1rem, 4.5rem);
         font-weight: 800;
         line-height: 1.1;
         margin-bottom: 0.5rem;
@@ -18,7 +18,7 @@
 
     &__text {
         color: var(--black-color);
-        font-size: clamp(0.5rem, 3vw + 1rem, 2rem);
+        font-size: clamp(1.5rem, 4vw - 1rem, 2rem);
         font-weight: 600;
     }
 
@@ -70,11 +70,13 @@
     background-color: var(--black-color);
 
     &__container {
-        @include mixins.container;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin: 0 auto;
+        max-width: 1300px;
+        padding: 2rem 1rem;
     }
 
     &__image {
@@ -97,6 +99,7 @@
 
     &__paragraph {
         color: var(--white-color);
+        font-size: clamp(0.9rem, 3vw - 1rem, 1rem);
         font-weight: 400;
         line-height: 1.75;
         margin-block: 1rem;
@@ -146,8 +149,7 @@
 
 .section-contact-me {
     background-color: var(--white-color);
-    padding-bottom: 6rem;
-    padding-top: 2rem;
+    padding: 2rem 1rem 6rem;
     width: 100%;
     
     &__container {
