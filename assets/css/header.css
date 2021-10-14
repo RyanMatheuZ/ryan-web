@@ -23,6 +23,9 @@
 .header .nav ul {
   display: flex;
 }
+.header .nav__title {
+  display: none;
+}
 .header .nav__item {
   cursor: pointer;
   margin-inline: 0.7rem;
@@ -50,19 +53,35 @@
   .header .header__menu {
     display: block;
   }
+  .header nav.nav-active {
+    transform: translateX(calc(-100% + 100%));
+    transition: 1s cubic-bezier(0.36, 0.04, 0.48, 1);
+    visibility: visible;
+  }
   .header .nav {
     background-color: var(--black-color);
-    display: none;
     height: 100vh;
     left: 0;
     padding: 1rem 1rem 1rem 0.5rem;
     position: absolute;
     top: 0;
+    transform: translateX(-100%);
+    transition: 1s cubic-bezier(0.36, 0.04, 0.48, 1);
+    visibility: hidden;
     width: 60%;
     z-index: 2;
   }
   .header .nav ul {
     flex-direction: column;
+  }
+  .header .nav .nav__title {
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-inline: 0.5rem;
+    user-select: none;
   }
   .header .nav .nav__item {
     margin-block: 0.5rem;

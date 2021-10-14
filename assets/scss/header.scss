@@ -26,6 +26,10 @@
         display: flex;
     }
 
+    .nav__title {
+        display: none;
+    }
+
     .nav__item {
         cursor: pointer;
         margin-inline: 0.7rem;
@@ -60,19 +64,37 @@
             display: block;
         }
 
+        nav.nav-active {
+            transform: translateX(calc(-100% + 100%));
+            transition: 1s cubic-bezier(.36,.04,.48,1);
+            visibility: visible;
+        }
+
         .nav {
             background-color: var(--black-color);
-            display: none;
             height: 100vh;
             left: 0;
             padding: 1rem 1rem 1rem 0.5rem;
             position: absolute;
             top: 0;
+            transform: translateX(-100%);
+            transition: 1s cubic-bezier(.36,.04,.48,1);
+            visibility: hidden;
             width: 60%;
             z-index: 2;
 
             ul {
                 flex-direction: column;
+            }
+
+            .nav__title {
+                border-bottom: 1px solid var(--secondary-color);
+                color: var(--secondary-color);
+                display: inline-block;
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+                margin-inline: 0.5rem;
+                user-select: none;
             }
 
             .nav__item {

@@ -1,4 +1,6 @@
-// Menu button
+// Nav active - MOBILE
 document.getElementById('btn-menu').addEventListener('click', () => {
-    document.getElementById('nav-menu').style.display = 'block'
-})
+    const navMenu = document.getElementById('nav-menu');
+
+    navMenu.classList.toggle('nav-active');
+});
