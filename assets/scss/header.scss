@@ -15,11 +15,11 @@
         @include mixins.flex-center;
         background-color: var(--white-color);
         border-radius: 5px;
-        border: 0.5px solid var(--black-color);
+        border: 1px solid var(--black-color);
         cursor: pointer;
         display: none;
         font-size: 0;
-        padding: 0.25rem;
+        padding: 0.45rem;
     }
 
     .nav ul {
