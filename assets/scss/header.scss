@@ -11,6 +11,17 @@
         justify-content: space-between;
     }
 
+    .header__menu {
+        @include mixins.flex-center;
+        background-color: var(--white-color);
+        border-radius: 5px;
+        border: 0.5px solid var(--black-color);
+        cursor: pointer;
+        display: none;
+        font-size: 0;
+        padding: 0.25rem;
+    }
+
     .nav ul {
         display: flex;
     }
@@ -38,29 +49,35 @@
 
     .nav__link {
         color: var(--white-color);
-        font-size: clamp(0.75rem, 3vw + 1rem, 1.15rem);
+        font-size: clamp(1rem, 3vw - 1rem, 1.15rem);
     }
 }
 
 // Responsive MENU
 @media (max-width: 850px) {
-    .nav {
-        background-color: var(--black-color);
-        display: none;
-        height: 100vh;
-        left: 0;
-        padding: 1rem 1rem 1rem 0.5rem;
-        position: absolute;
-        top: 0;
-        width: 50%;
-        z-index: 2;
-
-        ul {
-            flex-direction: column;
+    .header {
+        .header__menu {
+            display: block;
         }
 
-        .nav__item {
-            margin-block: 0.5rem;
+        .nav {
+            background-color: var(--black-color);
+            display: none;
+            height: 100vh;
+            left: 0;
+            padding: 1rem 1rem 1rem 0.5rem;
+            position: absolute;
+            top: 0;
+            width: 60%;
+            z-index: 2;
+
+            ul {
+                flex-direction: column;
+            }
+
+            .nav__item {
+                margin-block: 0.5rem;
+            }
         }
     }
 }

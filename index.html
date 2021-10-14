@@ -56,8 +56,19 @@
                     >
                 </a>
             </figure>
+
+            <figure id="btn-menu" class="header__menu">
+                <img 
+                    src="./static/icons/menu-icon.svg"
+                    alt="Menu"
+                    title="Menu"
+                    width="40"
+                    height="40"
+                    draggable="false"                              
+                >
+            </figure>
     
-            <nav class="nav">
+            <nav id="nav-menu" class="nav">
                 <ul>
                     <li class="nav__item">
                         <a href="#about" class="nav__link" alt="Alt + 1" title="Alt + 1">
@@ -80,7 +91,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <figure>
+                        <figure id="btn-theme">
                             <img 
                                 src="./static/icons/website-theme/light-theme.svg" 
                                 alt="Alt + 5"
@@ -88,6 +99,7 @@
                                 width="30"
                                 height="30"
                                 draggable="false"
+                                id="theme-icon"
                             >
                         </figure>
                     </li>
@@ -714,7 +726,7 @@
                     </h3>
 
                     <p class="card-default__text">
-                        Linguagem de estilização, usada para estilização de sites
+                        Folha de estilos <br> em cascata, para estilização de sites
                     </p>
                 </article>
 
