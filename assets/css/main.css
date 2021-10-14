@@ -177,4 +177,23 @@
   width: fit-content;
 }
 
+.anchor-top {
+  bottom: 2%;
+  height: 40px;
+  position: fixed;
+  right: 1%;
+  width: 40px;
+  z-index: 2;
+}
+.anchor-top__link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  border: 0.5px solid var(--black-color);
+  height: 40px;
+  width: 40px;
+}
+
 /*# sourceMappingURL=main.css.map */

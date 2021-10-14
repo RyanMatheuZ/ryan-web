@@ -190,3 +190,21 @@
         width: fit-content;
     }
 }
+
+.anchor-top {
+    bottom: 2%;
+    height: 40px;
+    position: fixed;
+    right: 1%;
+    width: 40px;
+    z-index: 2;
+
+    &__link {
+        @include mixins.flex-center;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        border: 0.5px solid var(--black-color);
+        height: 40px;
+        width: 40px;
+    }
+}
