@@ -152,11 +152,6 @@
   max-width: 600px;
   padding: 1.5rem;
   text-align: center;
-  transition: 1s ease;
-}
-.section-contact-me__container:hover {
-  box-shadow: 0 0 30px var(--primary-color);
-  transition: 0.5s ease;
 }
 .section-contact-me__subtitle {
   color: var(--secondary-color);

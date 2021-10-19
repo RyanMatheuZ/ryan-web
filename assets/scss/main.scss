@@ -161,12 +161,6 @@
         max-width: 600px;
         padding: 1.5rem;
         text-align: center;
-        transition: 1s ease;
-
-        &:hover {
-            box-shadow: 0 0 30px var(--primary-color);
-            transition: 0.5s ease;
-        }
     }
 
     &__subtitle {

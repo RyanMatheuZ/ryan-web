@@ -36,7 +36,8 @@ body {
 }
 
 h2 {
-    @include mixins.h2-style;
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 h1,
@@ -57,9 +58,13 @@ ol {
     list-style: none;
 }
 
+textarea {
+    font-family: sans-serif;
+    resize: vertical;
+}
+
 abbr {
     cursor: help;
-    text-decoration: none;
 }
 
 @media (max-width: 850px) {

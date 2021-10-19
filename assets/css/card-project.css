@@ -85,9 +85,6 @@
 .card-project__technologies img {
   margin-right: 5px;
 }
-.card-project__technologies img:hover {
-  cursor: pointer;
-}
 .card-project__btn-group {
   display: flex;
   margin-top: 1rem;
