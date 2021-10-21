@@ -1,6 +1,7 @@
 // Nav active - MOBILE
-document.getElementById('btn-menu').addEventListener('click', () => {
-    const navMenu = document.getElementById('nav-menu');
-
-    navMenu.classList.toggle('nav-active');
+document.querySelector('#btn-menu').addEventListener('click', () => {
+    document.querySelector('#nav-menu').classList.toggle('nav-active');
 });
+
+// Scroll to top
+document.querySelector('#anchor-top').addEventListener('click', () => window.scrollTo(0, 0));

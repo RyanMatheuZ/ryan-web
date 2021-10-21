@@ -76,7 +76,7 @@
         justify-content: space-around;
         margin: 0 auto;
         max-width: 1300px;
-        padding: 2rem 1rem;
+        padding: 2.5rem 1rem;
     }
 
     &__image {
@@ -88,7 +88,6 @@
     }
 
     &__text {
-        margin-top: 2rem;
         max-width: 500px;
     }
 
@@ -187,13 +186,20 @@
 
 .anchor-top {
     bottom: 2%;
-    height: 40px;
+    cursor: pointer;
+    opacity: 30%;
     position: fixed;
     right: 1%;
+    transition: 0.5s ease;
     width: 40px;
     z-index: 2;
 
-    &__link {
+    &:hover {
+        opacity: 100%;
+        transition: 0.5s ease;
+    }
+
+    &__image {
         @include mixins.flex-center;
         background-color: var(--white-color);
         border-radius: 50%;

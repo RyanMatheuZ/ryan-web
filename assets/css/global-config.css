@@ -57,6 +57,7 @@ textarea {
 
 abbr {
   cursor: help;
+  text-decoration: underline;
 }
 
 @media (max-width: 850px) {

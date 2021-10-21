@@ -67,7 +67,7 @@
   justify-content: space-around;
   margin: 0 auto;
   max-width: 1300px;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
 }
 .section-about__image {
   max-width: 300px;
@@ -76,7 +76,6 @@
   width: 100%;
 }
 .section-about__text {
-  margin-top: 2rem;
   max-width: 500px;
 }
 .section-about__subtitle-description {
@@ -174,13 +173,19 @@
 
 .anchor-top {
   bottom: 2%;
-  height: 40px;
+  cursor: pointer;
+  opacity: 30%;
   position: fixed;
   right: 1%;
+  transition: 0.5s ease;
   width: 40px;
   z-index: 2;
 }
-.anchor-top__link {
+.anchor-top:hover {
+  opacity: 100%;
+  transition: 0.5s ease;
+}
+.anchor-top__image {
   align-items: center;
   display: flex;
   justify-content: center;

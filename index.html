@@ -1014,8 +1014,8 @@
         </section>
     </main>
 
-    <div class="anchor-top">
-        <a href="#top" title="Alt + 6" class="anchor-top__link" accesskey="6">
+    <div id="anchor-top" title="Alt + 6" accesskey="6" class="anchor-top">
+        <figure class="anchor-top__image">
             <img 
                 src="./static/icons/up.svg" 
                 alt="Alt + 6" 
@@ -1023,7 +1023,7 @@
                 draggable="false"
                 height="25"
             >
-        </a>
+        </figure>
     </div>
 
     <footer class="footer">
@@ -1034,15 +1034,21 @@
                 </h2>
 
                 <form action="https://formsubmit.co/oryan424@gmail.com" method="post" class="form">
-                    <input type="text" placeholder="Seu nome:" title="Campo obrigatório" class="form__input" required>
+                    <input type="text" name="name" placeholder="Seu nome:" title="Campo obrigatório" id="input-name" class="form__input" required>
+
+                    <small id="name-result"></small>
         
-                    <input type="email" placeholder="Seu E-mail:" title="Campo obrigatório" class="form__input" required>
+                    <input type="email" name="email" placeholder="Seu E-mail:" title="Campo obrigatório" id="input-email" class="form__input" required>
+
+                    <small id="email-result"></small>
         
                     <input type="hidden" name="_captcha" value="false">
         
-                    <textarea placeholder="Sua mensagem" title="Campo obrigatório" class="form__textarea" required></textarea>
+                    <textarea name="message" placeholder="Sua mensagem" title="Campo obrigatório" id="input-message" class="form__textarea" required></textarea>
+
+                    <small id="message-result"></small>
         
-                    <button type="submit" title="Enviar mensagem" class="form__btn-send">
+                    <button type="submit" title="Enviar mensagem" id="btn-send" class="form__btn-send">
                         Enviar
                     </button>
                 </form>
@@ -1123,6 +1129,7 @@
     </footer>
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/form.js"></script>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');

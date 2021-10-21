@@ -48,6 +48,11 @@
   padding-block: 0.5rem;
   width: 115px;
 }
+.footer .form__error-message {
+  color: var(--black-color);
+  font-weight: 700;
+  margin-left: 1rem;
+}
 .footer__contacts {
   background-color: var(--white-color);
   border-radius: 5px;

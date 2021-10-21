@@ -56,6 +56,12 @@
             padding-block: 0.5rem;
             width: 115px;
         }
+
+        &__error-message {
+            color: var(--black-color);
+            font-weight: 700;
+            margin-left: 1rem;
+        }
     }
 
     &__contacts {
