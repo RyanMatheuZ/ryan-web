@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--primary-color);
-  padding-block: 1rem;
+  padding-bottom: 1rem;
 }
 .footer__container {
   margin: 0 auto;
@@ -46,7 +46,14 @@
   font-weight: 600;
   outline: none;
   padding-block: 0.5rem;
+  transition: 0.5s ease;
   width: 115px;
+}
+.footer .form__btn-send:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  outline: 2px solid var(--white-color);
+  transition: 0.2s ease;
 }
 .footer .form__error-message {
   color: var(--black-color);
@@ -74,6 +81,22 @@
   color: var(--black-color);
   font-weight: 500;
   margin-left: 1rem;
+}
+.footer__contacts-link::after {
+  background-color: var(--primary-color);
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 5px;
+  transition: 0.3s ease;
+  width: 0%;
+}
+.footer__contacts-link:hover::after {
+  transition: 0.3s ease;
+  width: 40%;
+}
+.footer__contacts-link:hover a {
+  color: #f45;
 }
 
 /*# sourceMappingURL=footer.css.map */
