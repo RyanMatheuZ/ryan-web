@@ -87,7 +87,6 @@
   transition: 0.3s ease;
 }
 .card-project__technologies-image:hover {
-  filter: drop-shadow(0 0 2px var(--black-color));
   transform: rotate(-20deg);
   transition: 0.3s ease;
 }

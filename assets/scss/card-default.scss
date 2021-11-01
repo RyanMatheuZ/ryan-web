@@ -3,6 +3,7 @@
 @use 'mixins';
 
 .card-default {
+    background-color: var(--white-color);
     border-radius: 15px 15px 0 15px;
     border: 2px solid var(--black-color);
     margin: 1rem 2rem;

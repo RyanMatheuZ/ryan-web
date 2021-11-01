@@ -118,7 +118,7 @@
 .section-services,
 .section-projects,
 .section-knowledges {
-    background-color: var(--white-color);
+    background-color: var(--gray-light-color);
 
     &__container {
         @include mixins.container;
@@ -147,7 +147,7 @@
 }
 
 .section-contact-me {
-    background-color: var(--white-color);
+    background-color: var(--gray-light-color);
     padding: 2rem 1rem 6rem;
     width: 100%;
     
@@ -184,27 +184,24 @@
     }
 }
 
-.anchor-top {
-    bottom: 2%;
-    cursor: pointer;
-    opacity: 30%;
-    position: fixed;
-    right: 1%;
-    transition: 0.5s ease;
-    width: 40px;
+.memphi-hexagon {
+    position: absolute;
+    right: -10%;
+    transform: translateY(-55%);
     z-index: 2;
 
-    &:hover {
-        opacity: 100%;
-        transition: 0.5s ease;
+    &__image {
+        height: 450px;
     }
+}
+
+.memphi-spots {
+    left: -10%;
+    position: absolute;
+    transform: translateY(-40%);
+    z-index: 2;
 
     &__image {
-        @include mixins.flex-center;
-        background-color: var(--white-color);
-        border-radius: 50%;
-        border: 0.5px solid var(--black-color);
-        height: 40px;
-        width: 40px;
+        height: 400px;
     }
 }

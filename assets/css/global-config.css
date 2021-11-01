@@ -1,6 +1,6 @@
 :root {
   --black-color: #222;
-  --gray-light-color: #C0BEBE;
+  --gray-light-color: #FCFCFC;
   --gray-medium-color: #8C8C8C;
   --primary-color: #FF3E00;
   --secondary-color: #FF9572;
@@ -25,6 +25,7 @@ body {
   background: linear-gradient(65deg, var(--white-color) 60%, var(--primary-color));
   font-family: "Poppins", sans-serif;
   height: 100%;
+  overflow-x: hidden;
 }
 
 h2 {
