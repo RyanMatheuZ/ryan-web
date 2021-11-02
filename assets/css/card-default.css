@@ -5,6 +5,7 @@
   margin: 1rem 2rem;
   padding: 1.5rem;
   width: 250px;
+  z-index: 2;
 }
 .card-default:hover {
   border-image: linear-gradient(225deg, var(--primary-color) 0%, var(--secondary-color) 90%) 1;
