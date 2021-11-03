@@ -2,21 +2,20 @@
 
 @use 'mixins';
 
-$void-color: #7A58D4;
-$soffit-color: #F4F5F7;
-$soffit-two-color: #B81C1D;
+$cloud-master-color: #071A52;
 $fatec-color: #B01116;
 $petit-glace-color: #EA516D;
-$vruum-color: #111A39;
-$chapa-quente-color: #854C17;
-$cloud-master-color: #071A52;
 $rick-and-morty-color: #8BCF21;
+$soffit-color: #F4F5F7;
+$soffit-two-color: #B81C1D;
+$void-color: #7A58D4;
+$vruum-color: #111A39;
 
 .card-project {
     background-color: var(--white-color);
     border-radius: 5px;
     display: flex;
-    margin: 1rem 10px;
+    margin: 25px;
     width: 550px;
 
     &__logo {
@@ -26,13 +25,12 @@ $rick-and-morty-color: #8BCF21;
     }
 
     &__logo--void-background { background-color: $void-color; }
-    &__logo--soffit-background { background-color: $soffit-color; }
     &__logo--fatec-background { background-color: $fatec-color; }
+    &__logo--soffit-background { background-color: $soffit-color; }
+    &__logo--rick-and-morty-background { background-color: $rick-and-morty-color; }
     &__logo--petit-glace-background { background-color: $petit-glace-color; }
     &__logo--vruum-background { background-color: $vruum-color; }
-    &__logo--chapa-quente-background { background-color: $chapa-quente-color; }
     &__logo--cloud-master-background { background-color: $cloud-master-color; }
-    &__logo--rick-and-morty-background { background-color: $rick-and-morty-color; }
 
     &__description {
         align-self: center;
@@ -49,13 +47,12 @@ $rick-and-morty-color: #8BCF21;
     }
 
     &__subtitle--void-color { color: $void-color; }
-    &__subtitle--soffit-color { color: $soffit-two-color; }
     &__subtitle--fatec-color { color: $fatec-color; }
+    &__subtitle--soffit-color { color: $soffit-two-color; }
+    &__subtitle--rick-and-morty-color { color: $rick-and-morty-color; }
     &__subtitle--petit-glace-color { color: $petit-glace-color; }
     &__subtitle--vruum-color { color: $vruum-color; }
-    &__subtitle--chapa-quente-color { color: $chapa-quente-color; }
     &__subtitle--cloud-master-color { color: $cloud-master-color; }
-    &__subtitle--rick-and-morty-color { color: $rick-and-morty-color; }
 
     &__text {
         font-size: clamp(0.3rem, 3vw + 1rem, 1rem);
@@ -84,54 +81,82 @@ $rick-and-morty-color: #8BCF21;
         margin-top: 1rem;
     }
 
-    &__btn {
-        @include mixins.flex-center;
-        align-items: flex-start;
-        border-radius: 20px;
-        color: var(--white-color);
-        flex-wrap: wrap;
-        font-size: 0;
-        padding: 0.25rem;
+    .card-button {
+        border-radius: 2px;
+        color: var(--black-color);
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 500;
+        height: 35px;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none;
         width: 100px;
-    }
 
-    &__btn--access { 
-        background-color: var(--black-color); 
-        border: 1px solid var(--black-color);
-        margin-left: 0.5rem;
-    }
+        &:last-child {
+            margin-left: 1rem;
+        }
 
-    &__btn--void-github { 
-        background-color: $void-color; 
-        border: 1px solid $void-color;
-    }
-    &__btn--soffit-github {
-        background-color: $soffit-two-color;
-        border: 1px solid $soffit-two-color;
-    }
-    &__btn--fatec-github {
-        background-color: $fatec-color;
-        border: 1px solid $fatec-color;
-    }
-    &__btn--petit-glace-github {
-        background-color: $petit-glace-color;
-        border: 1px solid $petit-glace-color;
-    }
-    &__btn--vruum-github {
-        background-color: $vruum-color;
-        border: 1px solid $vruum-color;
-    }
-    &__btn--chapa-quente-github {
-        background-color: $chapa-quente-color;
-        border: 1px solid $chapa-quente-color;
-    }
-    &__btn--cloud-master-github {
-        background-color: $cloud-master-color;
-        border: 1px solid $cloud-master-color;
-    }
-    &__btn--rick-and-morty-github {
-        background-color: $rick-and-morty-color;
-        border: 1px solid $rick-and-morty-color;
+        &:hover > .card-button__face-primary {
+            margin-top: -35px;
+        }
+
+        &__face-primary,
+        &__face-secondary {
+            display: block;
+            height: 100%;
+            line-height: 35px;
+            padding: 0 0.25rem;
+            transition: margin 0.4s;
+        }
+
+        &__face-primary {
+            @include mixins.flex-center;
+        }
+
+        &__face-secondary {
+            background-color: var(--white-color);
+        }
+
+        &--btn-access {
+            background-color: var(--black-color); 
+            outline: 3px solid var(--black-color);
+        }
+
+        &--btn-git-void {
+            background-color: $void-color;
+            outline: 3px solid $void-color;
+        }
+
+        &--btn-git-fatec {
+            background-color: $fatec-color;
+            outline: 3px solid $fatec-color;
+        }
+
+        &--btn-git-soffit {
+            background-color: $soffit-two-color;
+            outline: 3px solid $soffit-two-color;
+        }
+
+        &--btn-git-rick-and-morty {
+            background-color: $rick-and-morty-color;
+            outline: 3px solid $rick-and-morty-color;
+        }
+
+        &--btn-git-petit-glace {
+            background-color: $petit-glace-color;
+            outline: 3px solid $petit-glace-color;
+        }
+
+        &--btn-git-vruum {
+            background-color: $vruum-color;
+            outline: 3px solid $vruum-color;
+        }
+
+        &--btn-git-cloud-master {
+            background-color: $cloud-master-color;
+            outline: 3px solid $cloud-master-color;
+        }
     }
 
     @media (max-width: 850px) {

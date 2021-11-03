@@ -119,6 +119,7 @@
 .section-projects,
 .section-knowledges {
     background-color: var(--gray-light-color);
+    overflow: hidden;
 
     &__container {
         @include mixins.container;

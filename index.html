@@ -62,7 +62,6 @@
                         alt="Logo Ryan Web"
                         title="Logo Ryan Web"
                         draggable="false"
-                        loading="lazy"
                         width="50"
                     >
                 </a>
@@ -73,8 +72,7 @@
                     src="./static/icons/menu-icon.svg"
                     alt="Menu"
                     title="Menu"
-                    draggable="false"         
-                    loading="lazy"                     
+                    draggable="false"                             
                     width="30"
                     height="30"
                 >
@@ -111,7 +109,6 @@
                                 src="./static/icons/website-theme/light-theme.svg" 
                                 alt="Alt + 5"
                                 draggable="false"
-                                loading="lazy"
                                 width="30"
                                 height="30"
                             >
@@ -124,7 +121,7 @@
 
     <main>
         <section class="section-initial">
-            <article>
+            <article class="scroll--move-right">
                 <h1 class="section-initial__title">
                     <span class="section-initial__text">Olá, eu sou o</span> <br>
                     Ryan Oliveira
@@ -145,20 +142,19 @@
                 </div>
             </article>
 
-            <figure class="section-initial__image">
+            <figure class="section-initial__image scroll--move-scale">
                 <img 
                     src="./static/illustration.svg" 
                     alt="Foguete"
                     title="Foguete"
                     draggable="false"
-                    loading="lazy"
                 >
             </figure>
         </section>
 
         <section id="about" class="section-about">
             <div class="section-about__container">
-                <figure class="section-about__image">
+                <figure class="section-about__image scroll--move-scale scroll--move-rotate">
                     <img 
                         src="./static/ryan-oliveira.png" 
                         alt="Ryan Oliveira"
@@ -169,23 +165,25 @@
                 </figure>
 
                 <article class="section-about__text">
-                    <h2 class="section-about__subtitle">
-                        Sobre
-                    </h2>
+                    <div class="scroll--move-up">
+                        <h2 class="section-about__subtitle">
+                            Sobre
+                        </h2>
+    
+                        <span class="section-about__subtitle-description">
+                            DEIXE EU ME APRESENTAR
+                        </span>
+                    </div>
 
-                    <span class="section-about__subtitle-description">
-                        DEIXE EU ME APRESENTAR
-                    </span>
-
-                    <p class="section-about__paragraph">
+                    <p class="section-about__paragraph scroll--move-up">
                         Meu nome é Ryan Matheus de Oliveira, tenho 18 anos e moro em Matão-SP.
                     </p>
 
-                    <p class="section-about__paragraph">
+                    <p class="section-about__paragraph scroll--move-up">
                         Indo para o 3° ano do <abbr title="Ensino Médio">EM</abbr>, permanecia em dúvida sobre qual carreira profissional seguir, então decidi fazer um curso técnico na <abbr title="Escola Técnica Estadual de São Paulo">Etec</abbr>, onde tive o meu primeiro contato com desenvolvimento de sistemas, logo, me fissurei pela área.
                     </p>
 
-                    <p class="section-about__paragraph">
+                    <p class="section-about__paragraph scroll--move-up">
                         Atualmente estou me graduando em Sistemas para Internet na <abbr title="Faculdade de Tecnologia do Estado de São Paulo">Fatec</abbr> Taquaritinga e possuo conhecimentos nos setores de Desenvolvimento Web e Web Design.
                     </p>
                 </article>
@@ -193,13 +191,15 @@
         </section>
 
         <section id="services" class="section-services">
-            <h2 class="section-services__subtitle">
-                Serviços
-            </h2>
-
-            <span class="section-services__subtitle-description">
-                O QUE EU POSSO FAZER POR VOCÊ
-            </span>
+            <div class="scroll--move-up">
+                <h2 class="section-services__subtitle">
+                    Serviços
+                </h2>
+    
+                <span class="section-services__subtitle-description">
+                    O QUE EU POSSO FAZER POR VOCÊ
+                </span>
+            </div>
 
             <div class="section-services__container">
                 <!-- <img 
@@ -210,7 +210,7 @@
                     class="blur-cirlce-right"
                 >    -->
         
-                <article class="card-default" title="Serviço de Front-End">
+                <article class="card-default scroll--move-up" title="Serviço de Front-End">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/front-end.svg" 
@@ -227,11 +227,11 @@
                     </h3>
 
                     <p class="card-default__text">
-                        Desenvolvimento da interface gráfica do usuário, de um site
+                        Desenvolvimento da interface gráfica do usuário de um site
                     </p>
                 </article>
 
-                <article class="card-default" title="Serviço de sites responsivos">
+                <article class="card-default scroll--move-up" title="Serviço de sites responsivos">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/responsive-design.svg" 
@@ -252,7 +252,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Serviço de HTML semântico">
+                <article class="card-default scroll--move-up" title="Serviço de HTML semântico">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/sematic-html.svg" 
@@ -273,7 +273,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Serviço de acessibilidade Web">
+                <article class="card-default scroll--move-up" title="Serviço de acessibilidade Web">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/web-accessibility.svg" 
@@ -290,11 +290,11 @@
                     </h3>
 
                     <p class="card-default__text">
-                        Sites acessíveis para pessoas com qualquer tipo de deficiência
+                        Sites acessíveis para pessoas com algum tipo de deficiência
                     </p>
                 </article>
 
-                <article class="card-default" title="Serviço de SEO Web">
+                <article class="card-default scroll--move-up" title="Serviço de SEO Web">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/web-seo.svg" 
@@ -326,75 +326,18 @@
         </section>
 
         <section id="projects" class="section-projects">
-            <h2 class="section-projects__subtitle">
-                Projetos
-            </h2>
-
-            <span class="section-projects__subtitle-description">
-                MEU CONHECIMENTO NA PRÁTICA
-            </span>
+            <div class="scroll--move-up">
+                <h2 class="section-projects__subtitle">
+                    Projetos
+                </h2>
+    
+                <span class="section-projects__subtitle-description">
+                    MEU CONHECIMENTO NA PRÁTICA
+                </span>
+            </div>
 
             <div class="section-projects__container">
-                <article class="card-project" title="Projeto Rick and Morty">
-                    <figure class="card-project__logo card-project__logo--rick-and-morty-background">
-                        <img 
-                            src="./static/icons/projects/logos/rick-and-morty.svg" 
-                            alt="Rick and Morty"
-                            title="Rick and Morty"
-                            draggable="false"
-                            loading="lazy"
-                            width="100"
-                        >
-                    </figure>
-
-                    <div class="card-project__description">
-                        <h3 class="card-project__subtitle card-project__subtitle--rick-and-morty-color">
-                            Rick and Morty
-                        </h3>
-
-                        <p class="card-project__text">
-                            Consumindo a API da série Rick e Morty, com <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API" target="_blank" rel="noopener noreferrer" title="Para consumir API">fetch API</a>. Essa API contém várias informações sobre os personagens, como o nome, gênero, origem, etc.
-                        </p>
-
-                        <h3 class="card-project__subtitle card-project__subtitle--rick-and-morty-color">
-                            Tecnologias
-                        </h3>
-
-                        <figure class="card-project__technologies">
-                            <img src="./static/icons/projects/technologies/html.svg" alt="HTML" title="HTML" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
-
-                            <img src="./static/icons/projects/technologies/less.svg" alt="Less" title="Less" draggable="false" loading="lazy" width="45" class="card-project__technologies-image">
-
-                            <img src="./static/icons/projects/technologies/javascript.svg" alt="JavaScript (ES)" title="JavaScript (ES)" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
-                        </figure>
-
-                        <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/rick-and-morty" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--rick-and-morty-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
-                            </a>
-    
-                            <a href="https://ryanmatheuz.github.io/rick-and-morty" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="card-project" title="Projeto Void X">
+                <article class="card-project scroll--move-right" title="Projeto Void X">
                     <figure class="card-project__logo card-project__logo--void-background">
                         <img 
                             src="./static/icons/projects/logos/void-x.svg" 
@@ -430,91 +373,42 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/void-x" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--void-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                            <a href="https://github.com/RyanMatheuZ/void-x" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-void">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
                             </a>
-    
-                            <a href="http://void-x.vercel.app" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
-                            </a>
-                        </div>
-                    </div>
-                </article>
 
-                <article class="card-project" title="Projeto Soffit Consultoria">
-                    <figure class="card-project__logo card-project__logo--soffit-background">
-                        <img 
-                            src="./static/icons/projects/logos/soffit-consultoria.svg" 
-                            alt="Soffit Consultoria"
-                            title="Soffit Consultoria"
-                            draggable="false"
-                            loading="lazy"
-                            width="100"
-                        >
-                    </figure>
+                            <a href="https://void-x.vercel.app/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
 
-                    <div class="card-project__description">
-                        <h3 class="card-project__subtitle card-project__subtitle--soffit-color">
-                            Soffit Consultoria
-                        </h3>
-
-                        <p class="card-project__text">
-                            Projeto pessoal, sobre uma consultoria fictícia, com serviços <br> em planos de negócios, análises, estratégias, vendas, marketing e muito mais.
-                        </p>
-
-                        <h3 class="card-project__subtitle card-project__subtitle--soffit-color">
-                            Tecnologias
-                        </h3>
-
-                        <figure class="card-project__technologies">
-                            <img src="./static/icons/projects/technologies/html.svg" alt="HTML" title="HTML" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
-
-                            <img src="./static/icons/projects/technologies/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
-
-                            <img src="./static/icons/projects/technologies/jquery.svg" alt="jQuery" title="jQuery" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
-                        </figure>
-
-                        <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/soffit-consultoria" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--soffit-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
-                            </a>
-    
-                            <a href="https://ryanmatheuz.github.io/soffit-consultoria" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-project" title="Projeto Fatec Matão">
+                <article class="card-project scroll--move-left" title="Projeto Fatec Matão">
                     <figure class="card-project__logo card-project__logo--fatec-background">
                         <img 
                             src="./static/icons/projects/logos/fatec-matao.svg" 
@@ -550,32 +444,180 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/fatec-matao-website" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--fatec-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                            <a href="https://github.com/RyanMatheuZ/fatec-matao-website" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-fatec">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
                             </a>
-    
-                            <a href="https://fatec-matao-web.vercel.app" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+
+                            <a href="https://fatec-matao-web.vercel.app/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-project" title="Projeto Petit Glace">
+                <article class="card-project scroll--move-right" title="Projeto Soffit Consultoria">
+                    <figure class="card-project__logo card-project__logo--soffit-background">
+                        <img 
+                            src="./static/icons/projects/logos/soffit-consultoria.svg" 
+                            alt="Soffit Consultoria"
+                            title="Soffit Consultoria"
+                            draggable="false"
+                            loading="lazy"
+                            width="100"
+                        >
+                    </figure>
+
+                    <div class="card-project__description">
+                        <h3 class="card-project__subtitle card-project__subtitle--soffit-color">
+                            Soffit Consultoria
+                        </h3>
+
+                        <p class="card-project__text">
+                            Projeto pessoal, sobre uma consultoria fictícia, com serviços <br> em planos de negócios, análises, estratégias, vendas, marketing e muito mais.
+                        </p>
+
+                        <h3 class="card-project__subtitle card-project__subtitle--soffit-color">
+                            Tecnologias
+                        </h3>
+
+                        <figure class="card-project__technologies">
+                            <img src="./static/icons/projects/technologies/html.svg" alt="HTML" title="HTML" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
+
+                            <img src="./static/icons/projects/technologies/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
+
+                            <img src="./static/icons/projects/technologies/jquery.svg" alt="jQuery" title="jQuery" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
+                        </figure>
+
+                        <div class="card-project__btn-group">
+                            <a href="https://github.com/RyanMatheuZ/soffit-consultoria" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-soffit">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
+                            </a>
+
+                            <a href="https://ryanmatheuz.github.io/soffit-consultoria/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-project scroll--move-left" title="Projeto Rick and Morty">
+                    <figure class="card-project__logo card-project__logo--rick-and-morty-background">
+                        <img 
+                            src="./static/icons/projects/logos/rick-and-morty.svg" 
+                            alt="Rick and Morty"
+                            title="Rick and Morty"
+                            draggable="false"
+                            loading="lazy"
+                            width="100"
+                        >
+                    </figure>
+
+                    <div class="card-project__description">
+                        <h3 class="card-project__subtitle card-project__subtitle--rick-and-morty-color">
+                            Rick and Morty
+                        </h3>
+
+                        <p class="card-project__text">
+                            Consumindo a API da série Rick e Morty, com <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API" target="_blank" rel="noopener noreferrer" title="Para consumir API">fetch API</a>. Essa API contém várias informações sobre os personagens, como o nome, gênero, origem, etc.
+                        </p>
+
+                        <h3 class="card-project__subtitle card-project__subtitle--rick-and-morty-color">
+                            Tecnologias
+                        </h3>
+
+                        <figure class="card-project__technologies">
+                            <img src="./static/icons/projects/technologies/html.svg" alt="HTML" title="HTML" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
+
+                            <img src="./static/icons/projects/technologies/less.svg" alt="Less" title="Less" draggable="false" loading="lazy" width="45" class="card-project__technologies-image">
+
+                            <img src="./static/icons/projects/technologies/javascript.svg" alt="JavaScript (ES)" title="JavaScript (ES)" draggable="false" loading="lazy" width="40" class="card-project__technologies-image">
+                        </figure>
+
+                        <div class="card-project__btn-group">
+                            <a href="https://github.com/RyanMatheuZ/rick-and-morty" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-rick-and-morty">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
+                            </a>
+
+                            <a href="https://ryanmatheuz.github.io/rick-and-morty/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-project scroll--move-right" title="Projeto Petit Glace">
                     <figure class="card-project__logo card-project__logo--petit-glace-background">
                         <img 
                             src="./static/icons/projects/logos/petit-glace.svg" 
@@ -609,32 +651,42 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/petit-glace" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--petit-glace-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                            <a href="https://github.com/RyanMatheuZ/petit-glace" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-petit-glace">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
                             </a>
-    
-                            <a href="https://ryanmatheuz.github.io/petit-glace" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+
+                            <a href="https://ryanmatheuz.github.io/petit-glace/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-project" title="Projeto Vruum">
+                <article class="card-project scroll--move-left" title="Projeto Vruum">
                     <figure class="card-project__logo card-project__logo--vruum-background">
                         <img 
                             src="./static/icons/projects/logos/vruum.svg" 
@@ -668,32 +720,42 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/vruum" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--vruum-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                            <a href="https://github.com/RyanMatheuZ/vruum" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-vruum">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
                             </a>
-    
-                            <a href="https://ryanmatheuz.github.io/vruum" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+
+                            <a href="https://ryanmatheuz.github.io/vruum/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-project" title="Projeto Cloud Master">
+                <article class="card-project scroll--move-right" title="Projeto Cloud Master">
                     <figure class="card-project__logo card-project__logo--cloud-master-background">
                         <img 
                             src="./static/icons/projects/logos/cloud-master.svg" 
@@ -727,26 +789,36 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/cloud-master" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-project__btn card-project__btn--cloud-master-github">
-                                <img 
-                                    src="./static/icons/projects/github.svg" 
-                                    alt="Ver código"
-                                    title="Ver código"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+                            <a href="https://github.com/RyanMatheuZ/cloud-master" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-cloud-master">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/github.svg" 
+                                        alt="Ver código"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                  
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Código
+                                </div>
                             </a>
-    
-                            <a href="https://ryanmatheuz.github.io/cloud-master" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-project__btn card-project__btn--access">
-                                <img 
-                                    src="./static/icons/projects/link.svg" 
-                                    alt="Acessar projeto"
-                                    title="Acessar projeto"
-                                    draggable="false"
-                                    loading="lazy"
-                                    width="25"
-                                >
+
+                            <a href="https://ryanmatheuz.github.io/cloud-master/" target="_blank" rel="noopener noreferrer" title="Acessar projeto" class="card-button card-button--btn-access">
+                                <div class="card-button__face-primary">
+                                    <img 
+                                        src="./static/icons/projects/link.svg" 
+                                        alt="Acessar projeto"
+                                        draggable="false"
+                                        loading="lazy"
+                                        width="25"
+                                    >                                
+                                </div>
+
+                                <div class="card-button__face-secondary">
+                                    Projeto
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -754,27 +826,19 @@
             </div>
         </section>
 
-        <!-- <figure class="memphi-hexagon">
-            <img
-                src="./static/icons/memphis/hexagon.svg"
-                alt=""
-                draggable="false"
-                loading="lazy"
-                class="memphi-hexagon__image"
-            >
-        </figure> -->
-
         <section id="knowledges" class="section-knowledges">
-            <h2 class="section-services__subtitle">
-                Conhecimentos
-            </h2>
-
-            <span class="section-services__subtitle-description">
-               TUDO QUE ADQUIRI ATÉ O MOMENTO
-            </span>
+            <div class="scroll--move-up">
+                <h2 class="section-services__subtitle">
+                    Conhecimentos
+                </h2>
+    
+                <span class="section-services__subtitle-description">
+                   TUDO QUE ADQUIRI ATÉ O MOMENTO
+                </span>
+            </div>
 
             <div class="section-services__container">
-                <article class="card-default" title="Linguagem HTML">
+                <article class="card-default scroll--move-up" title="Linguagem HTML">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/html.svg" 
@@ -795,7 +859,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Linguagem CSS">
+                <article class="card-default scroll--move-up" title="Linguagem CSS">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/css.svg" 
@@ -816,7 +880,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Pré-processador Sass">
+                <article class="card-default scroll--move-up" title="Pré-processador Sass">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/sass.svg" 
@@ -837,7 +901,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Pré-processador Less">
+                <article class="card-default scroll--move-up" title="Pré-processador Less">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/less.svg" 
@@ -858,7 +922,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Framework Bootstrap">
+                <article class="card-default scroll--move-up" title="Framework Bootstrap">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/bootstrap.svg" 
@@ -879,7 +943,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Framework Bulma">
+                <article class="card-default scroll--move-up" title="Framework Bulma">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/bulma.svg" 
@@ -900,7 +964,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Framework Tailwind CSS">
+                <article class="card-default scroll--move-up" title="Framework Tailwind CSS">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/tailwind.svg" 
@@ -921,7 +985,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Linguagem JavaScript (ES)">
+                <article class="card-default scroll--move-up" title="Linguagem JavaScript (ES)">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/javascript.svg" 
@@ -942,7 +1006,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Biblioteca jQuery">
+                <article class="card-default scroll--move-up" title="Biblioteca jQuery">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/jquery.svg" 
@@ -963,7 +1027,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Framework progressivo Vue.js">
+                <article class="card-default scroll--move-up" title="Framework progressivo Vue.js">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/vue.svg" 
@@ -984,7 +1048,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Framework Nuxt.js">
+                <article class="card-default scroll--move-up" title="Framework Nuxt.js">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/nuxt.svg" 
@@ -1005,7 +1069,7 @@
                     </p>
                 </article>
 
-                <article class="card-default" title="Versionador Git">
+                <article class="card-default scroll--move-up" title="Versionador Git">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/git.svg" 
@@ -1029,7 +1093,7 @@
         </section>
 
         <section id="contact" class="section-contact-me">
-            <article class="section-contact-me__container">
+            <article class="section-contact-me__container scroll--move-up">
                 <h2 class="section-contact-me__subtitle">
                     Algum projeto em mente?
                 </h2>
@@ -1045,16 +1109,6 @@
         </section>
     </main>
 
-    <!-- <figure class="memphi-spots">
-        <img
-            src="./static/icons/memphis/spots.svg"
-            alt=""
-            draggable="false"
-            loading="lazy"
-            class="memphi-spots__image"
-        >
-    </figure> -->
-
     <footer class="footer">
         <svg viewBox="0 0 1440 100">
             <rect fill="#FCFCFC" width="1440" height="100"/>
@@ -1062,7 +1116,7 @@
         </svg>
 
         <div class="footer__container">
-            <div>
+            <div class="scroll--move-up">
                 <h2 class="footer__subtitle">
                     Me mande uma mensagem...
                 </h2>
@@ -1088,7 +1142,7 @@
                 </form>
             </div>
 
-            <article class="footer__contacts">
+            <article class="footer__contacts scroll--move-up">
                 <div class="footer__contacts-container">
                     <div class="footer__contacts-block">
                         <figure>
@@ -1166,7 +1220,9 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="./assets/js/animations-config.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/form.js"></script>
     <script>

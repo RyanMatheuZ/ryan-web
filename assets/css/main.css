@@ -102,6 +102,7 @@
 .section-projects,
 .section-knowledges {
   background-color: var(--gray-light-color);
+  overflow: hidden;
 }
 .section-services__container,
 .section-projects__container,
