@@ -2,7 +2,7 @@
   background-color: var(--white-color);
   border-radius: 5px;
   display: flex;
-  margin: 25px;
+  margin: 1rem 20px;
   width: 550px;
 }
 .card-project__logo {

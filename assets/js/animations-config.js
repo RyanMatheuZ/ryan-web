@@ -1,9 +1,9 @@
 ScrollReveal().reveal('.scroll--move-up', {
     origin: 'top',
     distance: '-50px',
-    delay: 200,
-    interval: 500,
-    duration: 1500
+    delay: 150,
+    interval: 400,
+    duration: 2000
 });
 
 ScrollReveal().reveal('.scroll--move-left', {
