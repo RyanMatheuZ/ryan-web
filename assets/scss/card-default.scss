@@ -3,9 +3,9 @@
 @use 'mixins';
 
 .card-default {
-    background-color: var(--white-color);
+    background-color: var(--white-lm);
     border-radius: 15px 15px 0 15px;
-    border: 2px solid var(--black-color);
+    border: 2px solid var(--black-lm);
     margin: 1rem 2rem;
     padding: 1.5rem;
     width: 250px;
@@ -14,29 +14,29 @@
     &:hover {
         border-image: linear-gradient(
             225deg, 
-            var(--primary-color) 0%, 
-            var(--secondary-color) 90%
+            var(--primary-lm) 0%, 
+            var(--secondary-lm) 90%
         ) 1;
         border-radius: 15px 15px 0 15px;
     }
 
     &__icon {
         @include mixins.flex-center;
-        background-color: var(--primary-color);
+        background-color: var(--primary-lm);
         border-radius: 15px 15px 0 15px;
         height: 60px;
         width: 60px;
     }
 
     &__subtitle {
-        color: var(--primary-color);
+        color: var(--primary-lm);
         font-size: 1.1rem;
         font-weight: 600;
         margin-block: 1rem;
     }
 
     &__text {
-        color: var(--black-color);
+        color: var(--black-lm);
         font-weight: 400;
     }
 }

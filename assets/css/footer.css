@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--primary-color);
+  background-color: var(--primary-lm);
   overflow: hidden;
   padding-bottom: 1rem;
 }
@@ -13,17 +13,17 @@
   justify-content: space-evenly;
 }
 .footer__subtitle {
-  color: var(--white-color);
+  color: #FFF;
   margin-left: 1rem;
 }
 .footer .form__input, .footer .form__textarea {
   background-color: transparent;
-  border-bottom: 2px solid var(--white-color);
+  border-bottom: 2px solid #FFF;
   border-left: none;
   border-right: none;
   border-top: none;
-  caret-color: var(--white-color);
-  color: var(--white-color);
+  caret-color: #FFF;
+  color: #FFF;
   display: block;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -33,13 +33,13 @@
   width: 100%;
 }
 .footer .form__input::placeholder, .footer .form__textarea::placeholder {
-  color: var(--white-color);
+  color: #FFF;
 }
 .footer .form__btn-send {
-  background-color: var(--white-color);
+  background-color: #FFF;
   border-radius: 3px;
   border: none;
-  color: var(--primary-color);
+  color: var(--primary-lm);
   cursor: pointer;
   display: block;
   font-family: "Poppins", sans-serif;
@@ -51,18 +51,18 @@
   width: 115px;
 }
 .footer .form__btn-send:hover {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  outline: 2px solid var(--white-color);
+  background-color: var(--primary-lm);
+  color: #FFF;
+  outline: 2px solid #FFF;
   transition: 0.2s ease;
 }
 .footer .form__error-message {
-  color: var(--black-color);
+  color: var(--black-lm);
   font-weight: 700;
   margin-left: 1rem;
 }
 .footer__contacts {
-  background-color: var(--white-color);
+  background-color: #FFF;
   border-radius: 5px;
   margin-top: 2rem;
   max-width: 340px;
@@ -79,12 +79,12 @@
   margin-block: 1.2rem;
 }
 .footer__contacts-link {
-  color: var(--black-color);
+  color: #222;
   font-weight: 500;
   margin-left: 1rem;
 }
 .footer__contacts-link::after {
-  background-color: var(--primary-color);
+  background-color: var(--primary-lm);
   content: "";
   display: block;
   height: 2px;
@@ -95,9 +95,6 @@
 .footer__contacts-link:hover::after {
   transition: 0.3s ease;
   width: 40%;
-}
-.footer__contacts-link:hover a {
-  color: #f45;
 }
 
 /*# sourceMappingURL=footer.css.map */

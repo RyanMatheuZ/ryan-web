@@ -1,5 +1,6 @@
 // To run => sass --watch assets/scss/main.scss:assets/css/main.css
 
+@use 'variables';
 @use 'mixins';
 
 .section-initial {
@@ -9,7 +10,7 @@
     justify-content: space-around;
 
     &__title {
-        color: var(--primary-color);
+        color: var(--primary-lm);
         font-size: clamp(2rem, 5vw - 1rem, 4.5rem);
         font-weight: 800;
         line-height: 1.1;
@@ -17,13 +18,13 @@
     }
 
     &__text {
-        color: var(--black-color);
+        color: var(--black-lm);
         font-size: clamp(1.5rem, 4vw - 1rem, 2rem);
         font-weight: 600;
     }
 
     &__description {
-        color: var(--black-color);
+        color: var(--black-lm);
         font-size: clamp(1.15rem, 3vw - 1rem, 1.3rem);
         font-weight: 400;
     }
@@ -43,15 +44,15 @@
         }
 
         &__contact {
-            background-color: var(--primary-color);
-            color: var(--white-color);
+            background-color: var(--primary-lm);
+            color: var(--white-lm);
             margin-right: 1rem;
         }
 
         &__resume {
-            background-color: var(--white-color);
-            border: 2px solid var(--primary-color);
-            color: var(--primary-color);
+            background-color: var(--white-lm);
+            border: 2px solid var(--primary-lm);
+            color: var(--primary-lm);
         }
     }
 
@@ -61,13 +62,12 @@
 
         img {
             width: 100%;
-            // filter: drop-shadow(0 0 20px var(--secondary-color));
         }
     }
 }
 
 .section-about {
-    background-color: var(--black-color);
+    background-color: variables.$black-df;
 
     &__container {
         align-items: center;
@@ -92,12 +92,12 @@
     }
 
     &__subtitle-description {
-        color: var(--secondary-color);
+        color: var(--secondary-lm);
         font-weight: 500;
     }
 
     &__paragraph {
-        color: var(--white-color);
+        color: variables.$white-df;
         font-size: clamp(0.9rem, 3vw - 1rem, 1rem);
         font-weight: 400;
         line-height: 1.75;
@@ -118,7 +118,7 @@
 .section-services,
 .section-projects,
 .section-knowledges {
-    background-color: var(--gray-light-color);
+    background-color: var(--gray-light-lm);
     overflow: hidden;
 
     &__container {
@@ -134,26 +134,36 @@
 
     &__subtitle-description {
         @include mixins.flex-center;
-        color: var(--black-color);
+        color: var(--black-lm);
         font-weight: 500;
     }
 }
 
 .section-projects {
-    background-color: var(--black-color);
+    background-color: variables.$black-df;
 
     &__subtitle-description {
-        color: var(--secondary-color);
+        color: var(--secondary-lm);
+    }
+}
+
+.svg {
+    &__rect {
+        fill: var(--gray-light-lm);
+    }
+
+    &__path {
+        fill: var(--primary-lm);
     }
 }
 
 .section-contact-me {
-    background-color: var(--gray-light-color);
+    background-color: var(--gray-light-lm);
     padding: 2rem 1rem 6rem;
     width: 100%;
     
     &__container {
-        background-color: var(--black-color);
+        background-color: variables.$black-df;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -164,63 +174,23 @@
     }
 
     &__subtitle {
-        color: var(--secondary-color);
+        color: var(--secondary-lm);
     }
 
     &__text {
-        color: var(--white-color);
+        color: variables.$white-df;
         margin: 1rem auto 0 auto;
         max-width: 390px;
     }
 
     &__btn {
-        background-color: var(--white-color);
+        background-color: variables.$white-df;
         border-radius: 5px;
-        color: var(--primary-color);
+        color: var(--primary-lm);
         font-weight: 600;
         margin: 1rem auto 0 auto;
         padding: 0.5rem 1rem;
         width: -moz-fit-content;
         width: fit-content;
     }
-}
-
-.memphi-hexagon {
-    position: absolute;
-    right: -10%;
-    transform: translateY(-55%);
-    z-index: 2;
-
-    &__image {
-        height: 450px;
-    }
-}
-
-.memphi-spots {
-    left: -10%;
-    position: absolute;
-    transform: translateY(-40%);
-    z-index: 2;
-
-    &__image {
-        height: 400px;
-    }
-}
-
-.blur-circle-left {
-    height: 700px;
-    left: -10%;
-    position: absolute;
-    transform: translateY(15%);
-    width: 700px;
-    z-index: 1;
-}
-
-.blur-cirlce-right {
-    height: 600px;
-    right: -10%;
-    position: absolute;
-    transform: translateY(-20%);
-    width: 600px;
-    z-index: 1;
 }

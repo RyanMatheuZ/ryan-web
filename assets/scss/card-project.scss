@@ -1,5 +1,6 @@
 // To run => sass --watch assets/scss/card-project.scss:assets/css/card-project.css
 
+@use 'variables';
 @use 'mixins';
 
 $cloud-master-color: #071A52;
@@ -12,7 +13,7 @@ $void-color: #7A58D4;
 $vruum-color: #111A39;
 
 .card-project {
-    background-color: var(--white-color);
+    background-color: variables.$white-df;
     border-radius: 5px;
     display: flex;
     margin: 1rem 20px;
@@ -83,7 +84,7 @@ $vruum-color: #111A39;
 
     .card-button {
         border-radius: 2px;
-        color: var(--black-color);
+        color: variables.$black-df;
         display: inline-block;
         font-size: 1rem;
         font-weight: 500;
@@ -115,12 +116,12 @@ $vruum-color: #111A39;
         }
 
         &__face-secondary {
-            background-color: var(--white-color);
+            background-color: variables.$white-df;
         }
 
         &--btn-access {
-            background-color: var(--black-color); 
-            outline: 3px solid var(--black-color);
+            background-color: variables.$black-df; 
+            outline: 3px solid variables.$black-df;
         }
 
         &--btn-git-void {

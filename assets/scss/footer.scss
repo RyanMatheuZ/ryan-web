@@ -1,9 +1,10 @@
 // To run => sass --watch assets/scss/footer.scss:assets/css/footer.css
 
+@use 'variables';
 @use 'mixins';
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--primary-lm);
     overflow: hidden;
     padding-bottom: 1rem;
 
@@ -16,7 +17,7 @@
     }
 
     &__subtitle {
-        color: var(--white-color);
+        color: variables.$white-df;
         margin-left: 1rem;
     }
 
@@ -24,12 +25,12 @@
         &__input,
         &__textarea {
             background-color: transparent;
-            border-bottom: 2px solid var(--white-color);
+            border-bottom: 2px solid variables.$white-df;
             border-left: none;
             border-right: none;
             border-top: none;
-            caret-color: var(--white-color);
-            color: var(--white-color);
+            caret-color: variables.$white-df;
+            color: variables.$white-df;
             display: block;
             font-family: 'Poppins', sans-serif;
             font-size: 1rem;
@@ -39,15 +40,15 @@
             width: 100%;
 
             &::placeholder {
-                color: var(--white-color);
+                color: variables.$white-df;
             }
         }
 
         &__btn-send {
-            background-color: var(--white-color);
+            background-color: variables.$white-df;
             border-radius: 3px;
             border: none;
-            color: var(--primary-color);
+            color: var(--primary-lm);
             cursor: pointer;
             display: block;
             font-family: 'Poppins', sans-serif;
@@ -59,22 +60,22 @@
             width: 115px;
 
             &:hover {
-                background-color: var(--primary-color);
-                color: var(--white-color);
-                outline: 2px solid var(--white-color);
+                background-color: var(--primary-lm);
+                color: variables.$white-df;
+                outline: 2px solid variables.$white-df;
                 transition: 0.2s ease;
             }
         }
 
         &__error-message {
-            color: var(--black-color);
+            color: var(--black-lm);
             font-weight: 700;
             margin-left: 1rem;
         }
     }
 
     &__contacts {
-        background-color: var(--white-color);
+        background-color: variables.$white-df;
         border-radius: 5px;
         margin-top: 2rem;
         max-width: 340px;
@@ -94,12 +95,12 @@
     }
 
     &__contacts-link {
-        color: var(--black-color);
+        color: variables.$black-df;
         font-weight: 500;
         margin-left: 1rem;
 
         &::after {
-            background-color: var(--primary-color);
+            background-color: var(--primary-lm);
             content: "";
             display: block;
             height: 2px;
@@ -113,8 +114,8 @@
             width: 40%;
         }
 
-        &:hover a {
-            color: #f45;
-        }
+        // &:hover a {
+        //     color: #F45;
+        // }
     }
 }
