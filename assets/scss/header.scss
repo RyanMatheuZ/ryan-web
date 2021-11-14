@@ -14,9 +14,9 @@
 
     .header__menu {
         @include mixins.flex-center;
-        background-color: var(--white-lm);
+        background-color: variables.$white-df;
         border-radius: 5px;
-        border: 1px solid var(--black-lm);
+        border: 1px solid variables.$black-df;
         cursor: pointer;
         display: none;
         font-size: 0;
@@ -72,7 +72,7 @@
         }
 
         .nav {
-            background-color: var(--black-lm);
+            background-color: variables.$black-df;
             height: 100vh;
             left: 0;
             padding: 1rem 1rem 1rem 0.5rem;

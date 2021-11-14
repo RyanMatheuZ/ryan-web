@@ -45,18 +45,19 @@
 
         &__contact {
             background-color: var(--primary-lm);
-            color: var(--white-lm);
+            color: variables.$white-df;
             margin-right: 1rem;
         }
 
         &__resume {
-            background-color: var(--white-lm);
+            background-color: variables.$white-df;
             border: 2px solid var(--primary-lm);
             color: var(--primary-lm);
         }
     }
 
     &__image {
+        filter: drop-shadow(0 0 5px variables.$white-df);
         margin-top: 2rem;
         max-width: 450px;
 

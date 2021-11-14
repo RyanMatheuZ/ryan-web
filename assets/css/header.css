@@ -12,9 +12,9 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: var(--white-lm);
+  background-color: #FFF;
   border-radius: 5px;
-  border: 1px solid var(--black-lm);
+  border: 1px solid #222;
   cursor: pointer;
   display: none;
   font-size: 0;
@@ -59,7 +59,7 @@
     visibility: visible;
   }
   .header .nav {
-    background-color: var(--black-lm);
+    background-color: #222;
     height: 100vh;
     left: 0;
     padding: 1rem 1rem 1rem 0.5rem;

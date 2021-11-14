@@ -41,15 +41,16 @@
 }
 .section-initial .btn-group__contact {
   background-color: var(--primary-lm);
-  color: var(--white-lm);
+  color: #FFF;
   margin-right: 1rem;
 }
 .section-initial .btn-group__resume {
-  background-color: var(--white-lm);
+  background-color: #FFF;
   border: 2px solid var(--primary-lm);
   color: var(--primary-lm);
 }
 .section-initial__image {
+  filter: drop-shadow(0 0 5px #FFF);
   margin-top: 2rem;
   max-width: 450px;
 }
