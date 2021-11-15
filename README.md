@@ -3,7 +3,7 @@
 # Ryan Web
 
 ### About
-Ryan Web is my portfolio in website format and it contains all my projects, developed with several technologies.
+Ryan Web is a portfolio in website format and it contains all my projects, developed with several technologies.
 
 ### Technologies
 - HTML 5
