@@ -4,6 +4,7 @@
 @use 'mixins';
 
 $cloud-master-color: #071A52;
+$farmino-color: #37582B;
 $fatec-color: #B01116;
 $petit-glace-color: #EA516D;
 $rick-and-morty-color: #8BCF21;
@@ -16,7 +17,7 @@ $vruum-color: #111A39;
     background-color: variables.$white-df;
     border-radius: 5px;
     display: flex;
-    margin: 1rem 20px;
+    margin: 1rem 15px;
     width: 550px;
 
     &__logo {
@@ -25,13 +26,30 @@ $vruum-color: #111A39;
         width: 40%;
     }
 
-    &__logo--void-background { background-color: $void-color; }
-    &__logo--fatec-background { background-color: $fatec-color; }
-    &__logo--soffit-background { background-color: $soffit-color; }
-    &__logo--rick-and-morty-background { background-color: $rick-and-morty-color; }
-    &__logo--petit-glace-background { background-color: $petit-glace-color; }
-    &__logo--vruum-background { background-color: $vruum-color; }
-    &__logo--cloud-master-background { background-color: $cloud-master-color; }
+    &__logo--farmino-background { 
+        background-color: $farmino-color; 
+    }
+    &__logo--void-background { 
+        background-color: $void-color; 
+    }
+    &__logo--fatec-background { 
+        background-color: $fatec-color; 
+    }
+    &__logo--soffit-background { 
+        background-color: $soffit-color; 
+    }
+    &__logo--rick-and-morty-background { 
+        background-color: $rick-and-morty-color; 
+    }
+    &__logo--petit-glace-background { 
+        background-color: $petit-glace-color; 
+    }
+    &__logo--vruum-background {
+         background-color: $vruum-color; 
+    }
+    &__logo--cloud-master-background {
+         background-color: $cloud-master-color; 
+    }
 
     &__description {
         align-self: center;
@@ -47,18 +65,51 @@ $vruum-color: #111A39;
         font-weight: 600;
     }
 
-    &__subtitle--void-color { color: $void-color; }
-    &__subtitle--fatec-color { color: $fatec-color; }
-    &__subtitle--soffit-color { color: $soffit-two-color; }
-    &__subtitle--rick-and-morty-color { color: $rick-and-morty-color; }
-    &__subtitle--petit-glace-color { color: $petit-glace-color; }
-    &__subtitle--vruum-color { color: $vruum-color; }
-    &__subtitle--cloud-master-color { color: $cloud-master-color; }
+    &__subtitle--farmino-color { 
+        color: $farmino-color; 
+    }
+    &__subtitle--void-color { 
+        color: $void-color; 
+    }
+    &__subtitle--fatec-color { 
+        color: $fatec-color; 
+    }
+    &__subtitle--soffit-color { 
+        color: $soffit-two-color; 
+    }
+    &__subtitle--rick-and-morty-color { 
+        color: $rick-and-morty-color; 
+    }
+    &__subtitle--petit-glace-color { 
+        color: $petit-glace-color; 
+    }
+    &__subtitle--vruum-color { 
+        color: $vruum-color; 
+    }
+    &__subtitle--cloud-master-color { 
+        color: $cloud-master-color; 
+    }
 
     &__text {
         font-size: clamp(0.3rem, 3vw + 1rem, 1rem);
         font-weight: 400;
         margin-bottom: 0.5rem;
+    }
+
+    &__farmino-link,
+    &__void-link,
+    &__fatec-link {
+        font-weight: 600; 
+    }
+
+    &__farmino-link {
+        color: $farmino-color;
+    }
+    &__void-link {
+        color: $void-color;
+    }
+    &__fatec-link {
+        color: $fatec-color;
     }
 
     &__technologies {
@@ -122,6 +173,11 @@ $vruum-color: #111A39;
         &--btn-access {
             background-color: variables.$black-df; 
             outline: 3px solid variables.$black-df;
+        }
+
+        &--btn-git-farmino {
+            background-color: $farmino-color;
+            outline: 3px solid $farmino-color;
         }
 
         &--btn-git-void {
