@@ -12,9 +12,9 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #FFF;
+  background-color: var(--white-df);
   border-radius: 5px;
-  border: 1px solid #222;
+  border: 1px solid var(--black-df);
   cursor: pointer;
   display: none;
   font-size: 0;
@@ -33,7 +33,7 @@
   width: fit-content;
 }
 .header .nav__item::after {
-  background-color: #FFF;
+  background-color: var(--white-df);
   content: "";
   display: block;
   height: 2px;
@@ -45,8 +45,14 @@
   width: 60%;
 }
 .header .nav__link {
-  color: #FFF;
+  color: var(--white-df);
   font-size: clamp(1rem, 3vw - 1rem, 1.15rem);
+}
+.header .logo {
+  width: 50px;
+}
+.header .logo__path {
+  fill: var(--primary-lm);
 }
 
 @media (max-width: 850px) {
@@ -59,7 +65,7 @@
     visibility: visible;
   }
   .header .nav {
-    background-color: #222;
+    background-color: var(--black-df);
     height: 100vh;
     left: 0;
     padding: 1rem 1rem 1rem 0.5rem;

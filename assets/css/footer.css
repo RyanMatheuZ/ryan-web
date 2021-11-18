@@ -1,6 +1,5 @@
 .footer {
   background-color: var(--primary-lm);
-  overflow: hidden;
   padding-bottom: 1rem;
 }
 .footer__container {
@@ -13,17 +12,17 @@
   justify-content: space-evenly;
 }
 .footer__subtitle {
-  color: #FFF;
+  color: var(--gray-light-lm);
   margin-left: 1rem;
 }
 .footer .form__input, .footer .form__textarea {
   background-color: transparent;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid var(--gray-light-lm);
   border-left: none;
   border-right: none;
   border-top: none;
-  caret-color: #FFF;
-  color: #FFF;
+  caret-color: var(--gray-light-lm);
+  color: var(--gray-light-lm);
   display: block;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -33,10 +32,10 @@
   width: 100%;
 }
 .footer .form__input::placeholder, .footer .form__textarea::placeholder {
-  color: #FFF;
+  color: var(--gray-light-lm);
 }
 .footer .form__btn-send {
-  background-color: #FFF;
+  background-color: var(--gray-light-lm);
   border-radius: 3px;
   border: none;
   color: var(--primary-lm);
@@ -52,8 +51,8 @@
 }
 .footer .form__btn-send:hover {
   background-color: var(--primary-lm);
-  color: #FFF;
-  outline: 2px solid #FFF;
+  color: var(--gray-light-lm);
+  outline: 2px solid var(--gray-light-lm);
   transition: 0.2s ease;
 }
 .footer .form__error-message {
@@ -62,7 +61,7 @@
   margin-left: 1rem;
 }
 .footer__contacts {
-  background-color: #FFF;
+  background-color: var(--gray-light-lm);
   border-radius: 5px;
   margin-top: 2rem;
   max-width: 340px;
@@ -79,7 +78,7 @@
   margin-block: 1.2rem;
 }
 .footer__contacts-link {
-  color: #222;
+  color: var(--black-lm);
   font-weight: 500;
   margin-left: 1rem;
 }
@@ -95,6 +94,26 @@
 .footer__contacts-link:hover::after {
   transition: 0.3s ease;
   width: 40%;
+}
+.footer .instagram,
+.footer .linkedin,
+.footer .github,
+.footer .gitlab {
+  height: 50px;
+  width: 50px;
+}
+.footer .instagram__circle,
+.footer .linkedin__circle,
+.footer .github__circle,
+.footer .gitlab__circle {
+  fill: var(--secondary-lm);
+  opacity: 0.5;
+}
+.footer .instagram__path,
+.footer .linkedin__path,
+.footer .github__path,
+.footer .gitlab__path {
+  fill: var(--black-lm);
 }
 
 /*# sourceMappingURL=footer.css.map */

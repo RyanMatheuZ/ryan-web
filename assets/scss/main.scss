@@ -1,6 +1,5 @@
 // To run => sass --watch assets/scss/main.scss:assets/css/main.css
 
-@use 'variables';
 @use 'mixins';
 
 .section-initial {
@@ -45,19 +44,19 @@
 
         &__contact {
             background-color: var(--primary-lm);
-            color: variables.$white-df;
+            color: var(--white-df);
             margin-right: 1rem;
         }
 
         &__resume {
-            background-color: variables.$white-df;
+            background-color: var(--white-df);
             border: 2px solid var(--primary-lm);
             color: var(--primary-lm);
         }
     }
 
     &__image {
-        filter: drop-shadow(0 0 5px variables.$white-df);
+        filter: drop-shadow(0 0 5px var(--white-df));
         margin-top: 2rem;
         max-width: 450px;
 
@@ -68,7 +67,7 @@
 }
 
 .section-about {
-    background-color: variables.$black-df;
+    background-color: var(--black-df);
 
     &__container {
         align-items: center;
@@ -98,7 +97,7 @@
     }
 
     &__paragraph {
-        color: variables.$white-df;
+        color: var(--white-df);
         font-size: clamp(0.9rem, 3vw - 1rem, 1rem);
         font-weight: 400;
         line-height: 1.75;
@@ -141,7 +140,7 @@
 }
 
 .section-projects {
-    background-color: variables.$black-df;
+    background-color: var(--black-df);
 
     &__subtitle-description {
         color: var(--secondary-lm);
@@ -164,7 +163,7 @@
     width: 100%;
     
     &__container {
-        background-color: variables.$black-df;
+        background-color: var(--black-df);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -179,13 +178,13 @@
     }
 
     &__text {
-        color: variables.$white-df;
+        color: var(--white-df);
         margin: 1rem auto 0 auto;
         max-width: 390px;
     }
 
     &__btn {
-        background-color: variables.$white-df;
+        background-color: var(--white-df);
         border-radius: 5px;
         color: var(--primary-lm);
         font-weight: 600;

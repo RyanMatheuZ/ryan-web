@@ -1,6 +1,5 @@
 // To run => sass --watch assets/scss/header.scss:assets/css/header.css
 
-@use 'variables';
 @use 'mixins';
 
 .header {
@@ -14,9 +13,9 @@
 
     .header__menu {
         @include mixins.flex-center;
-        background-color: variables.$white-df;
+        background-color: var(--white-df);
         border-radius: 5px;
-        border: 1px solid variables.$black-df;
+        border: 1px solid var(--black-df);
         cursor: pointer;
         display: none;
         font-size: 0;
@@ -38,7 +37,7 @@
         width: fit-content;
 
         &::after {
-            background-color: variables.$white-df;
+            background-color: var(--white-df);
             content: "";
             display: block;
             height: 2px;
@@ -53,8 +52,16 @@
     }
 
     .nav__link {
-        color: variables.$white-df;
+        color: var(--white-df);
         font-size: clamp(1rem, 3vw - 1rem, 1.15rem);
+    }
+
+    .logo {
+        width: 50px;
+
+        &__path {
+            fill: var(--primary-lm);
+        }
     }
 }
 
@@ -72,7 +79,7 @@
         }
 
         .nav {
-            background-color: variables.$black-df;
+            background-color: var(--black-df);
             height: 100vh;
             left: 0;
             padding: 1rem 1rem 1rem 0.5rem;
