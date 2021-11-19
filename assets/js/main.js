@@ -1,11 +1,11 @@
-const btnMenu = document.querySelector("#btn-menu");
-const navMenu =  document.querySelector("#nav-menu");
-const btnUp = document.querySelector("#btn-up");
-const btnTheme = document.querySelector("#btn-theme");
-const htmlTag = document.querySelector("html");
+const btnMenu = document.getElementById("btn-menu");
+const navMenu =  document.getElementById("nav-menu");
+const btnUp = document.getElementById("btn-up");
+const btnTheme = document.getElementById("btn-theme");
+const htmlTag = document.getElementsByTagName("html")[0];
 
 // Nav active (Mobile)
-btnMenu.addEventListener("click", () => navMenu.classList.toggle("nav-active"))
+btnMenu.addEventListener("click", () => navMenu.classList.toggle("nav-active"));
 
 // Button up
 btnUp.addEventListener("click", () => scrollTo(0, 0));

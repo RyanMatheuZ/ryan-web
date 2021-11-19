@@ -34,6 +34,7 @@
 }
 .footer .form__input::placeholder, .footer .form__textarea::placeholder {
   color: var(--gray-light-lm);
+  font-weight: 500;
 }
 .footer .form__btn-send {
   background-color: var(--gray-light-lm);
@@ -55,11 +56,6 @@
   color: var(--gray-light-lm);
   outline: 2px solid var(--gray-light-lm);
   transition: 0.2s ease;
-}
-.footer .form__error-message {
-  color: var(--black-lm);
-  font-weight: 700;
-  margin-left: 1rem;
 }
 .footer__contacts {
   background-color: var(--gray-light-lm);

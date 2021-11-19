@@ -40,6 +40,7 @@
 
             &::placeholder {
                 color: var(--gray-light-lm);
+                font-weight: 500;
             }
         }
 
@@ -64,12 +65,6 @@
                 outline: 2px solid var(--gray-light-lm);
                 transition: 0.2s ease;
             }
-        }
-
-        &__error-message {
-            color: var(--black-lm);
-            font-weight: 700;
-            margin-left: 1rem;
         }
     }
 

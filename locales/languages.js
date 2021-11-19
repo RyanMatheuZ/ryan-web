@@ -231,31 +231,31 @@ languages = {
 
     en: {
         header: {
-            about: "",
+            about: "About",
 
-            services: "",
+            services: "Services",
 
-            projects: "",
+            projects: "Projects",
 
-            knowledges: ""
+            knowledges: "Knowledges"
         },
 
         sectionInitial: {
-            greeting: "",
+            greeting: "Hello, I'm Ryan Oliveira",
 
-            description: "",
+            description: "Front-End Developer!",
             
-            btnContact: "",
+            btnContact: "Contact",
 
-            btnResume: ""
+            btnResume: "Resume"
         },
 
         sectionAbout: {
-            title: "",
+            title: "About",
 
             subtitle: "",
 
-            paragraphOne: "",
+            paragraphOne: "My name's Ryan Matheus de Oliveira and I live in Matão-SP in the Brazil.",
 
             paragraphTwo: "",
 
@@ -263,54 +263,54 @@ languages = {
         },
 
         sectionServices: {
-            title: "",
+            title: "Services",
 
             subtitle: "",
 
             frontEnd: {
-                title: "",
+                title: "Front-End",
 
                 text: ""
             },
 
             responsiveWesites: {
-                title: "",
+                title: "Responsive Websites",
 
                 text: ""
             },
 
             semanticHtml: {
-                title: "",
+                title: "Semantic HTML",
 
                 text: ""
             },
 
             webAccessibility: {
-                title: "",
+                title: "Web Accessibility",
 
                 text: ""
             },
 
             webSeo: {
-                title: "",
+                title: "Web SEO",
 
                 text: ""
             },
         },
 
         sectionProjects: {
-            title: "",
+            title: "Projects",
 
             subtitle: "",
 
-            technologies: "",
+            technologies: "Tecnologias",
 
-            btnGitHub: "",
+            btnGitHub: "Code",
 
-            btnAccess: "",
+            btnAccess: "Project",
 
             farmino: {
-                title: "",
+                title: "Farmino",
 
                 description: ""
             },
@@ -359,7 +359,7 @@ languages = {
         },
 
         sectionKnowledges: {
-            title: "",
+            title: "Knowledges",
 
             subtitle: "",
 
@@ -446,16 +446,16 @@ languages = {
 
         footer: {
             form: {
-                title: "",
+                title: "Send me a message...",
 
-                yourName: "",
+                yourName: "Your name:",
 
-                yourEmail: "",
+                yourEmail: "Your E-mail:",
 
-                yourMessage: "",
+                yourMessage: "Your message:",
 
-                btnSend: ""
+                btnSend: "Send"
             }
         }
     }
-}
+};
