@@ -1,5 +1,6 @@
 .footer {
   background-color: var(--primary-lm);
+  overflow: hidden;
   padding-bottom: 1rem;
 }
 .footer__container {

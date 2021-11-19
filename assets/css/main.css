@@ -180,4 +180,25 @@
   width: fit-content;
 }
 
+.btn-up {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-lm);
+  border-radius: 5px;
+  bottom: 1%;
+  cursor: pointer;
+  height: 60px;
+  margin: 0;
+  opacity: 75%;
+  position: fixed;
+  right: 1%;
+  transition: 0.3s ease-in-out;
+  width: 60px;
+}
+.btn-up:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+
 /*# sourceMappingURL=main.css.map */

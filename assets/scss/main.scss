@@ -194,3 +194,23 @@
         width: fit-content;
     }
 }
+
+.btn-up {
+    @include mixins.flex-center;
+    background-color: var(--secondary-lm);
+    border-radius: 5px;
+    bottom: 1%;
+    cursor: pointer;
+    height: 60px;
+    margin: 0;
+    opacity: 75%;
+    position: fixed;
+    right: 1%;
+    transition: 0.3s ease-in-out;
+    width: 60px;
+
+    &:hover {
+        opacity: 100%;
+        transition: 0.3s ease-in-out;
+    }
+}
