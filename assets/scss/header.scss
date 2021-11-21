@@ -49,6 +49,10 @@
             transition: 0.5s ease;
             width: 60%;
         }
+
+        &:last-child::after {
+            display: none;
+        }
     }
 
     .nav__link {
@@ -61,6 +65,31 @@
 
         &__path {
             fill: var(--primary-lm);
+        }
+    }
+
+    .switcher {
+        background-color: var(--white-lm);
+        border-radius: 20px;
+        display: flex;
+        height: 30;
+        padding: 0.3rem;
+        width: 70px;
+
+        &__dot {
+            background-color: var(--primary-lm);
+            background-image: url("../../static/icons/flags/brazil.svg");
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .switcher-end {
+        justify-content: flex-end;
+
+        .switcher__dot {
+            background-image: url("../../static/icons/flags/united-states.svg");
         }
     }
 }

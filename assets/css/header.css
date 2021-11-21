@@ -44,6 +44,9 @@
   transition: 0.5s ease;
   width: 60%;
 }
+.header .nav__item:last-child::after {
+  display: none;
+}
 .header .nav__link {
   color: var(--white-df);
   font-size: clamp(1rem, 3vw - 1rem, 1.15rem);
@@ -53,6 +56,27 @@
 }
 .header .logo__path {
   fill: var(--primary-lm);
+}
+.header .switcher {
+  background-color: var(--white-lm);
+  border-radius: 20px;
+  display: flex;
+  height: 30;
+  padding: 0.3rem;
+  width: 70px;
+}
+.header .switcher__dot {
+  background-color: var(--primary-lm);
+  background-image: url("../../static/icons/flags/brazil.svg");
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.header .switcher-end {
+  justify-content: flex-end;
+}
+.header .switcher-end .switcher__dot {
+  background-image: url("../../static/icons/flags/united-states.svg");
 }
 
 @media (max-width: 850px) {

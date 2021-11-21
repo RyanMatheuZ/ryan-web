@@ -1,4 +1,4 @@
-languages = {
+const languages = {
     pt: {
         header: {
             about: "Sobre",
@@ -11,7 +11,7 @@ languages = {
         },
 
         sectionInitial: {
-            greeting: "Olá, eu sou o Ryan Oliveira",
+            greeting: "<span class='section-initial__text'>Olá, eu sou o</span> <br> Ryan Oliveira",
 
             description: "Desenvolvedor Front-End!",
             
@@ -43,7 +43,7 @@ languages = {
                 text: "Desenvolvimento da interface gráfica do usuário de um site"
             },
 
-            responsiveWesites: {
+            responsiveWebsites: {
                 title: "Sites Responsivos",
 
                 text: "Sites que se adaptam em diferentes tipos de dispositivos"
@@ -91,7 +91,7 @@ languages = {
                 description: "Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com Vuelidate."
             },
 
-            fatecMatão: {
+            fatecMatao: {
                 title: "Fatec Matão",
 
                 description: "Projeto desenvolvido em grupo, durante as aulas de Projeto Integrador. Fui responsável pela página inicial e internacionalização (i18n)."
@@ -241,7 +241,7 @@ languages = {
         },
 
         sectionInitial: {
-            greeting: "Hello, I'm Ryan Oliveira",
+            greeting: "<span class='section-initial__text'>Hello, I am</span> <br> Ryan Oliveira",
 
             description: "Front-End Developer!",
             
@@ -253,57 +253,57 @@ languages = {
         sectionAbout: {
             title: "About",
 
-            subtitle: "",
+            subtitle: "LET ME INTRODUCE MYSELF",
 
-            paragraphOne: "My name's Ryan Matheus de Oliveira and I live in Matão-SP in the Brazil.",
+            paragraphOne: "My name is Ryan Matheus de Oliveira and I live in Matão-SP in Brazil.",
 
-            paragraphTwo: "",
+            paragraphTwo: "Going to the 3rd year of High School, I remained in doubt about which professional career to pursue, so I decided to make a technical course at Etec, where I had my first contact with systems development, so I became passionate about the area.",
 
-            paragraphThree: ""
+            paragraphThree: "I am currently graduating in Internet Systems at Fatec Taquaritinga and I have knowledge in the sectors of Web Development and Web Design."
         },
 
         sectionServices: {
             title: "Services",
 
-            subtitle: "",
+            subtitle: "WHAT I CAN DO FOR YOU",
 
             frontEnd: {
                 title: "Front-End",
 
-                text: ""
+                text: "Development of a website's graphical user interface"
             },
 
-            responsiveWesites: {
+            responsiveWebsites: {
                 title: "Responsive Websites",
 
-                text: ""
+                text: "Sites that adapt to different types of devices"
             },
 
             semanticHtml: {
                 title: "Semantic HTML",
 
-                text: ""
+                text: "Better understanding <br> of HTML in search <br> engines"
             },
 
             webAccessibility: {
                 title: "Web Accessibility",
 
-                text: ""
+                text: "Accessible websites for people with some disability"
             },
 
             webSeo: {
                 title: "Web SEO",
 
-                text: ""
+                text: "White Hat techniques <br> for a content <br> optimization"
             },
         },
 
         sectionProjects: {
             title: "Projects",
 
-            subtitle: "",
+            subtitle: "MY KNOWLEDGE IN PRACTICE",
 
-            technologies: "Tecnologias",
+            technologies: "Technologies",
 
             btnGitHub: "Code",
 
@@ -312,136 +312,136 @@ languages = {
             farmino: {
                 title: "Farmino",
 
-                description: ""
+                description: "Personal project, about a virtual store focused on selling organic products. In it were used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
             },
 
             voidX: {
                 title: "Void X",
 
-                description: ""
+                description: "Project developed for an exam in college. With the requirement to be a website for a revolutionary product and form validation with <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>."
             },
 
-            fatecMatão: {
+            fatecMatao: {
                 title: "Fatec Matão",
 
-                description: ""
+                description: "Project developed in group, during the Integrator Project classes. I was responsible for the homepage and internationalization <a href='https://pt.wikipedia.org/wiki/Internacionaliza%C3%A7%C3%A3o_(inform%C3%A1tica)' target='_blank' rel='noopener noreferrer' class='card-project__fatec-link'>(i18n)</a>."
             },
 
             soffitConsulting: {
                 title: "Soffit Consultoria",
 
-                description: ""
+                description: "Personal project, about a fictitious consultancy, with services in business plans, analytics, strategies, sales, marketing and more."
             },
 
             rickAndMorty: {
                 title: "Rick and morty",
 
-                description: ""
+                description: "Consuming the API from the Rick and Morty series, with <a href='https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API' target='_blank' rel='noopener noreferrer' class='card-project__rick-and-morty-link'>fetch API</a>. This API contains various information about the characters, such as name, gender, origin, etc."
             },
 
             petitGlace: {
                 title: "Petit Glace",
 
-                description: ""
+                description: "Personal project, about a fictitious ice cream shop. The user can filter products, either by origin or product price. <br><br>"
             },
 
             vruum: {
                 title: "Vruum",
 
-                description: ""
+                description: "Personal project, about a fictitious driving school. It offers traditional driving and traffic training courses."
             },
 
             cloudMaster: {
                 title: "Cloud Master",
 
-                description: ""
+                description: "Personal project, about a fictitious company. It has web development services, hosting and Wi-Fi plans."
             }       
         },
 
         sectionKnowledges: {
             title: "Knowledges",
 
-            subtitle: "",
+            subtitle: "EVERYTHING I ACQUIRED UNTIL THE MOMENT",
 
             html: {
                 title: "HTML",
 
-                text: ""
+                text: "Markup language, used in building websites"
             },
 
             css: {
                 title: "CSS",
 
-                text: ""
+                text: "Cascading style sheet for website styling"
             },
 
             sass: {
                 title: "Sass / SCSS",
 
-                text: ""
+                text: "Preprocessor, basically CSS with super powers"
             },
 
             less: {
                 title: "Less",
 
-                text: ""
+                text: "Preprocessor, that was influenced by Sass"
             },
 
             bootstrap: {
                 title: "Bootstrap",
 
-                text: ""
+                text: "CSS Framework, the great Front-End dinosaur"
             },
 
             bulma: {
                 title: "Bulma",
 
-                text: ""
+                text: "CSS Framework, was inspired by Bootstrap and does not require JS"
             },
 
             tailwindcss: {
                 title: "Tailwind CSS",
 
-                text: ""
+                text: "Hipster CSS Framework, based on utilities"
             },
 
             javascript: {
                 title: "JavaScript (ES)",
 
-                text: ""
+                text: "Web Developers' sweetheart language"
             },
 
             jquery: {
                 title: "jQuery",
 
-                text: ""
+                text: "Another Front-End dinosaur, but it is a JS library"
             },
 
             vue: {
                 title: "Vue.js",
 
-                text: ""
+                text: "Progressive framework, basically the best in the JS market"
             },
 
             nuxt: {
                 title: "Nuxt",
 
-                text: ""
+                text: "JS Framework, Batman has Robin, Vue has Nuxt"
             },
 
             git: {
                 title: "Git",
 
-                text: ""
+                text: "Code versioner, to save snapshots of your projects"
             }
         },
 
         sectionContact: {
-            title: "",
+            title: "Any projects in mind?",
 
-            text: "",
+            text: "If you have any questions or problems with any project, don't hesitate to call me!",
 
-            btnContact: ""
+            btnContact: "Get in touch"
         },
 
         footer: {
@@ -459,3 +459,5 @@ languages = {
         }
     }
 };
+
+export { languages };

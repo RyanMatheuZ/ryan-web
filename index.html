@@ -84,22 +84,22 @@
                         Menu
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link" title="Alt + 1" accesskey="1">
+                        <a id="header-about" href="#about" class="nav__link" title="Alt + 1" accesskey="1">
                             Sobre
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link" title="Alt + 2" accesskey="2">
+                        <a id="header-services" href="#services" class="nav__link" title="Alt + 2" accesskey="2">
                             Serviços
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#projects" class="nav__link" title="Alt + 3" accesskey="3">
+                        <a id="header-projects" href="#projects" class="nav__link" title="Alt + 3" accesskey="3">
                             Projetos
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#knowledges" class="nav__link" title="Alt + 4" accesskey="4">
+                        <a id="header-knowledges" href="#knowledges" class="nav__link" title="Alt + 4" accesskey="4">
                             Conhecimentos
                         </a>
                     </li>
@@ -118,6 +118,11 @@
                             >
                         </figure>
                     </li>
+                    <li class="nav__item">
+                        <div id="btn-switcher" class="switcher" title="Alt + 6" accesskey="6">
+                            <div class="switcher__dot"></div>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -126,21 +131,21 @@
     <main>
         <section class="section-initial">
             <article class="scroll--move-right">
-                <h1 class="section-initial__title">
+                <h1 id="initial-greeting" class="section-initial__title">
                     <span class="section-initial__text">Olá, eu sou o</span> <br>
                     Ryan Oliveira
                 </h1>
         
-                <p class="section-initial__description">
+                <p id="initial-description" class="section-initial__description">
                     Desenvolvedor Front-End!
                 </p>
         
                 <div class="btn-group">
-                    <a href="#contact" class="btn-group__contact" title="Entrar em contato">
+                    <a id="initial-btn-contact" href="#contact" class="btn-group__contact" title="Entrar em contato">
                         Contato
                     </a>
         
-                    <a href="./assets/docs/CV-Ryan-Oliveira.pdf" target="_blank" rel="noopener noreferrer" class="btn-group__resume" title="Abrir currículo em nova guia">
+                    <a id="initial-btn-resume" href="./assets/docs/CV-Ryan-Oliveira.pdf" target="_blank" rel="noopener noreferrer" class="btn-group__resume" title="Abrir currículo em nova guia">
                         Currículo
                     </a>
                 </div>
@@ -170,24 +175,24 @@
 
                 <article class="section-about__text">
                     <div class="scroll--move-up">
-                        <h2 class="section-about__subtitle">
+                        <h2 id="about-title" class="section-about__subtitle">
                             Sobre
                         </h2>
     
-                        <span class="section-about__subtitle-description">
+                        <span id="about-subtitle" class="section-about__subtitle-description">
                             DEIXE EU ME APRESENTAR
                         </span>
                     </div>
 
-                    <p class="section-about__paragraph scroll--move-up">
+                    <p id="about-paragraph-one" class="section-about__paragraph scroll--move-up">
                         Meu nome é Ryan Matheus de Oliveira e moro em Matão-SP.
                     </p>
 
-                    <p class="section-about__paragraph scroll--move-up">
+                    <p id="about-paragraph-two" class="section-about__paragraph scroll--move-up">
                         Indo para o 3° ano do <abbr title="Ensino Médio">EM</abbr>, permanecia em dúvida sobre qual carreira profissional seguir, então decidi fazer um curso técnico na <abbr title="Escola Técnica Estadual de São Paulo">Etec</abbr>, onde tive o meu primeiro contato com desenvolvimento de sistemas, logo, me fissurei pela área.
                     </p>
 
-                    <p class="section-about__paragraph scroll--move-up">
+                    <p id="about-paragraph-three" class="section-about__paragraph scroll--move-up">
                         Atualmente estou me graduando em Sistemas para Internet na <abbr title="Faculdade de Tecnologia do Estado de São Paulo">Fatec</abbr> Taquaritinga e possuo conhecimentos nos setores de Desenvolvimento Web e Web Design.
                     </p>
                 </article>
@@ -196,11 +201,11 @@
 
         <section id="services" class="section-services">
             <div class="scroll--move-up">
-                <h2 class="section-services__subtitle">
+                <h2 id="services-title" class="section-services__subtitle">
                     Serviços
                 </h2>
     
-                <span class="section-services__subtitle-description">
+                <span id="services-subtitle" class="section-services__subtitle-description">
                     O QUE EU POSSO FAZER POR VOCÊ
                 </span>
             </div>
@@ -218,11 +223,11 @@
                         >
                     </figure>
 
-                    <h3 class="card-default__subtitle">
+                    <h3 id="services-front-end-title" class="card-default__subtitle">
                         Front-End
                     </h3>
 
-                    <p class="card-default__text">
+                    <p id="services-front-end-text" class="card-default__text">
                         Desenvolvimento da interface gráfica do usuário de um site
                     </p>
                 </article>
@@ -239,11 +244,11 @@
                         >
                     </figure>
 
-                    <h3 class="card-default__subtitle">
+                    <h3 id="services-responsive-websites-title" class="card-default__subtitle">
                         Sites Responsivos
                     </h3>
 
-                    <p class="card-default__text">
+                    <p id="services-responsive-websites-text" class="card-default__text">
                         Sites que se adaptam <br> em diferentes tipos <br> de dispositivos
                     </p>
                 </article>
@@ -260,11 +265,11 @@
                         >
                     </figure>
 
-                    <h3 class="card-default__subtitle">
+                    <h3 id="services-semantic-html-title" class="card-default__subtitle">
                         HTML Semântico
                     </h3>
 
-                    <p class="card-default__text">
+                    <p id="services-semantic-html-text" class="card-default__text">
                         Melhor compreensão <br> do HTML em motores <br> de busca
                     </p>
                 </article>
@@ -281,11 +286,11 @@
                         >
                     </figure>
 
-                    <h3 class="card-default__subtitle">
+                    <h3 id="services-web-accessibility-title" class="card-default__subtitle">
                         Acessibilidade Web
                     </h3>
 
-                    <p class="card-default__text">
+                    <p id="services-web-accessibility-text" class="card-default__text">
                         Sites acessíveis para pessoas com algum tipo de deficiência
                     </p>
                 </article>
@@ -302,11 +307,11 @@
                         >
                     </figure>
 
-                    <h3 class="card-default__subtitle">
+                    <h3 id="services-web-seo-title" class="card-default__subtitle">
                         SEO Web
                     </h3>
 
-                    <p class="card-default__text">
+                    <p id="services-web-seo-text" class="card-default__text">
                         Técnicas White Hat, para otimização de conteúdo
                     </p>
                 </article>
@@ -315,11 +320,11 @@
 
         <section id="projects" class="section-projects">
             <div class="scroll--move-up">
-                <h2 class="section-projects__subtitle">
+                <h2 id="projects-title" class="section-projects__subtitle">
                     Projetos
                 </h2>
     
-                <span class="section-projects__subtitle-description">
+                <span id="projects-subtitle" class="section-projects__subtitle-description">
                     MEU CONHECIMENTO NA PRÁTICA
                 </span>
             </div>
@@ -342,7 +347,7 @@
                             Farmino
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-farmino-description" class="card-project__text">
                             Projeto pessoal, sobre uma loja virtual com foco na venda de produtos orgânicos. Nele Foram utilizados 
                             <a href="https://router.vuejs.org/" target="_blank" rel="noopener noreferrer" class="card-project__farmino-link">Vue Router</a>, 
                             <a href="https://vuex.vuejs.org/" target="_blank" rel="noopener noreferrer" class="card-project__farmino-link">Vuex</a>,
@@ -350,7 +355,7 @@
                             <a href="https://vuelidate.js.org/" target="_blank" rel="noopener noreferrer" class="card-project__farmino-link">Vuelidate</a>.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--farmino-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--farmino-color">
                             Tecnologias
                         </h3>
 
@@ -363,7 +368,7 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/farmino-store" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-farmino">
+                            <a href="https://github.com/RyanMatheuZ/farmino-store" target="_blank" rel="noopener noreferrer" title="Ver código" class="projects-btn-github card-button card-button--btn-git-farmino">
                                 <div class="card-button__face-primary">
                                     <img 
                                         src="./static/icons/projects/github.svg" 
@@ -374,7 +379,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -390,7 +395,8 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access
+                                 card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -415,7 +421,7 @@
                             Void X
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-voidx-description" class="card-project__text">
                             Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com 
                             <a href="https://vuelidate.js.org/" target="_blank" rel="noopener noreferrer" class="card-project__void-link">Vuelidate</a>.
                         </p>
@@ -487,7 +493,7 @@
                             Fatec Matão
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-fatec-matao-description" class="card-project__text">
                             Projeto desenvolvido em grupo, durante as aulas de Projeto Integrador. Fui responsável pela página inicial e internacionalização
                             <a href="https://pt.wikipedia.org/wiki/Internacionaliza%C3%A7%C3%A3o_(inform%C3%A1tica)" target="_blank" rel="noopener noreferrer" class="card-project__fatec-link">(i18n)</a>.
                         </p>
@@ -559,7 +565,7 @@
                             Soffit Consultoria
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-soffit-description" class="card-project__text">
                             Projeto pessoal, sobre uma consultoria fictícia, com serviços <br> em planos de negócios, análises, estratégias, vendas, marketing e muito mais.
                         </p>
 
@@ -628,7 +634,7 @@
                             Rick and Morty
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-rick-morty-description" class="card-project__text">
                             Consumindo a API da série Rick e Morty, com 
                             <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API" target="_blank" rel="noopener noreferrer" class="card-project__rick-and-morty-link">fetch API</a>. 
                             Essa API contém várias informações sobre os personagens, como o nome, gênero, origem, etc.
@@ -699,7 +705,7 @@
                             Petit Glace
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-petit-glace-description" class="card-project__text">
                             Projeto pessoal, sobre uma sorveteria fictícia. O usuário pode realizar uma filtragem de produtos, seja pela origem ou preço do produto.
                         </p>
 
@@ -768,7 +774,7 @@
                             Vruum
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-vruum-description" class="card-project__text">
                             Projeto pessoal, sobre uma autoescola fictícia. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito.
                         </p>
 
@@ -837,7 +843,7 @@
                             Cloud Master
                         </h3>
 
-                        <p class="card-project__text">
+                        <p id="projects-cloud-master-description" class="card-project__text">
                             Projeto pessoal, sobre uma <br> empresa fictícia. Ela possui <br> serviços de desenvolvimento web, hospedagem e planos Wi-Fi.
                         </p>
 
@@ -893,11 +899,11 @@
 
         <section id="knowledges" class="section-knowledges">
             <div class="scroll--move-up">
-                <h2 class="section-services__subtitle">
+                <h2 id="knowledges-title" class="section-services__subtitle">
                     Conhecimentos
                 </h2>
     
-                <span class="section-services__subtitle-description">
+                <span id="knowledges-subtitle" class="section-services__subtitle-description">
                    TUDO QUE ADQUIRI ATÉ O MOMENTO
                 </span>
             </div>
@@ -1174,10 +1180,10 @@
         </section>
     </main>
 
-    <figure id="btn-up" class="btn-up" title="Alt + 6" accesskey="6">
+    <figure id="btn-up" class="btn-up" title="Alt + 7" accesskey="7">
         <img 
             src="./static/icons/up.svg" 
-            alt="Alt + 6"
+            alt="Alt + 7"
             width="35"
             height="35"
         >
@@ -1290,6 +1296,7 @@
 
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script src="./locales/languages.js"></script>
+    <script type="module" src="./locales/lang.config.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/form.js"></script>
     <script>
