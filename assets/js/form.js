@@ -1,4 +1,4 @@
-const btnSend = document.getElementById("btn-send");
+const btnSend = document.getElementById("footer-form-btn-send");
 const inputName = document.getElementById("input-name");
 const inputEmail = document.getElementById("input-email");
 const inputMessage = document.getElementById("input-message");

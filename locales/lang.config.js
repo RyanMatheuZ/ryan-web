@@ -1,7 +1,8 @@
 import { languages } from "./languages.js";
 
 const btnSwitcher = document.getElementById("btn-switcher");
-let defaultLanguage = "pt"
+
+let currentLanguage = "pt";
 
 const about = document.getElementById("header-about");
 const services = document.getElementById("header-services");
@@ -48,58 +49,99 @@ const projectsCloudMasterDescription = document.getElementById("projects-cloud-m
 
 const knowledgesTitle = document.getElementById("knowledges-title");
 const knowledgesSubtitle = document.getElementById("knowledges-subtitle");
+const knowledgesHtmlText = document.getElementById("knowledges-html-text");
+const knowledgesCssText = document.getElementById("knowledges-css-text");
+const knowledgesSassText = document.getElementById("knowledges-sass-text");
+const knowledgesLessText = document.getElementById("knowledges-less-text");
+const knowledgesBootstrapText = document.getElementById("knowledges-bootstrap-text");
+const knowledgesBulmaText = document.getElementById("knowledges-bulma-text");
+const knowledgesTailwindText = document.getElementById("knowledges-tailwind-text");
+const knowledgesJavaScriptText = document.getElementById("knowledges-java-script-text");
+const knowledgesJqueryText = document.getElementById("knowledges-jquery-text");
+const knowledgesVueText = document.getElementById("knowledges-vue-text");
+const knowledgesNuxtText = document.getElementById("knowledges-nuxt-text");
+const knowledgesGitText = document.getElementById("knowledges-git-text");
+
+const contactTitle = document.getElementById("contact-title");
+const contactText = document.getElementById("contact-text");
+const contactBtnContact = document.getElementById("contact-btn-contact");
+
+const footerFormTitle = document.getElementById("footer-form-title");
+const footerFormName = document.getElementById("input-name");
+const footerFormEmail = document.getElementById("input-email");
+const footerFormMessage = document.getElementById("input-message");
+const footerFormBtnSend = document.getElementById("footer-form-btn-send");
 
 btnSwitcher.addEventListener("click", () => {
     btnSwitcher.classList.toggle("switcher-end");
 
-    defaultLanguage === "pt" ? defaultLanguage = "en" : defaultLanguage = "pt"
+    currentLanguage === "pt" ? currentLanguage = "en" : currentLanguage = "pt";
 
-    about.innerHTML = languages[defaultLanguage].header.about;
-    services.innerHTML = languages[defaultLanguage].header.services;
-    projects.innerHTML = languages[defaultLanguage].header.projects;
-    knowledges.innerHTML = languages[defaultLanguage].header.knowledges;
+    about.innerHTML = languages[currentLanguage].header.about;
+    services.innerHTML = languages[currentLanguage].header.services;
+    projects.innerHTML = languages[currentLanguage].header.projects;
+    knowledges.innerHTML = languages[currentLanguage].header.knowledges;
 
-    initialGreeting.innerHTML = languages[defaultLanguage].sectionInitial.greeting;
-    initialDescription.innerHTML = languages[defaultLanguage].sectionInitial.description;
-    initialBtnContact.innerHTML = languages[defaultLanguage].sectionInitial.btnContact;
-    initialBtnResume.innerHTML = languages[defaultLanguage].sectionInitial.btnResume;
+    initialGreeting.innerHTML = languages[currentLanguage].sectionInitial.greeting;
+    initialDescription.innerHTML = languages[currentLanguage].sectionInitial.description;
+    initialBtnContact.innerHTML = languages[currentLanguage].sectionInitial.btnContact;
+    initialBtnResume.innerHTML = languages[currentLanguage].sectionInitial.btnResume;
 
-    aboutTitle.innerHTML = languages[defaultLanguage].sectionAbout.title;
-    aboutSubtitle.innerHTML = languages[defaultLanguage].sectionAbout.subtitle;
-    aboutParagraphOne.innerHTML = languages[defaultLanguage].sectionAbout.paragraphOne;
-    aboutParagraphTwo.innerHTML = languages[defaultLanguage].sectionAbout.paragraphTwo;
-    aboutParagraphThree.innerHTML = languages[defaultLanguage].sectionAbout.paragraphThree;
+    aboutTitle.innerHTML = languages[currentLanguage].sectionAbout.title;
+    aboutSubtitle.innerHTML = languages[currentLanguage].sectionAbout.subtitle;
+    aboutParagraphOne.innerHTML = languages[currentLanguage].sectionAbout.paragraphOne;
+    aboutParagraphTwo.innerHTML = languages[currentLanguage].sectionAbout.paragraphTwo;
+    aboutParagraphThree.innerHTML = languages[currentLanguage].sectionAbout.paragraphThree;
 
-    servicesTitle.innerHTML = languages[defaultLanguage].sectionServices.title;
-    servicesSubtitle.innerHTML = languages[defaultLanguage].sectionServices.subtitle;
-    servicesFrontEndTitle.innerHTML = languages[defaultLanguage].sectionServices.frontEnd.title;
-    servicesFrontEndText.innerHTML = languages[defaultLanguage].sectionServices.frontEnd.text;
-    servicesResponsiveWebsitesTitle.innerHTML = languages[defaultLanguage].sectionServices.responsiveWebsites.title;
-    servicesResponsiveWebsitesText.innerHTML = languages[defaultLanguage].sectionServices.responsiveWebsites.text;
-    servicesSemanticHtmlTitle.innerHTML = languages[defaultLanguage].sectionServices.semanticHtml.title;
-    servicesSemanticHtmlText.innerHTML = languages[defaultLanguage].sectionServices.semanticHtml.text;
-    servicesWebAccessibilityTitle.innerHTML = languages[defaultLanguage].sectionServices.webAccessibility.title;
-    servicesWebAccessibilityText.innerHTML = languages[defaultLanguage].sectionServices.webAccessibility.text;
-    servicesWebSeoTitle.innerHTML = languages[defaultLanguage].sectionServices.webSeo.title;
-    servicesWebSeoText.innerHTML = languages[defaultLanguage].sectionServices.webSeo.text;
+    servicesTitle.innerHTML = languages[currentLanguage].sectionServices.title;
+    servicesSubtitle.innerHTML = languages[currentLanguage].sectionServices.subtitle;
+    servicesFrontEndTitle.innerHTML = languages[currentLanguage].sectionServices.frontEnd.title;
+    servicesFrontEndText.innerHTML = languages[currentLanguage].sectionServices.frontEnd.text;
+    servicesResponsiveWebsitesTitle.innerHTML = languages[currentLanguage].sectionServices.responsiveWebsites.title;
+    servicesResponsiveWebsitesText.innerHTML = languages[currentLanguage].sectionServices.responsiveWebsites.text;
+    servicesSemanticHtmlTitle.innerHTML = languages[currentLanguage].sectionServices.semanticHtml.title;
+    servicesSemanticHtmlText.innerHTML = languages[currentLanguage].sectionServices.semanticHtml.text;
+    servicesWebAccessibilityTitle.innerHTML = languages[currentLanguage].sectionServices.webAccessibility.title;
+    servicesWebAccessibilityText.innerHTML = languages[currentLanguage].sectionServices.webAccessibility.text;
+    servicesWebSeoTitle.innerHTML = languages[currentLanguage].sectionServices.webSeo.title;
+    servicesWebSeoText.innerHTML = languages[currentLanguage].sectionServices.webSeo.text;
 
-    projectsTitle.innerHTML = languages[defaultLanguage].sectionProjects.title;
-    projectsSubtitle.innerHTML = languages[defaultLanguage].sectionProjects.subtitle;
-    projectsTechnologies.innerHTML = languages[defaultLanguage].sectionProjects.technologies;
-    projectsBtnGitHub.innerHTML = languages[defaultLanguage].sectionProjects.btnGitHub;
-    projectsBtnAccess.innerHTML = languages[defaultLanguage].sectionProjects.btnAccess;
-    projectsFarminoDescription.innerHTML = languages[defaultLanguage].sectionProjects.farmino.description;
-    projectsVoidXDescription.innerHTML = languages[defaultLanguage].sectionProjects.voidX.description;
-    projectsFatecMataoDescription.innerHTML = languages[defaultLanguage].sectionProjects.fatecMatao.description;
-    projectsSoffitDescription.innerHTML = languages[defaultLanguage].sectionProjects.soffitConsulting.description;
-    projectsRickMortyDescription.innerHTML = languages[defaultLanguage].sectionProjects.rickAndMorty.description;
-    projectsPetitGlaceDescription.innerHTML = languages[defaultLanguage].sectionProjects.petitGlace.description;
-    projectsVruumDescription.innerHTML = languages[defaultLanguage].sectionProjects.vruum.description;
-    projectsCloudMasterDescription.innerHTML = languages[defaultLanguage].sectionProjects.cloudMaster.description;
+    projectsTitle.innerHTML = languages[currentLanguage].sectionProjects.title;
+    projectsSubtitle.innerHTML = languages[currentLanguage].sectionProjects.subtitle;
+    projectsTechnologies.innerHTML = languages[currentLanguage].sectionProjects.technologies;
+    projectsBtnGitHub.innerHTML = languages[currentLanguage].sectionProjects.btnGitHub;
+    projectsBtnAccess.innerHTML = languages[currentLanguage].sectionProjects.btnAccess;
+    projectsFarminoDescription.innerHTML = languages[currentLanguage].sectionProjects.farmino.description;
+    projectsVoidXDescription.innerHTML = languages[currentLanguage].sectionProjects.voidX.description;
+    projectsFatecMataoDescription.innerHTML = languages[currentLanguage].sectionProjects.fatecMatao.description;
+    projectsSoffitDescription.innerHTML = languages[currentLanguage].sectionProjects.soffitConsulting.description;
+    projectsRickMortyDescription.innerHTML = languages[currentLanguage].sectionProjects.rickAndMorty.description;
+    projectsPetitGlaceDescription.innerHTML = languages[currentLanguage].sectionProjects.petitGlace.description;
+    projectsVruumDescription.innerHTML = languages[currentLanguage].sectionProjects.vruum.description;
+    projectsCloudMasterDescription.innerHTML = languages[currentLanguage].sectionProjects.cloudMaster.description;
 
-    servicesTitle.innerHTML = languages[defaultLanguage].sectionServices.title;
-    servicesSubtitle.innerHTML = languages[defaultLanguage].sectionServices.subtitle;
+    knowledgesTitle.innerHTML = languages[currentLanguage].sectionKnowledges.title;
+    knowledgesSubtitle.innerHTML = languages[currentLanguage].sectionKnowledges.subtitle;
+    knowledgesHtmlText.innerHTML = languages[currentLanguage].sectionKnowledges.html.text;
+    knowledgesCssText.innerHTML = languages[currentLanguage].sectionKnowledges.css.text;
+    knowledgesSassText.innerHTML = languages[currentLanguage].sectionKnowledges.sass.text;
+    knowledgesLessText.innerHTML = languages[currentLanguage].sectionKnowledges.less.text;
+    knowledgesBootstrapText.innerHTML = languages[currentLanguage].sectionKnowledges.bootstrap.text;
+    knowledgesBulmaText.innerHTML = languages[currentLanguage].sectionKnowledges.bulma.text;
+    knowledgesTailwindText.innerHTML = languages[currentLanguage].sectionKnowledges.tailwind.text;
+    knowledgesJavaScriptText.innerHTML = languages[currentLanguage].sectionKnowledges.javaScript.text;
+    knowledgesJqueryText.innerHTML = languages[currentLanguage].sectionKnowledges.jquery.text;
+    knowledgesVueText.innerHTML = languages[currentLanguage].sectionKnowledges.vue.text;
+    knowledgesNuxtText.innerHTML = languages[currentLanguage].sectionKnowledges.nuxt.text;
+    knowledgesGitText.innerHTML = languages[currentLanguage].sectionKnowledges.git.text;
 
-    knowledgesTitle.innerHTML = languages[defaultLanguage].sectionKnowledges.title;
-    knowledgesSubtitle.innerHTML = languages[defaultLanguage].sectionKnowledges.subtitle;
+    contactTitle.innerHTML = languages[currentLanguage].sectionContact.title;
+    contactText.innerHTML = languages[currentLanguage].sectionContact.text;
+    contactBtnContact.innerHTML = languages[currentLanguage].sectionContact.btnContact;
+
+    footerFormTitle.innerHTML = languages[currentLanguage].footer.form.title;
+    footerFormName.setAttribute("placeholder", languages[currentLanguage].footer.form.yourName);
+    footerFormEmail.setAttribute("placeholder", languages[currentLanguage].footer.form.yourEmail);
+    footerFormMessage.setAttribute("placeholder", languages[currentLanguage].footer.form.yourMessage);
+    footerFormBtnSend.innerHTML = languages[currentLanguage].footer.form.btnSend;
 });
