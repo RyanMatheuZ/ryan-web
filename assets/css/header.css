@@ -60,6 +60,7 @@
 .header .switcher {
   background-color: var(--white-lm);
   border-radius: 20px;
+  border: 2px solid var(--white-df);
   display: flex;
   height: 30;
   padding: 0.3rem;

@@ -57,6 +57,31 @@
   outline: 2px solid var(--gray-light-lm);
   transition: 0.2s ease;
 }
+.footer .form .error-message {
+  background-color: var(--white-lm);
+  border-radius: 5px;
+  color: var(--black-lm);
+  display: none;
+  font-weight: 500;
+  margin: 0 0 0.5rem 1rem;
+  padding: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer .form .error-message__figure {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #F22;
+  border-radius: 50%;
+  color: var(--white-df);
+  font-family: cursive, sans-serif;
+  font-weight: 700;
+  height: 25px;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.65rem;
+  width: 25px;
+}
 .footer__contacts {
   background-color: var(--gray-light-lm);
   border-radius: 5px;

@@ -1,6 +1,6 @@
 .card-default {
   background-color: var(--white-lm);
-  border-radius: 15px 15px 0 15px;
+  border-radius: 10px 10px 0 10px;
   border: 2px solid var(--black-lm);
   margin: 1rem 2rem;
   padding: 1.5rem;
@@ -9,7 +9,6 @@
 }
 .card-default:hover {
   border-image: linear-gradient(225deg, var(--primary-lm) 0%, var(--secondary-lm) 90%) 1;
-  border-radius: 15px 15px 0 15px;
 }
 .card-default__icon {
   align-items: center;

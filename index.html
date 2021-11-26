@@ -153,6 +153,7 @@
 
             <figure class="section-initial__image scroll--move-scale">
                 <img 
+                    id="alt-illustration"
                     src="./static/illustration.svg" 
                     alt="Foguete"
                     title="Foguete"
@@ -211,10 +212,11 @@
             </div>
 
             <div class="section-services__container">
-                <article class="card-default scroll--move-up" title="Serviço de Front-End">
+                <article id="services-front-end-card" class="card-default scroll--move-up" title="Serviço de Front-End">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/front-end.svg" 
+                            id="services-front-end-icon"
                             alt="Front-End"
                             title="Front-End"
                             draggable="false"
@@ -232,10 +234,11 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Serviço de sites responsivos">
+                <article id="services-responsive-websites-card" class="card-default scroll--move-up" title="Serviço de sites responsivos">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/responsive-design.svg" 
+                            id="services-responsive-websites-icon"
                             alt="Sites responsivos"
                             title="Sites responsivos"
                             draggable="false"
@@ -253,10 +256,11 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Serviço de HTML semântico">
+                <article id="services-semantic-html-card" class="card-default scroll--move-up" title="Serviço de HTML semântico">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/sematic-html.svg" 
+                            id="services-semantic-html-icon"
                             alt="HTML semântico"
                             title="HTML semântico"
                             draggable="false"
@@ -274,10 +278,11 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Serviço de acessibilidade Web">
+                <article id="services-web-accessibility-card" class="card-default scroll--move-up" title="Serviço de acessibilidade Web">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/web-accessibility.svg" 
+                            id="services-web-accessibility-icon"
                             alt="Acessibilidade Web"
                             title="Acessibilidade Web"
                             draggable="false"
@@ -295,10 +300,11 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Serviço de SEO Web">
+                <article id="services-web-seo-card" class="card-default scroll--move-up" title="Serviço de SEO Web">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/services/web-seo.svg" 
+                            id="services-web-seo-icon"
                             alt="SEO Web"
                             title="SEO Web"
                             draggable="false"
@@ -330,7 +336,7 @@
             </div>
 
             <div class="section-projects__container">
-                <article class="card-project scroll--move-left" title="Projeto Farmino">
+                <article id="projects-farmino-card" class="card-project scroll--move-left" title="Projeto Farmino">
                     <figure class="card-project__logo card-project__logo--farmino-background">
                         <img 
                             src="./static/icons/projects/logos/farmino.svg" 
@@ -368,7 +374,7 @@
                         </figure>
 
                         <div class="card-project__btn-group">
-                            <a href="https://github.com/RyanMatheuZ/farmino-store" target="_blank" rel="noopener noreferrer" title="Ver código" class="projects-btn-github card-button card-button--btn-git-farmino">
+                            <a href="https://github.com/RyanMatheuZ/farmino-store" target="_blank" rel="noopener noreferrer" title="Ver código" class="card-button card-button--btn-git-farmino">
                                 <div class="card-button__face-primary">
                                     <img 
                                         src="./static/icons/projects/github.svg" 
@@ -404,7 +410,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-right" title="Projeto Void X">
+                <article id="projects-voidx-card" class="card-project scroll--move-right" title="Projeto Void X">
                     <figure class="card-project__logo card-project__logo--void-background">
                         <img 
                             src="./static/icons/projects/logos/void-x.svg" 
@@ -426,7 +432,7 @@
                             <a href="https://vuelidate.js.org/" target="_blank" rel="noopener noreferrer" class="card-project__void-link">Vuelidate</a>.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--void-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--void-color">
                             Tecnologias
                         </h3>
 
@@ -452,7 +458,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -468,7 +474,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -476,7 +482,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-left" title="Projeto Fatec Matão">
+                <article id="projects-fatec-matao-card" class="card-project scroll--move-left" title="Projeto Fatec Matão">
                     <figure class="card-project__logo card-project__logo--fatec-background">
                         <img 
                             src="./static/icons/projects/logos/fatec-matao.svg" 
@@ -498,7 +504,7 @@
                             <a href="https://pt.wikipedia.org/wiki/Internacionaliza%C3%A7%C3%A3o_(inform%C3%A1tica)" target="_blank" rel="noopener noreferrer" class="card-project__fatec-link">(i18n)</a>.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--fatec-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--fatec-color">
                             Tecnologias
                         </h3>
 
@@ -524,7 +530,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -540,7 +546,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -548,7 +554,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-right" title="Projeto Soffit Consultoria">
+                <article id="projects-soffit-card" class="card-project scroll--move-right" title="Projeto Soffit Consultoria">
                     <figure class="card-project__logo card-project__logo--soffit-background">
                         <img 
                             src="./static/icons/projects/logos/soffit-consultoria.svg" 
@@ -569,7 +575,7 @@
                             Projeto pessoal, sobre uma consultoria fictícia, com serviços <br> em planos de negócios, análises, estratégias, vendas, marketing e muito mais.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--soffit-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--soffit-color">
                             Tecnologias
                         </h3>
 
@@ -593,7 +599,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -609,7 +615,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -617,7 +623,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-left" title="Projeto Rick and Morty">
+                <article id="projects-rick-morty-card" class="card-project scroll--move-left" title="Projeto Rick and Morty">
                     <figure class="card-project__logo card-project__logo--rick-and-morty-background">
                         <img 
                             src="./static/icons/projects/logos/rick-and-morty.svg" 
@@ -640,7 +646,7 @@
                             Essa API contém várias informações sobre os personagens, como o nome, gênero, origem, etc.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--rick-and-morty-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--rick-and-morty-color">
                             Tecnologias
                         </h3>
 
@@ -664,7 +670,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -680,7 +686,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -688,7 +694,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-right" title="Projeto Petit Glace">
+                <article id="projects-petit-glace-card" class="card-project scroll--move-right" title="Projeto Petit Glace">
                     <figure class="card-project__logo card-project__logo--petit-glace-background">
                         <img 
                             src="./static/icons/projects/logos/petit-glace.svg" 
@@ -709,7 +715,7 @@
                             Projeto pessoal, sobre uma sorveteria fictícia. O usuário pode realizar uma filtragem de produtos, seja pela origem ou preço do produto.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--petit-glace-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--petit-glace-color">
                             Tecnologias
                         </h3>
 
@@ -733,7 +739,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -749,7 +755,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -757,7 +763,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-left" title="Projeto Vruum">
+                <article id="projects-vruum-card" class="card-project scroll--move-left" title="Projeto Vruum">
                     <figure class="card-project__logo card-project__logo--vruum-background">
                         <img 
                             src="./static/icons/projects/logos/vruum.svg" 
@@ -778,7 +784,7 @@
                             Projeto pessoal, sobre uma autoescola fictícia. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--vruum-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--vruum-color">
                             Tecnologias
                         </h3>
 
@@ -802,7 +808,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -818,7 +824,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -826,7 +832,7 @@
                     </div>
                 </article>
 
-                <article class="card-project scroll--move-right" title="Projeto Cloud Master">
+                <article id="projects-cloud-master-card" class="card-project scroll--move-right" title="Projeto Cloud Master">
                     <figure class="card-project__logo card-project__logo--cloud-master-background">
                         <img 
                             src="./static/icons/projects/logos/cloud-master.svg" 
@@ -847,7 +853,7 @@
                             Projeto pessoal, sobre uma <br> empresa fictícia. Ela possui <br> serviços de desenvolvimento web, hospedagem e planos Wi-Fi.
                         </p>
 
-                        <h3 class="card-project__subtitle card-project__subtitle--cloud-master-color">
+                        <h3 class="projects-technologies card-project__subtitle card-project__subtitle--cloud-master-color">
                             Tecnologias
                         </h3>
 
@@ -871,7 +877,7 @@
                                     >                  
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-github card-button__face-secondary">
                                     Código
                                 </div>
                             </a>
@@ -887,7 +893,7 @@
                                     >                                
                                 </div>
 
-                                <div class="card-button__face-secondary">
+                                <div class="projects-btn-access card-button__face-secondary">
                                     Projeto
                                 </div>
                             </a>
@@ -909,7 +915,7 @@
             </div>
 
             <div class="section-services__container">
-                <article class="card-default scroll--move-up" title="Linguagem HTML">
+                <article id="knowledges-html-card" class="card-default scroll--move-up" title="Linguagem HTML">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/html.svg" 
@@ -930,7 +936,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Linguagem CSS">
+                <article id="knowledges-css-card" class="card-default scroll--move-up" title="Linguagem CSS">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/css.svg" 
@@ -951,7 +957,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Pré-processador Sass">
+                <article id="knowledges-sass-card" class="card-default scroll--move-up" title="Pré-processador Sass">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/sass.svg" 
@@ -972,7 +978,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Pré-processador Less">
+                <article id="knowledges-less-card" class="card-default scroll--move-up" title="Pré-processador Less">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/less.svg" 
@@ -993,7 +999,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Framework Bootstrap">
+                <article id="knowledges-bootstrap-card" class="card-default scroll--move-up" title="Framework Bootstrap">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/bootstrap.svg" 
@@ -1014,7 +1020,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Framework Bulma">
+                <article id="knowledges-bulma-card" class="card-default scroll--move-up" title="Framework Bulma">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/bulma.svg" 
@@ -1035,7 +1041,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Framework Tailwind CSS">
+                <article id="knowledges-tailwind-card" class="card-default scroll--move-up" title="Framework Tailwind CSS">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/tailwind.svg" 
@@ -1056,7 +1062,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Linguagem JavaScript (ES)">
+                <article id="knowledges-java-script-card" class="card-default scroll--move-up" title="Linguagem JavaScript (ES)">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/javascript.svg" 
@@ -1077,7 +1083,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Biblioteca jQuery">
+                <article id="knowledges-jquery-card" class="card-default scroll--move-up" title="Biblioteca jQuery">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/jquery.svg" 
@@ -1098,7 +1104,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Framework progressivo Vue.js">
+                <article id="knowledges-vue-card" class="card-default scroll--move-up" title="Framework progressivo Vue.js">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/vue.svg" 
@@ -1119,7 +1125,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Framework Nuxt.js">
+                <article id="knowledges-nuxt-card" class="card-default scroll--move-up" title="Framework Nuxt.js">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/nuxt.svg" 
@@ -1140,7 +1146,7 @@
                     </p>
                 </article>
 
-                <article class="card-default scroll--move-up" title="Versionador Git">
+                <article id="knowledges-git-card" class="card-default scroll--move-up" title="Versionador Git">
                     <figure class="card-default__icon">
                         <img 
                             src="./static/icons/knowledges/git.svg" 
@@ -1203,12 +1209,27 @@
 
                 <form action="https://formsubmit.co/oryan424@gmail.com" method="post" class="form">
                     <input type="text" name="name" placeholder="Seu nome:" title="Campo obrigatório" id="input-name" class="form__input" required>
+
+					<small id="input-name-error" class="error-message">
+						<span class="error-message__figure">!</span>
+						Primeiro seu nome, amigão!
+					</small>
         
                     <input type="email" name="email" placeholder="Seu E-mail:" title="Campo obrigatório" id="input-email" class="form__input" required>
+
+					<small id="input-email-error" class="error-message">
+						<span class="error-message__figure">!</span>
+						Como entrarei em contato?
+					</small>
         
                     <input type="hidden" name="_captcha" value="false">
         
                     <textarea name="message" placeholder="Sua mensagem:" title="Campo obrigatório" id="input-message" class="form__textarea" required></textarea>
+
+					<small id="input-message-error" class="error-message">
+						<span class="error-message__figure">!</span>
+						Não quer me dizer nada mesmo?
+					</small>
         
                     <button id="footer-form-btn-send" type="submit" title="Enviar mensagem" class="form__btn-send">
                         Enviar
@@ -1232,7 +1253,7 @@
                             </svg>
                         </figure>
         
-                        <a href="https://www.instagram.com/isryanmatheus" target="_blank" rel="noopener noreferrer" title="Acessar Instagram" class="footer__contacts-link">
+                        <a id="footer-social-instagram" href="https://www.instagram.com/isryanmatheus" target="_blank" rel="noopener noreferrer" title="Acessar Instagram" class="footer__contacts-link">
                             @isryanmatheus
                         </a>
                     </div>
@@ -1250,7 +1271,7 @@
                             </svg>
                         </figure>
         
-                        <a href="https://www.linkedin.com/in/ryanmatheus" target="_blank" rel="noopener noreferrer" title="Acessar LinkedIn" class="footer__contacts-link">
+                        <a id="footer-social-linkedin" href="https://www.linkedin.com/in/ryanmatheus" target="_blank" rel="noopener noreferrer" title="Acessar LinkedIn" class="footer__contacts-link">
                             /ryanmatheus
                         </a>
                     </div>
@@ -1269,7 +1290,7 @@
                             </svg>                                
                         </figure>
         
-                        <a href="https://github.com/RyanMatheuZ" target="_blank" rel="noopener noreferrer" title="Acessar GitHub" class="footer__contacts-link">
+                        <a id="footer-social-github" href="https://github.com/RyanMatheuZ" target="_blank" rel="noopener noreferrer" title="Acessar GitHub" class="footer__contacts-link">
                             /RyanMatheuZ
                         </a>
                     </div>
@@ -1285,7 +1306,7 @@
                             </svg>
                         </figure>
         
-                        <a href="https://www.gitlab.com/RyanMatheuZ" target="_blank" rel="noopener noreferrer" title="Acessar GitLab" class="footer__contacts-link">
+                        <a id="footer-social-gitlab" href="https://www.gitlab.com/RyanMatheuZ" target="_blank" rel="noopener noreferrer" title="Acessar GitLab" class="footer__contacts-link">
                             /RyanMatheuZ
                         </a>
                     </div>
@@ -1295,6 +1316,8 @@
     </footer>
 
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <!-- <script src="./vendor/scroll-reveal/scrollreveal.js"></script> -->
+    <!-- <script src="./assets/js/animations-config.js"></script> -->
     <script src="./locales/languages.js"></script>
     <script type="module" src="./locales/lang.config.js"></script>
     <script src="./assets/js/main.js"></script>

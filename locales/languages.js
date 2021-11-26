@@ -1,5 +1,9 @@
 const languages = {
     pt: {
+        htmlLang: "pt-br",
+
+        title: "Ryan Web - Portfólio",
+
         header: {
             about: "Sobre",
 
@@ -90,8 +94,10 @@ const languages = {
             technologies: "Tecnologias",
 
             btnGitHub: "Código",
+            altBtnGitHub: "Ver código",
 
             btnAccess: "Projeto",
+            altBtnAccess: "Acessar projeto",
 
             farmino: {
                 title: "Farmino",
@@ -152,7 +158,7 @@ const languages = {
             cloudMaster: {
                 title: "Cloud Master",
 
-                altProject: "Projeto CloudMaster",
+                altProject: "Projeto Cloud Master",
 
                 description: "Projeto pessoal, sobre uma empresa fictícia. Ela possui serviços de desenvolvimento web, hospedagem e planos Wi-Fi."
             }       
@@ -266,7 +272,6 @@ const languages = {
             text: "Com dúvida ou problema em algum projeto, não hesite em me chamar!",
 
             btnContact: "Entrar em contato",
-
             altBtn: "Contato via E-mail"
         },
 
@@ -282,14 +287,34 @@ const languages = {
 
                 yourMessage: "Sua mensagem:",
 
+				errorName: "<span class='error-message__figure'>!</span> Primeiro seu nome, amigão!",
+
+				errorEmail: "<span class='error-message__figure'>!</span> Como entrarei em contato?",
+
+				errorMessage: "<span class='error-message__figure'>!</span> Não quer me dizer nada mesmo?",
+
                 btnSend: "Enviar",
 
                 altSend: "Enviar mensagem"
+            },
+
+            socialMedia: {
+                instagram: "Acessar Instagram",
+
+                linkedin: "Acessar LinkedIn",
+
+                gitHub: "Acessar GitHub",
+
+                gitLab: "Acessar GitLab"
             }
         }
     },
 
     en: {
+        htmlLang: "en-us",
+
+        title: "Ryan Web - Portfolio",
+
         header: {
             about: "About",
 
@@ -342,7 +367,7 @@ const languages = {
             responsiveWebsites: {
                 title: "Responsive Websites",
 
-                altProject: "Responsive Websites service",
+                altProject: "Responsive websites service",
 
                 text: "Sites that adapt to different types of devices"
             },
@@ -358,7 +383,7 @@ const languages = {
             webAccessibility: {
                 title: "Web Accessibility",
 
-                altProject: "Web Accessibility service",
+                altProject: "Web accessibility service",
 
                 text: "Accessible websites for people with some disability"
             },
@@ -380,8 +405,10 @@ const languages = {
             technologies: "Technologies",
 
             btnGitHub: "Code",
+            altBtnGitHub: "View code",          
 
             btnAccess: "Project",
+            altBtnAccess: "Access project",          
 
             farmino: {
                 title: "Farmino",
@@ -556,7 +583,6 @@ const languages = {
             text: "If you have any questions or problems with any project, don't hesitate to call me!",
 
             btnContact: "Get in touch",
-
             altBtn: "Contact by E-mail"
         },
 
@@ -572,9 +598,25 @@ const languages = {
 
                 yourMessage: "Your message:",
 
+				errorName: "<span class='error-message__figure'>!</span> First your name, buddy!",
+
+				errorEmail: "<span class='error-message__figure'>!</span> How will I get in touch?",
+
+				errorMessage: "<span class='error-message__figure'>!</span> Do not you want to tell me anything anyway?",
+
                 btnSend: "Send",
 
                 altSend: "Send message"
+            },
+
+            socialMedia: {
+                instagram: "View Instagram",
+
+                linkedin: "View LinkedIn",
+
+                gitHub: "View GitHub",
+
+                gitLab: "View GitLab"
             }
         }
     }

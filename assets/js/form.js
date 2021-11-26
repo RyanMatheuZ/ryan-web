@@ -1,21 +1,29 @@
 const btnSend = document.getElementById("footer-form-btn-send");
+
 const inputName = document.getElementById("input-name");
 const inputEmail = document.getElementById("input-email");
 const inputMessage = document.getElementById("input-message");
 
+const inputNameError = document.getElementById("input-name-error");
+const inputEmailError = document.getElementById("input-email-error");
+const inputMessageError = document.getElementById("input-message-error");
+
 btnSend.addEventListener("click", () => {
-    inputName.setAttribute("placeholder", "Seu nome:");
-    inputEmail.setAttribute("placeholder", "Seu E-mail:");
-    inputMessage.setAttribute("placeholder", "Sua mensagem:");
+	inputNameError.style.display = "none";
+	inputEmailError.style.display = "none";
+	inputMessageError.style.display = "none";
 
     if (!inputName.value) {
-        inputName.setAttribute("placeholder", "Primeiro seu nome, amigão!");
+		inputNameError.style.display = "block";
         nameResult.focus();
+		navigator.vibrate(200);
     } else if (!inputEmail.value) {
-        inputEmail.setAttribute("placeholder", "Como entrarei em contato?");
-        emailResult.focus();
+		inputEmailError.style.display = "block";
+		emailResult.focus();
+		navigator.vibrate(200);
     } else if (!inputMessage.value) {
-        inputMessage.setAttribute("placeholder", "Não quer me dizer nada mesmo?");
+		inputMessageError.style.display = "block";
         messageResult.focus();
+		navigator.vibrate(200);
     }
 });
