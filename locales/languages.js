@@ -104,7 +104,7 @@ const languages = {
 
                 altProject: "Projeto Farmino",
 
-                description: "Projeto pessoal, sobre uma loja virtual com foco na venda de produtos orgânicos. Nele Foram utilizados <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> e <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
+                description: "Projeto pessoal em desenvolvimento, sobre uma loja virtual com foco na venda de produtos orgânicos. Será utilizado <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> e <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
             },
 
             voidX: {
@@ -415,7 +415,7 @@ const languages = {
 
                 altProject: "Farmino project",
 
-                description: "Personal project, about a virtual store focused on selling organic products. In it were used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
+                description: "Personal project in development, about a virtual store focused on selling organic products. It will be used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>. <br><br>"
             },
 
             voidX: {
