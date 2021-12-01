@@ -112,7 +112,7 @@ const languages = {
 
                 altProject: "Projeto Void X",
 
-                description: "Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>."
+                description: "Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>. <br><br>"
             },
 
             fatecMatao: {
@@ -415,7 +415,7 @@ const languages = {
 
                 altProject: "Farmino project",
 
-                description: "Personal project in development, about a virtual store focused on selling organic products. It will be used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>. <br><br>"
+                description: "Personal project in development, about a virtual store focused on selling organic products. It will be used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
             },
 
             voidX: {
@@ -423,7 +423,7 @@ const languages = {
 
                 altProject: "Void X project",
 
-                description: "Project developed for an exam in college. With the requirement to be a website for a revolutionary product and form validation with <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>."
+                description: "Project developed for an exam in college. With the requirement to be a website for a revolutionary product and form validation with <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>. <br><br>"
             },
 
             fatecMatao: {
