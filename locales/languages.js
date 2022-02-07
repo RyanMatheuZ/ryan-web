@@ -33,11 +33,11 @@ const languages = {
 
             subtitle: "DEIXE EU ME APRESENTAR",
 
-            paragraphOne: "Meu nome é Ryan Matheus de Oliveira e moro em Matão-SP.",
+            paragraphOne: "Como vai? Meu nome é Ryan Matheus de Oliveira!",
 
-            paragraphTwo: "Indo para o 3° ano do EM, permanecia em dúvida sobre qual carreira profissional seguir, então decidi fazer um curso técnico na Etec, onde tive o meu primeiro contato com desenvolvimento de sistemas, logo, me fissurei pela área.",
+            paragraphTwo: "Indo para o 3° ano do Ensino Médio, permanecia em dúvida sobre qual carreira profissional seguir, então decidi fazer um curso técnico, onde tive o meu primeiro contato com desenvolvimento de sistemas e logo me fissurei pela área.",
 
-            paragraphThree: "Atualmente estou me graduando em Sistemas para Internet na Fatec Taquaritinga e possuo conhecimentos nos setores de Desenvolvimento Web e Web Design."
+            paragraphThree: "Atualmente estou me graduando em Sistemas para Internet na Fatec e possuo conhecimentos nos setores de Desenvolvimento Web e Web Design."
         },
 
         sectionServices: {
@@ -241,6 +241,14 @@ const languages = {
                 text: "Outro dinossauro do Front-End, porém ele é uma biblioteca JS"
             },
 
+			react: {
+                title: "React.js",
+
+                altTitle: "Biblioteca React.js",
+
+                text: "Biblioteca JS, apenas um irmão bastardo do Vue"
+            },
+
             vue: {
                 title: "Vue.js",
 
@@ -344,11 +352,11 @@ const languages = {
 
             subtitle: "LET ME INTRODUCE MYSELF",
 
-            paragraphOne: "My name is Ryan Matheus de Oliveira and I live in Matão-SP in Brazil.",
+            paragraphOne: "How is everything? My name is Ryan Matheus de Oliveira!",
 
-            paragraphTwo: "Going to the 3rd year of High School, I remained in doubt about which professional career to pursue, so I decided to make a technical course at Etec, where I had my first contact with systems development, so I became passionate about the area.",
+            paragraphTwo: "Going into the 3rd year of high school, I was still in doubt about what career to follow, so I decided to take a technical course, where I had my first contact with systems development and soon became fissured by the area.",
 
-            paragraphThree: "I am currently graduating in Internet Systems at Fatec Taquaritinga and I have knowledge in the sectors of Web Development and Web Design."
+            paragraphThree: "I am currently graduating in Systems for Internet at Fatec and I have knowledge in the sectors of Web Development and Web Design."
         },
 
         sectionServices: {
@@ -550,6 +558,14 @@ const languages = {
                 altTitle: "jQuery library",
 
                 text: "Another Front-End dinosaur, but it is a JS library"
+            },
+
+			react: {
+                title: "React.js",
+
+                altTitle: "React.js library",
+
+                text: "JS Library, just a bastard brother of Vue <br><br>"
             },
 
             vue: {
