@@ -99,6 +99,14 @@ const languages = {
             btnAccess: "Projeto",
             altBtnAccess: "Acessar projeto",
 
+			forStore: {
+				title: "4Store",
+
+				altproject: "Projeto 4Store",
+
+				description: "Projeto pessoal, desenvolvido durante um processo seletivo para estágio, com requisitos definidos pela empresa. Foram utilizados <a href='https://reactrouter.com' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>React Router</a>, <a href='https://redux-toolkit.js.org' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>Redux Toolkit</a> e <a href='https://redux-toolkit.js.org/usage/usage-guide#use-with-redux-persist' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>Redux Persist</a>."
+			},
+
             farmino: {
                 title: "Farmino",
 
@@ -112,7 +120,7 @@ const languages = {
 
                 altProject: "Projeto Void X",
 
-                description: "Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>. <br><br>"
+                description: "Projeto desenvolvido para uma prova na faculdade. Com o requisito de ser um site para um produto revolucionário e validação de formulário com <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer' class='card-project__void-link'>Vuelidate</a>."
             },
 
             fatecMatao: {
@@ -152,7 +160,7 @@ const languages = {
 
                 altProject: "Projeto Vruum",
 
-                description: "Projeto pessoal, sobre uma autoescola fictícia. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito."
+                description: "Projeto pessoal, sobre uma autoescola fictícia. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito. <br><br>"
             },
 
             cloudMaster: {
@@ -416,14 +424,22 @@ const languages = {
             altBtnGitHub: "View code",          
 
             btnAccess: "Project",
-            altBtnAccess: "Access project",          
+            altBtnAccess: "Access project",   
+			
+			forStore: {
+				title: "4Store",
+
+				altProject: "4Store project",
+
+				description: "Personal project, developed during a selection process for internship, with requirements defined by the company. Were used  <a href='https://reactrouter.com' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>React Router</a>, <a href='https://redux-toolkit.js.org' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>Redux Toolkit</a> e <a href='https://redux-toolkit.js.org/usage/usage-guide#use-with-redux-persist' target='_blank' rel='noopener noreferrer' class='card-project__4store-link'>Redux Persist</a>."
+			},
 
             farmino: {
                 title: "Farmino",
 
                 altProject: "Farmino project",
 
-                description: "Personal project in development, about a virtual store focused on selling organic products. It will be used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
+                description: "Personal project in development, about a virtual store focused on selling organic products. Were used <a href='https://router.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Router</a>, <a href='https://vuex.vuejs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vuex</a>, <a href='https://vue-meta.nuxtjs.org/' target='_blank' rel='noopener noreferrer' class='card-project__farmino-link'>Vue Meta</a> and <a href='https://vuelidate.js.org/' target='_blank' rel='noopener noreferrer'class='card-project__farmino-link'>Vuelidate</a>."
             },
 
             voidX: {

@@ -5,6 +5,8 @@
 $cloud-master-color: #071A52;
 $farmino-color: #37582B;
 $fatec-color: #B01116;
+$for-store-color: #F4F1EA;
+$for-store-two-color: #273C75;
 $petit-glace-color: #EA516D;
 $rick-and-morty-color: #8BCF21;
 $soffit-color: #F4F5F7;
@@ -25,6 +27,9 @@ $vruum-color: #111A39;
         width: 40%;
     }
 
+	&__logo--4store-background { 
+        background-color: $for-store-color; 
+    }
     &__logo--farmino-background { 
         background-color: $farmino-color; 
     }
@@ -64,6 +69,9 @@ $vruum-color: #111A39;
         font-weight: 600;
     }
 
+	&__subtitle--4store-color { 
+        color: $for-store-two-color; 
+    }
     &__subtitle--farmino-color { 
         color: $farmino-color; 
     }
@@ -95,6 +103,7 @@ $vruum-color: #111A39;
         margin-bottom: 0.5rem;
     }
 
+	&__4store-link,
     &__farmino-link,
     &__void-link,
     &__fatec-link,
@@ -102,6 +111,9 @@ $vruum-color: #111A39;
         font-weight: 600; 
     }
 
+	&__4store-link {
+        color: $for-store-two-color;
+    }
     &__farmino-link {
         color: $farmino-color;
     }
@@ -168,7 +180,6 @@ $vruum-color: #111A39;
         &__face-primary {
             @include mixins.flex-center;
         }
-
         &__face-secondary {
             background-color: var(--white-df);
         }
@@ -178,41 +189,38 @@ $vruum-color: #111A39;
             outline: 3px solid var(--black-df);
         }
 
+		&--btn-git-4store {
+            background-color: $for-store-two-color;
+            outline: 3px solid $for-store-two-color;
+        }
         &--btn-git-farmino {
             background-color: $farmino-color;
             outline: 3px solid $farmino-color;
         }
-
         &--btn-git-void {
             background-color: $void-color;
             outline: 3px solid $void-color;
         }
-
         &--btn-git-fatec {
             background-color: $fatec-color;
             outline: 3px solid $fatec-color;
         }
-
         &--btn-git-soffit {
             background-color: $soffit-two-color;
             outline: 3px solid $soffit-two-color;
         }
-
         &--btn-git-rick-and-morty {
             background-color: $rick-and-morty-color;
             outline: 3px solid $rick-and-morty-color;
         }
-
         &--btn-git-petit-glace {
             background-color: $petit-glace-color;
             outline: 3px solid $petit-glace-color;
         }
-
         &--btn-git-vruum {
             background-color: $vruum-color;
             outline: 3px solid $vruum-color;
         }
-
         &--btn-git-cloud-master {
             background-color: $cloud-master-color;
             outline: 3px solid $cloud-master-color;
