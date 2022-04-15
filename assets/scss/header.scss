@@ -110,16 +110,18 @@
 
         .nav {
             background-color: var(--black-df);
+			box-shadow: -1px -1px 0 5px var(--white-df);
+			border-bottom-right-radius: 200px;
             height: 100vh;
             left: 0;
             padding: 1rem 1rem 1rem 0.5rem;
-            position: absolute;
+            position: fixed;
             top: 0;
             transform: translateX(-100%);
             transition: 1s cubic-bezier(.36,.04,.48,1);
             visibility: hidden;
             width: 60%;
-            z-index: 2;
+            z-index: 3;
 
             ul {
                 flex-direction: column;

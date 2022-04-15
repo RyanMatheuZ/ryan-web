@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 90vh;
   justify-content: space-around;
 }
 .section-initial__title {
@@ -199,6 +200,12 @@
 .btn-up:hover {
   opacity: 100%;
   transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .section-initial {
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
