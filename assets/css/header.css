@@ -85,22 +85,24 @@
     display: block;
   }
   .header nav.nav-active {
-    transform: translateX(calc(-100% + 100%));
+    transform: translateX(0%);
     transition: 1s cubic-bezier(0.36, 0.04, 0.48, 1);
     visibility: visible;
   }
   .header .nav {
     background-color: var(--black-df);
+    box-shadow: -1px -1px 0 5px var(--white-df);
+    border-bottom-right-radius: 200px;
     height: 100vh;
     left: 0;
     padding: 1rem 1rem 1rem 0.5rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     transform: translateX(-100%);
     transition: 1s cubic-bezier(0.36, 0.04, 0.48, 1);
     visibility: hidden;
     width: 60%;
-    z-index: 2;
+    z-index: 3;
   }
   .header .nav ul {
     flex-direction: column;
