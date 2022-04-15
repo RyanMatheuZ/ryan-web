@@ -1,0 +1,20 @@
+{
+  "name": "ryan-web",
+  "homepage": "https://github.com/RyanMatheuZ/ryan-web",
+  "authors": [
+    "Ryan Oliveira <contato.ryanoliveira@outlook.com>"
+  ],
+  "description": "ryans portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
+  }
+}
