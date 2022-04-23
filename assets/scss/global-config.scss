@@ -1,9 +1,4 @@
-// To run => sass --watch assets/scss/global-config.scss:assets/css/global-config.css
-
 @use 'mixins';
-
-// lm => light mode
-// df => default
 
 :root {
     --black-df: #212529;
