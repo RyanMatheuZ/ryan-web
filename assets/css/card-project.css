@@ -3,6 +3,7 @@
   border-radius: 5px;
   display: flex;
   margin: 1rem 15px;
+  min-height: 350px;
   width: 550px;
 }
 .card-project__logo {
@@ -11,6 +12,9 @@
   justify-content: center;
   border-radius: 5px 0 0 5px;
   width: 40%;
+}
+.card-project__logo--astrobit-background {
+  background-color: rgba(53, 242, 154, 0.3254901961);
 }
 .card-project__logo--4store-background {
   background-color: #F4F1EA;
@@ -51,6 +55,9 @@
   font-size: clamp(0.7rem, 3vw + 1rem, 1.25rem);
   font-weight: 600;
 }
+.card-project__subtitle--astrobit-color {
+  color: #8979F2;
+}
 .card-project__subtitle--4store-color {
   color: #273C75;
 }
@@ -85,6 +92,9 @@
 }
 .card-project__4store-link, .card-project__farmino-link, .card-project__void-link, .card-project__fatec-link, .card-project__rick-and-morty-link {
   font-weight: 600;
+}
+.card-project__astrobit-link {
+  color: #8979F2;
 }
 .card-project__4store-link {
   color: #273C75;
@@ -155,6 +165,10 @@
   background-color: var(--black-df);
   outline: 3px solid var(--black-df);
 }
+.card-project .card-button--btn-git-astrobit {
+  background-color: #8979F2;
+  outline: 3px solid #8979F2;
+}
 .card-project .card-button--btn-git-4store {
   background-color: #273C75;
   outline: 3px solid #273C75;
@@ -211,3 +225,5 @@
     justify-content: center;
   }
 }
+
+/*# sourceMappingURL=card-project.css.map */
