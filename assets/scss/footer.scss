@@ -1,151 +1,152 @@
 @use 'mixins';
 
 .footer {
-    background-color: var(--primary-lm);
-    overflow: hidden;
-    padding-bottom: 1rem;
+  background-color: var(--primary-lm);
+  overflow: hidden;
+  padding-bottom: 1rem;
 
-    &__container {
-        @include mixins.container;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
+  &__container {
+    @include mixins.container;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 
-    &__subtitle {
+  &__subtitle {
+    color: var(--gray-light-lm);
+    margin-left: 1rem;
+  }
+
+  .form {
+
+    &__input,
+    &__textarea {
+      background-color: transparent;
+      border-bottom: 2px solid var(--gray-light-lm);
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      caret-color: var(--gray-light-lm);
+      color: var(--gray-light-lm);
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      margin-block: 1rem;
+      outline: none;
+      padding: 0.5rem 1rem;
+      width: 100%;
+
+      &::placeholder {
         color: var(--gray-light-lm);
-        margin-left: 1rem;
-    }
-
-    .form {
-        &__input,
-        &__textarea {
-            background-color: transparent;
-            border-bottom: 2px solid var(--gray-light-lm);
-            border-left: none;
-            border-right: none;
-            border-top: none;
-            caret-color: var(--gray-light-lm);
-            color: var(--gray-light-lm);
-            display: block;
-            font-family: 'Poppins', sans-serif;
-            font-size: 1rem;
-            margin-block: 1rem;
-            outline: none;
-            padding: 0.5rem 1rem;
-            width: 100%;
-
-            &::placeholder {
-                color: var(--gray-light-lm);
-                font-weight: 500;
-            }
-        }
-
-        &__btn-send {
-            background-color: var(--gray-light-lm);
-            border-radius: 3px;
-            border: none;
-            color: var(--primary-lm);
-            cursor: pointer;
-            display: block;
-            font-family: 'Poppins', sans-serif;
-            font-size: 0.95rem;
-            font-weight: 600;
-            outline: none;
-            padding-block: 0.5rem;
-            transition: 0.5s ease;
-            width: 115px;
-
-            &:hover {
-                background-color: var(--primary-lm);
-                color: var(--gray-light-lm);
-                outline: 2px solid var(--gray-light-lm);
-                transition: 0.2s ease;
-            }
-        }
-
-		.error-message {
-			background-color: var(--white-lm);
-			border-radius: 5px;
-			color: var(--black-lm);
-			display: none;
-			font-weight: 500;
-			margin: 0 0 0.5rem 1rem;
-			padding: 0.70rem;
-			width: -moz-fit-content;
-			width: fit-content;
-
-			&__figure {
-				@include mixins.flex-center;
-				background-color: #F22;
-				border-radius: 50%;
-				color: var(--white-df);
-				font-family: cursive, sans-serif;
-				font-weight: 700;
-				height: 25px;
-				margin: 0 0.5rem 0.5rem 0;
-				padding: 0.65rem;
-				width: 25px;
-			}
-		}
-    }
-
-    &__contacts {
-        background-color: var(--gray-light-lm);
-        border-radius: 5px;
-        margin-top: 2rem;
-        max-width: 340px;
-        width: 100%;
-    }
-
-    &__contacts-container {
-        margin: 0 auto;
-        width: -moz-fit-content;
-        width: fit-content;
-    }
-
-    &__contacts-block {
-        align-items: center;
-        display: flex;
-        margin-block: 1.2rem;
-    }
-
-    &__contacts-link {
-        color: var(--black-lm);
         font-weight: 500;
-        margin-left: 1rem;
-
-        &::after {
-            background-color: var(--primary-lm);
-            content: "";
-            display: block;
-            height: 2px;
-            margin-top: 5px;
-            transition: 0.3s ease;
-            width: 0%;
-        }
-
-        &:hover::after {
-            transition: 0.3s ease;
-            width: 40%;
-        }
+      }
     }
 
-    .instagram,
-    .linkedin,
-    .github,
-    .gitlab {
-        height: 50px;
-        width: 50px;
+    &__btn-send {
+      background-color: var(--gray-light-lm);
+      border-radius: 3px;
+      border: none;
+      color: var(--primary-lm);
+      cursor: pointer;
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      outline: none;
+      padding-block: 0.5rem;
+      transition: 0.5s ease;
+      width: 115px;
 
-        &__circle {
-            fill: var(--secondary-lm);
-            opacity: 0.5;
-        }
-
-        &__path {
-            fill: var(--black-lm);
-        }
+      &:hover {
+        background-color: var(--primary-lm);
+        color: var(--gray-light-lm);
+        outline: 2px solid var(--gray-light-lm);
+        transition: 0.2s ease;
+      }
     }
+
+    .error-message {
+      background-color: var(--white-lm);
+      border-radius: 5px;
+      color: var(--black-lm);
+      display: none;
+      font-weight: 500;
+      margin: 0 0 0.5rem 1rem;
+      padding: 0.70rem;
+      width: -moz-fit-content;
+      width: fit-content;
+
+      &__figure {
+        @include mixins.flex-center;
+        background-color: #F22;
+        border-radius: 50%;
+        color: var(--white-df);
+        font-family: cursive, sans-serif;
+        font-weight: 700;
+        height: 25px;
+        margin: 0 0.5rem 0.5rem 0;
+        padding: 0.65rem;
+        width: 25px;
+      }
+    }
+  }
+
+  &__contacts {
+    background-color: var(--gray-light-lm);
+    border-radius: 5px;
+    margin-top: 2rem;
+    max-width: 340px;
+    width: 100%;
+  }
+
+  &__contacts-container {
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  &__contacts-block {
+    align-items: center;
+    display: flex;
+    margin-block: 1.2rem;
+  }
+
+  &__contacts-link {
+    color: var(--black-lm);
+    font-weight: 500;
+    margin-left: 1rem;
+
+    &::after {
+      background-color: var(--primary-lm);
+      content: "";
+      display: block;
+      height: 2px;
+      margin-top: 5px;
+      transition: 0.3s ease;
+      width: 0%;
+    }
+
+    &:hover::after {
+      transition: 0.3s ease;
+      width: 40%;
+    }
+  }
+
+  .instagram,
+  .linkedin,
+  .github,
+  .gitlab {
+    height: 50px;
+    width: 50px;
+
+    &__circle {
+      fill: var(--secondary-lm);
+      opacity: 0.5;
+    }
+
+    &__path {
+      fill: var(--black-lm);
+    }
+  }
 }
