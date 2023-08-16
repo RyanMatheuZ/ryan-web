@@ -1,0 +1,50 @@
+@import 'mixins';
+@import 'variables';
+
+section {
+  @include section-wrapper;
+  padding: 0;
+}
+
+figure {
+  background-image: url('../../../assets/backgrounds/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  height: 400px;
+}
+
+div {
+  transform: translateY(50%);
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  width: 90%;
+}
+
+p {
+  border-left: 5px solid $primary-color;
+  border-radius: 5px;
+  font-size: .95rem;
+  padding-left: 10px;
+}
+
+strong {
+  color: $primary-color;
+  font-weight: 600;
+}

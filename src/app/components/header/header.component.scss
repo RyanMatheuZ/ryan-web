@@ -1,0 +1,41 @@
+@import 'variables';
+
+header {
+  background-color: $white-color;
+  box-shadow: rgba(99, 99, 99, .2) 0 2px 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+
+img {
+  width: 60px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+
+  a {
+    color: $primary-color;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+
+    &::after {
+      content: '';
+      background-image: linear-gradient(to right, $primary-color, $background-color);
+      width: 0;
+      height: 3px;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      transition: width 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 50%;
+    }
+  }
+}

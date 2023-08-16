@@ -1,0 +1,27 @@
+<article [ngStyle]='backgroundCard'>
+  <a
+    [routerLink]='detailsLink'
+    [ngStyle]='titleColor'
+  >
+  <div>
+    <img
+      *ngFor='let tech of project.stack'
+      [src]='"assets/projects/techs/" + tech + ".svg"'
+      [alt]='tech'
+      draggable='false'
+      width='25'
+      height='25'
+    >
+  </div>
+  <div>
+    <h4>
+      {{ project.title }}
+    </h4>
+    <img
+      [src]='logoPath'
+      [alt]='project.title'
+      draggable='false'
+    >
+  </div>
+  </a>
+</article>

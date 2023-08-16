@@ -1,0 +1,18 @@
+<header>
+  <a routerLink='/'>
+    <img
+      src='assets/medias/logo.svg'
+      alt='Ryan Web'
+      draggable='false'
+    >
+  </a>
+  <nav>
+    <ul>
+      <li *ngFor='let item of navbarItems'>
+        <a [href]='item.anchor'>
+          <{{ item.label }}>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
