@@ -1,5 +1,1 @@
-import type TTechStack from './TTechStack';
-
-export type {
-  TTechStack
-};
+export type * from './TTechStack';

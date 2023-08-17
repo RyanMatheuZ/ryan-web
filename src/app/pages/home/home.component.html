@@ -1,12 +1,21 @@
 <main>
   <app-profile-section />
-  <app-topic-section topicName='Projetos'>
+  <app-topic-section
+    topicName='Principais projetos'
+    topicIconName='projects'
+  >
     <app-project-card
       *ngFor='let project of projects'
       [project]='project'
     />
   </app-topic-section>
-  <app-topic-section topicName='Tecnologias'>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat fugiat velit accusamus commodi dolorum id, et, sint provident, iste eos neque nesciunt suscipit voluptate. Dolore in veritatis quos cumque deleniti.
+  <app-topic-section
+    topicName='Tecnologias'
+    topicIconName='technologies'
+  >
+  <app-technology-card
+    *ngFor='let technologyName of technologies'
+    [technologyName]='technologyName'
+  />
   </app-topic-section>
 </main>

@@ -2,6 +2,27 @@ import type { IProject } from '@ts/interfaces';
 
 export const projects: IProject[] = [
   {
+    label: 'front-end',
+    primaryColor: '#BAE6f8',
+    secondaryColor: '#192BC2',
+    slug: 'ryan-web',
+    previewImageURL: '',
+    logoURL: '',
+    title: 'Ryan Web',
+    description: [
+      ''
+    ],
+    stack: [
+      'html',
+      'sass',
+      'typescript',
+      'angular',
+      'git',
+      'vercel'
+    ],
+    createdAt: 'Agosto de 2023'
+  },
+  {
     label: 'full-stack',
     primaryColor: '#62D2A2',
     secondaryColor: '#136A47',
@@ -18,11 +39,12 @@ export const projects: IProject[] = [
       'html',
       'styled-components',
       'material-ui',
-      'type-script',
+      'typescript',
       'react',
       'next',
       'git',
-      'firebase'
+      'firebase',
+      'vercel'
     ],
     createdAt: 'Janeiro de 2023'
   },
@@ -40,9 +62,10 @@ export const projects: IProject[] = [
     stack: [
       'html',
       'css',
-      'java-script',
+      'javascript',
       'react',
-      'git'
+      'git',
+      'vercel'
     ],
     createdAt: 'Fevereiro de 2022'
   },
@@ -60,9 +83,10 @@ export const projects: IProject[] = [
     stack: [
       'html',
       'tailwind-css',
-      'java-script',
+      'javascript',
       'vue',
-      'git'
+      'git',
+      'vercel'
     ],
     createdAt: 'Fevereiro de 2022'
   },
@@ -80,8 +104,9 @@ export const projects: IProject[] = [
     stack: [
       'html',
       'bootstrap',
-      'java-script',
-      'git'
+      'javascript',
+      'git',
+      'vercel'
     ],
     createdAt: 'Dezembro de 2021'
   },
@@ -99,8 +124,9 @@ export const projects: IProject[] = [
     stack: [
       'html',
       'css',
-      'java-script',
-      'git'
+      'javascript',
+      'git',
+      'vercel'
     ],
     createdAt: 'Novembro de 2021'
   }

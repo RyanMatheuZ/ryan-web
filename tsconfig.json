@@ -36,6 +36,9 @@
       "@pages/*": [
         "app/pages/*"
       ],
+      "@pipes/*": [
+        "app/pipes/*"
+      ],
       "@styles/*": [
         "app/styles/*"
       ],

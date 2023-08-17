@@ -1,6 +1,6 @@
 import type { TTechStack } from '@ts/types';
 
-interface IProject {
+export interface IProject {
   label: 'front-end' | 'back-end' | 'full-stack';
   primaryColor: string;
   secondaryColor: string;
@@ -12,5 +12,3 @@ interface IProject {
   stack: TTechStack[];
   createdAt: string;
 }
-
-export default IProject;

@@ -1,5 +1,3 @@
-interface ITopicSection {
+export interface ITopicSection {
   topic: string;
 }
-
-export default ITopicSection;

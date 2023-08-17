@@ -34,8 +34,9 @@ a {
     overflow: hidden;
 
     img {
-      width: 200px;
+      max-width: 200px;
       height: 200px;
+      width: 100%;
       transform: translateY(50%);
       transition: transform .3s ease;
     }

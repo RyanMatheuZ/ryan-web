@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import type { IProject } from '@ts/interfaces';
 
-import { projects } from '@common/projects';
+import { projects, technologies } from '@common/index';
 
 @Component({
   selector: 'app-home',
@@ -11,4 +11,5 @@ import { projects } from '@common/projects';
 
 export class HomeComponent {
   projects: IProject[] = projects;
+  technologies: IProject['stack'] = technologies;
 }

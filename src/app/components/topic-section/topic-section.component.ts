@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-topic-section',
@@ -6,6 +6,13 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./topic-section.component.scss']
 })
 
-export class TopicSectionComponent {
+export class TopicSectionComponent implements OnInit {
   @Input() topicName!: string;
+  @Input() topicIconName!: string;
+
+  topicIconSRC = '';
+
+  ngOnInit(): void {
+    this.topicIconSRC = `assets/icons/${this.topicIconName}.svg`;
+  }
 }
