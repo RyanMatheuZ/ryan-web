@@ -47,6 +47,7 @@ article {
       background-color: $white-color;
       box-shadow: rgba(0, 0, 0, .15) 1.95px 1.95px 2.6px;
       border-radius: 20px;
+      font-size: clamp(.75rem, 4vw, 1rem);
       font-weight: 500;
       text-transform: uppercase;
       padding: .3rem .8rem;

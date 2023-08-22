@@ -29,7 +29,7 @@ export const projects: ReadonlyArray<IProject> = [
     slug: 'earth-community',
     title: 'Earth Community',
     description: [
-      'Earth Community é uma comunidade online que tem como objetivo promover o engajamento de pessoas e grupos em causas ambientais e sociais.',
+      'Comunidade com o objetivo de promover o engajamento de pessoas e grupos em causas ambientais e sociais.',
       'Criado a partir de um projeto acadêmico baseado na agenda 2030 da ONU, oferecendo um espaço virtual para que os usuários possam se conectar, compartilhar ideias e iniciativas, e se mobilizarem em prol de um mundo mais sustentável e consciente.',
       'Além disso, a comunidade é uma oportunidade para que os usuários possam aprender mais sobre as temáticas que envolvem a agenda 2030 da ONU e se inspirarem em outras iniciativas ao redor do Brasil.'
     ],
@@ -98,7 +98,7 @@ export const projects: ReadonlyArray<IProject> = [
     slug: 'petit-glace',
     title: 'Petit Glace',
     description: [
-      'Projeto pessoal sobre uma sorveteria fictícia. O usuário pode realizar uma filtragem de produtos, seja pela origem ou preço do produto.',
+      'Projeto pessoal de uma sorveteria. O usuário pode realizar uma filtragem de produtos, seja pela origem ou preço do produto.',
       'Criado para o aperfeiçoamento de conceitos básicos de Desenvolvimento Web, como: HTML semântico, estilização intermediária e manipulação de dados com JavaScript.',
       'Tudo isso para levar até você e sua família, nossas deliciosas sobremesas, com preço justo e muita variedade.'
     ],
@@ -117,7 +117,7 @@ export const projects: ReadonlyArray<IProject> = [
     slug: 'vruum',
     title: 'Vruum',
     description: [
-      'Projeto pessoal sobre uma autoescola fictícia. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito.',
+      'Projeto pessoal de uma autoescola. A mesma oferece cursos tradicionais de direção e de aperfeiçoamento no trânsito.',
       'Criado para uma prova da matéria de Web Design I na Faculdade de Tecnologia de São Paulo. Consistiu na criação um template da página inicial de um site com o Adobe Illustrator e depois o seu desenvolvimento.',
       'A Autoescola Vruum faz questão de preservar a qualidade e a confiança, mantendo-se à frente em inovações no aprendizado.'
     ],

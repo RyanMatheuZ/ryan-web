@@ -12,18 +12,20 @@ interface NavbarItem {
 })
 
 export class HeaderComponent {
+  baseLink = '/home#';
+
   navbarItems: NavbarItem[] = [
     {
       label: 'Sobre',
-      anchor: '#about'
+      anchor: `${this.baseLink}about`
     },
     {
       label: 'Tecnologias',
-      anchor: '#technlogies'
+      anchor: `${this.baseLink}technologies`
     },
     {
       label: 'Projetos',
-      anchor: '#projects'
+      anchor: `${this.baseLink}projects`
     }
   ];
 }
