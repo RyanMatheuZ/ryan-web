@@ -1,0 +1,27 @@
+@import 'variables';
+
+@mixin section-wrapper {
+  background-color: $white-color;
+  box-shadow: rgba(0, 0, 0, .1) 0 4px 12px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1600px;
+  width: 100%;
+}
+
+@mixin centered-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 1200px) {
+    justify-content: center;
+  }
+}
