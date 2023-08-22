@@ -7,14 +7,22 @@ const routes: Routes = [
     loadChildren: async () => (await import('@pages/home/home.module')).HomeModule
   },
   {
-    path: '',
+    path: 'projects/:slug',
+    loadChildren: async () => (await import('@pages/projects/projects.module')).ProjectsModule
+  },
+  {
+    path: '**',
     redirectTo: 'home',
     pathMatch: 'full'
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled',
+    anchorScrolling: 'enabled',
+    onSameUrlNavigation: 'reload'
+  })],
   exports: [RouterModule]
 })
 

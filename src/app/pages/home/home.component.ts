@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 import type { IProject } from '@ts/interfaces';
+import type { TTechStack } from '@ts/types';
 
 import { projects, technologies } from '@common/index';
 
@@ -9,7 +11,15 @@ import { projects, technologies } from '@common/index';
   templateUrl: './home.component.html'
 })
 
-export class HomeComponent {
-  projects: IProject[] = projects;
-  technologies: IProject['stack'] = technologies;
+export class HomeComponent implements OnInit {
+  projects: ReadonlyArray<IProject> = projects;
+  technologies: ReadonlyArray<TTechStack> = technologies;
+
+  constructor(
+    private title: Title
+  ) { }
+
+  ngOnInit(): void {
+    this.title.setTitle('Ryan Web - Portfólio');
+  }
 }

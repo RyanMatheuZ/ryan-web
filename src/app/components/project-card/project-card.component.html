@@ -1,11 +1,11 @@
 <article [ngStyle]='backgroundCard'>
   <a
-    [routerLink]='detailsLink'
+    [routerLink]='projectLink'
     [ngStyle]='titleColor'
   >
   <div>
     <img
-      *ngFor='let tech of project.stack'
+      *ngFor='let tech of nineStartingTechnologies'
       [src]='"assets/projects/techs/" + tech + ".svg"'
       [alt]='tech'
       draggable='false'

@@ -1,0 +1,81 @@
+<section
+  class='initial-section'
+  [ngStyle]='sectionBackgroundColor'
+>
+  <div class='centered-section'>
+    <article>
+      <img
+        [src]='projectLogoSRC'
+        [alt]='projectBySlug?.title'
+        draggable='false'
+      >
+      <div>
+        <span class='line' [ngStyle]='lineBackgroundColor'></span>
+        <span [ngStyle]='descriptionColor'>
+          {{ projectBySlug?.label }}
+        </span>
+      </div>
+      <p [ngStyle]='descriptionColor'>
+        {{ fistDescription }}
+      </p>
+      <button
+        (click)='handleRedirectToHome()'
+        [ngStyle]='descriptionColor'
+      >
+        <svg [attr.fill]='projectBySlug?.secondaryColor' viewBox='0 -960 960 960'>
+          <path d='M359-242 120-481l239-239 43 43-166 166h604v60H236l166 166-43 43Z' />
+        </svg>
+        Voltar
+      </button>
+    </article>
+    <img
+      [src]='projectComputerMockupSRC'
+      [alt]='projectBySlug?.title'
+      draggable='false'
+    >
+  </div>
+</section>
+<section class='about-project-section'>
+  <div class='centered-section margin-top-on-laptop'>
+    <article>
+      <h2 [ngStyle]='descriptionColor'>
+        Sobre o projeto
+      </h2>
+      <span class='line' [ngStyle]='lineBackgroundColor'></span>
+      <p>
+        {{ secondDescription }}
+      </p>
+    </article>
+    <img
+      [src]='projectFirstPhoneMockupSRC'
+      [alt]='projectBySlug?.title'
+      draggable='false'
+    >
+  </div>
+</section>
+<section class='about-project-section'>
+  <div class='centered-section'>
+    <img
+      [src]='projectTabletAndPhoneMockupSRC'
+      [alt]='projectBySlug?.title'
+      draggable='false'
+    >
+    <article>
+      <h2 [ngStyle]='descriptionColor'>
+        Tech Highlight
+      </h2>
+      <span class='line' [ngStyle]='lineBackgroundColor'></span>
+      <p>
+        {{ thirdDescription }}
+      </p>
+      <div class='tech-highlight'>
+        <img
+          *ngFor='let tech of projectBySlug?.stack'
+          [src]='"assets/projects/techs/" + tech + ".svg"'
+          [alt]='tech'
+          draggable='false'
+        >
+      </div>
+    </article>
+  </div>
+</section>

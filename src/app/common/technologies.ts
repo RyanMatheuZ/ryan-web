@@ -1,6 +1,6 @@
-import type { IProject } from '@ts/interfaces';
+import type { TTechStack } from '@ts/types';
 
-export const technologies: IProject['stack'] = [
+export const technologies: ReadonlyArray<TTechStack> = [
   'html',
   'css',
   'sass',
