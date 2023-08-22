@@ -15,6 +15,8 @@ import { getFindProjectBySlug, projects } from '@common/index';
 export class ProjectsComponent implements OnInit {
   projectBySlug?: IProject;
 
+  svgViewBox = '0 -960 960 960';
+
   directoryBasePath = 'assets/projects/';
 
   sectionBackgroundColor!: { 'background-color': string };

@@ -8,5 +8,6 @@ export interface IProject {
   title: string;
   description: string[];
   stack: TTechStack[];
+  link: string;
   createdAt: string;
 }

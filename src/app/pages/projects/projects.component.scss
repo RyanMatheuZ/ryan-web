@@ -59,16 +59,26 @@ article {
     max-width: 500px;
   }
 
-  button {
-    background-color: transparent;
+  p+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  button,
+  a {
+    background-color: $white-color;
     border: 0;
+    border-radius: 5px;
     font-size: .85rem;
     font-weight: 600;
     text-align: left;
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: .5rem;
+    padding: .25rem .5rem;
     cursor: pointer;
     width: fit-content;
 

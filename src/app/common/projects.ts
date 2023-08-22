@@ -20,6 +20,7 @@ export const projects: ReadonlyArray<IProject> = [
       'git',
       'vercel'
     ],
+    link: 'https://ryan-web.vercel.app',
     createdAt: 'Agosto de 2023'
   },
   {
@@ -47,6 +48,7 @@ export const projects: ReadonlyArray<IProject> = [
       'firebase',
       'vercel'
     ],
+    link: 'https://www.earthcommunity.com.br',
     createdAt: 'Janeiro de 2023'
   },
   {
@@ -68,6 +70,7 @@ export const projects: ReadonlyArray<IProject> = [
       'git',
       'vercel'
     ],
+    link: 'https://4-store.vercel.app',
     createdAt: 'Fevereiro de 2022'
   },
   {
@@ -89,6 +92,7 @@ export const projects: ReadonlyArray<IProject> = [
       'git',
       'vercel'
     ],
+    link: 'https://farmino-store.vercel.app',
     createdAt: 'Fevereiro de 2022'
   },
   {
@@ -108,6 +112,7 @@ export const projects: ReadonlyArray<IProject> = [
       'javascript',
       'git'
     ],
+    link: 'https://ryanmatheuz.github.io/petit-glace',
     createdAt: 'Dezembro de 2021'
   },
   {
@@ -127,6 +132,7 @@ export const projects: ReadonlyArray<IProject> = [
       'javascript',
       'git'
     ],
+    link: 'https://ryanmatheuz.github.io/vruum',
     createdAt: 'Novembro de 2021'
   }
 ];
