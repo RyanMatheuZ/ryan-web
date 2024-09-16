@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "home": "Inicio",
+    "alt": "Foto de perfil",
+    "about": "Profesional de TI con amplia experiencia en el área y actuación en diversos sectores, incluyendo salud, comercio electrónico y agroindustria."
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "seeProject": "Ver proyecto",
+    "GeoDronePlus": {
+      "description": "App para la gestión y la tarificación de la pulverización agrícola."
+    },
+    "SimoneModas": {
+      "description": "E-commerce especializado en moda con panel de administración."
+    }
+  },
+  "Technologies": {
+    "title": "Tecnologías"
+  },
+  "VolunteerWork": {
+    "title": "Trabajo voluntario",
+    "selectImageInfo": "Selecciona una imagen",
+    "MusicTeacher": {
+      "role": "Profesor de Música",
+      "organization": "Iglesia Evangélica Asamblea de Dios",
+      "period": "may de 2022 - ago de 2022 · 4 meses",
+      "description": "Seguimiento de niños y adultos en el aprendizaje teórico musical a partir del método 'Bona'."
+    },
+    "FirstTrombone": {
+      "role": "1er Trombón",
+      "organization": "Ayuntamiento de Matão",
+      "period": "ene de 2016 - dic de 2018 · 3 años",
+      "description": {
+        "first": "Concierto 'Clássicos de Natal - 03/12/2017', con un repertorio de más de 10 piezas de diversos estilos y géneros. El proyecto 'Oficina de Sopros' se presentó con la canción 'A Thousand Years' (Christina Perri), y posteriormente, junto con la 'Orquestra Jovem de Matão', el 'Coral Municipal', el 'Coro Frater' y alrededor de más de 200 niños del proyecto 'Casa do Pequeno Cidadão', cerraron la noche con la canción 'Bom Natal' (Edson B. de Abrantes). El concierto atrajo a una audiencia de más de 1.200 espectadores, reunidos en el salón de la 'Sorema - Sociedade Recreativa Matonense'.",
+        "second": "En el proyecto 'Oficina de Sopros' se realizaron estudios y ejercicios teóricos basados en el método 'Bona', en las claves de sol y fa; ejercicios prácticos con los trombones de pistón y de vara en las afinaciones Bb y C, utilizando los métodos 'Amadeu Russo' y 'Rubank Elementary Method'."
+      },
+      "image": {
+        "first": "Folleto del evento",
+        "second": "Grupo Oficina de Sopros",
+        "third": "Grupo Oficina de Sopros tocando A Thousand Years",
+        "fourth": "Orquesta tocando Bom Natal",
+        "fifth": "Orquesta tocando Bom Natal",
+        "sixth": "Trombones tocando Bom Natal"
+      }
+    }
+  },
+  "Footer": {
+    "backToTheTop": "Volver al principio",
+    "allRightsReserved": "Todos los derechos reservados",
+    "builtWith": "Construido con"
+  }
+}

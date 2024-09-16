@@ -1,0 +1,39 @@
+.background {
+  background-color: #232323DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.close_modal_button {
+  background-color: var(--white);
+  color: var(--black);
+  border: 4px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 700;
+  padding: .75rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}

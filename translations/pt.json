@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "home": "Início",
+    "alt": "Foto de perfil",
+    "about": "Profissional de TI com ampla experiência na área e atuação em diversos setores, incluindo saúde, e-commerce e agronegócio."
+  },
+  "Projects": {
+    "title": "Projetos",
+    "seeProject": "Ver projeto",
+    "GeoDronePlus": {
+      "description": "App para gestão e precificação da pulverização agrícola."
+    },
+    "SimoneModas": {
+      "description": "E-commerce especializado em moda com painel admin."
+    }
+  },
+  "Technologies": {
+    "title": "Tecnologias"
+  },
+  "VolunteerWork": {
+    "title": "Trabalho voluntário",
+    "selectImageInfo": "Selecione uma imagem",
+    "MusicTeacher": {
+      "role": "Professor de Música",
+      "organization": "Igreja Evangélica Assembleia de Deus",
+      "period": "mai 2022 - ago 2022 · 4 meses",
+      "description": "Acompanhamento de crianças e adultos no aprendizado teórico musical a partir do método 'Bona'."
+    },
+    "FirstTrombone": {
+      "role": "1º Trombone",
+      "organization": "Prefeitura Municipal de Matão",
+      "period": "jan 2016 - dez 2018 · 3 anos",
+      "description": {
+        "first": "Concerto 'Clássicos de Natal - 03/12/2017', com um repertório com +10 peças de diversos estilos e gêneros. O projeto 'Oficina de Sopros' se apresentou com a canção 'A Thousand Years' (Christina Perri), em seguida, juntamente com a 'Orquestra Jovem de Matão', 'Coral Municipal', 'Coro Frater' e cerca de +200 crianças do projeto 'Casa do Pequeno Cidadão' encerraram a noite com a canção 'Bom Natal' (Edson B. de Abrantes). O concerto atraiu uma audiência de +1.200 espectadores, reunidos no salão da 'Sorema - Sociedade Recreativa Matonense'.",
+        "second": "No projeto 'Oficina de Sopros' realizou estudos e exercícios teóricos a partir do método 'Bona', nas claves de G e F; exercícios práticos com os trombones de pisto e de vara nas afinações Bb e C, utilizando os métodos 'Amadeu Russo' e 'Rubank Elementary Method'."
+      },
+      "image": {
+        "first": "Flyer do evento",
+        "second": "Grupo Oficina de Sopros",
+        "third": "Grupo Oficina de Sopros tocando A Thousand Years",
+        "fourth": "Orquestra tocando Bom Natal",
+        "fifth": "Orquestra tocando Bom Natal",
+        "sixth": "Trombones tocando Bom Natal"
+      }
+    }
+  },
+  "Footer": {
+    "backToTheTop": "Voltar ao topo",
+    "allRightsReserved": "Todos os direitos reservados",
+    "builtWith": "Construído com"
+  }
+}

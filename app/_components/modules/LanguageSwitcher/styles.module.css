@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.colored {
+  filter: grayscale(0);
+}
+
+.grayscale {
+  filter: grayscale(1);
+}

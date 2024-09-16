@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 40px;
+  max-width: var(--max-width-container);
+}
+
+.volunteer_works_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: var(--white);
+  height: 100%;
+}
+
+body {
+  padding-inline: 1rem;
+}
+
+main {
+  margin-inline: auto;
+  max-width: var(--max-width-container);
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}

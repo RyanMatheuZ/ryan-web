@@ -1,0 +1,23 @@
+.paragraph_base {
+  color: var(--gray);
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+
+.paragraph_sm {
+  font-size: clamp(0.75rem, 0.85rem + 0.5vw, 0.85rem);
+}
+
+.paragraph_md {
+  font-size: clamp(1rem, 1.1rem + 0.5vw, 1.25rem);
+}
+
+.paragraph_lg {
+  font-size: clamp(1.25rem, 1.3rem + 0.5vw, 1.5rem);
+}
+
+@media (max-width: 992px) {
+  .paragraph_base {
+    text-align: center;
+  }
+}

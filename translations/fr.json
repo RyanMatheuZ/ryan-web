@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "home": "Accueil",
+    "alt": "Photo de profil",
+    "about": "Professionnel de l'informatique avec une vaste expérience dans le domaine et une activité dans divers secteurs, y compris la santé, le commerce électronique et l'agro-industrie."
+  },
+  "Projects": {
+    "title": "Projets",
+    "seeProject": "Voir le projet",
+    "GeoDronePlus": {
+      "description": "App pour la gestion et la tarification de la pulvérisation agricole."
+    },
+    "SimoneModas": {
+      "description": "E-commerce spécialisé dans la mode avec un panneau d'administration."
+    }
+  },
+  "Technologies": {
+    "title": "Technologies"
+  },
+  "VolunteerWork": {
+    "title": "Travail bénévole",
+    "selectImageInfo": "Sélectionnez une image",
+    "MusicTeacher": {
+      "role": "Professeur de Musique",
+      "organization": "Église Évangélique Assemblée de Dieu",
+      "period": "mai 2022 - août 2022 · 4 mois",
+      "description": "Accompagnement des enfants et des adultes dans l'apprentissage théorique de la musique selon la méthode « Bona »."
+    },
+    "FirstTrombone": {
+      "role": "1er Trombone",
+      "organization": "Mairie de Matão",
+      "period": "janv 2016 - déc 2018 · 3 années",
+      "description": {
+        "first": "Concert « Clássicos de Natal - 03/12/2017 », avec un répertoire de plus de 10 pièces de divers styles et genres. Le projet « Oficina de Sopros » s'est présenté avec la chanson « A Thousand Years » (Christina Perri), puis, avec l'« Orquestra Jovem de Matão », le « Coral Municipal », le « Coro Frater » et environ 200 enfants du projet « Casa do Pequeno Cidadão » ont clôturé la soirée avec la chanson « Bom Natal » (Edson B. de Abrantes). Le concert a attiré une audience de plus de 1 200 spectateurs, réunis dans la salle de la « Sorema - Sociedade Recreativa Matonense ».",
+        "second": "Dans le projet « Oficina de Sopros », des études et exercices théoriques ont été réalisés à partir de la méthode « Bona », dans les clés de G et de F ; des exercices pratiques ont été effectués avec des trombones à piston et à coulisse dans les tonalités Bb et C, en utilisant les méthodes « Amadeu Russo » et « Rubank Elementary Method »."
+      },
+      "image": {
+        "first": "Flyer de l'événement",
+        "second": "Groupe Oficina de Sopros",
+        "third": "Groupe Oficina de Sopros jouant A Thousand Years",
+        "fourth": "Orchestre jouant Bom Natal",
+        "fifth": "Orchestre jouant Bom Natal",
+        "sixth": "Trombones jouant Bom Natal"
+      }
+    }
+  },
+  "Footer": {
+    "backToTheTop": "Retour en haut",
+    "allRightsReserved": "Tous droits réservés",
+    "builtWith": "Construit avec"
+  }
+}

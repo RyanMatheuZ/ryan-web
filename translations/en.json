@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "home": "Home",
+    "alt": "Profile picture",
+    "about": "IT professional with extensive experience in the field and work in various sectors, including healthcare, e-commerce, and agribusiness."
+  },
+  "Projects": {
+    "title": "Projects",
+    "seeProject": "See project",
+    "GeoDronePlus": {
+      "description": "App for management and pricing of agricultural spraying."
+    },
+    "SimoneModas": {
+      "description": "E-commerce specialized in fashion with an admin panel."
+    }
+  },
+  "Technologies": {
+    "title": "Technologies"
+  },
+  "VolunteerWork": {
+    "title": "Volunteer work",
+    "selectImageInfo": "Select an image",
+    "MusicTeacher": {
+      "role": "Music Teacher",
+      "organization": "Assembly of God Evangelical Church",
+      "period": "May 2022 - Aug 2022 · 4 months",
+      "description": "Guiding children and adults in musical theory learning using the 'Bona' method."
+    },
+    "FirstTrombone": {
+      "role": "1st Trombone",
+      "organization": "Municipal Government of Matão",
+      "period": "Jan 2016 - Dec 2018 · 3 years",
+      "description": {
+        "first": "Concert 'Clássicos de Natal - 12/03/2017', featuring a repertoire of over 10 pieces from various styles and genres. The 'Oficina de Sopros' project performed the song 'A Thousand Years' (Christina Perri), followed by the 'Orquestra Jovem de Matão,' 'Coral Municipal,' 'Coro Frater,' and approximately 200 children from the 'Casa do Pequeno Cidadão' project, who closed the evening with the song 'Bom Natal' (Edson B. de Abrantes). The concert attracted an audience of over 1,200 spectators gathered in the 'Sorema - Sociedade Recreativa Matonense' hall.",
+        "second": "In the 'Oficina de Sopros' project, theoretical studies and exercises were conducted using the 'Bona' method in G and F clefs; practical exercises with the piston and slide trombones in Bb and C tunings were carried out, utilizing the 'Amadeu Russo' and 'Rubank Elementary Method' methods."
+      },
+      "image": {
+        "first": "Event flyer",
+        "second": "Oficina de Sopros Group",
+        "third": "Oficina de Sopros Group playing A Thousand Years",
+        "fourth": "Orchestra playing Bom Natal",
+        "fifth": "Orchestra playing Bom Natal",
+        "sixth": "Trombones playing Bom Natal"
+      }
+    }
+  },
+  "Footer": {
+    "backToTheTop": "Back to the top",
+    "allRightsReserved": "All rights reserved",
+    "builtWith": "Built with"
+  }
+}

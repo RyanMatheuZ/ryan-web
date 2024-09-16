@@ -1,0 +1,43 @@
+.card {
+  background-color: var(--white);
+  border: 4px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100px;
+  height: 90px;
+}
+
+.card_title {
+  text-align: center;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.image {
+  filter: grayscale(1);
+
+  &:hover {
+    filter: grayscale(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    padding: .5rem;
+    width: 80px;
+    height: 70px;
+  }
+
+  .card_title {
+    font-size: .65rem;
+  }
+
+  .image {
+    width: 20px;
+    height: 20px;
+  }
+}

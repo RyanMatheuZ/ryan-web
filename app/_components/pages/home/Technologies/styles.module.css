@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 40px;
+  max-width: var(--max-width-container);
+}
+
+.technologies_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+  .technologies_container {
+    justify-content: center;
+  }
+}

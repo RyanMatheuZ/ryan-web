@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "home": "Startseite",
+    "alt": "Profilbild",
+    "about": "IT-Experte mit umfassender Erfahrung auf dem Gebiet und in verschiedenen Sektoren, einschließlich Gesundheitswesen, E-Commerce und Agrarindustrie."
+  },
+  "Projects": {
+    "title": "Projekte",
+    "seeProject": "Projekt ansehen",
+    "GeoDronePlus": {
+      "description": "App zur Verwaltung und Preisgestaltung von landwirtschaftlichen Sprühanwendungen."
+    },
+    "SimoneModas": {
+      "description": "E-Commerce spezialisiert auf Mode mit einem Admin-Panel."
+    }
+  },
+  "Technologies": {
+    "title": "Technologien"
+  },
+  "VolunteerWork": {
+    "title": "Freiwilligenarbeit",
+    "selectImageInfo": "Wählen Sie ein Bild aus",
+    "MusicTeacher": {
+      "role": "Musiklehrer",
+      "organization": "Evangelische Kirche der Versammlung von Gott",
+      "period": "Mai 2022 - Aug 2022 · 4 Monate",
+      "description": "Begleitung von Kindern und Erwachsenen beim musiktheoretischen Lernen nach der „Bona“-Methode."
+    },
+    "FirstTrombone": {
+      "role": "1. Posaune",
+      "organization": "Stadtverwaltung von Matão",
+      "period": "Jan 2016 - Dez 2018 · 3 Jahre",
+      "description": {
+        "first": "Konzert „Clássicos de Natal - 03.12.2017“, mit einem Repertoire von über 10 Stücken aus verschiedenen Stilen und Genres. Das Projekt „Oficina de Sopros“ trat mit dem Lied „A Thousand Years“ (Christina Perri) auf. Anschließend schlossen die „Orquestra Jovem de Matão“, der „Coral Municipal“, der „Coro Frater“ und etwa 200 Kinder des Projekts „Casa do Pequeno Cidadão“ den Abend mit dem Lied „Bom Natal“ (Edson B. de Abrantes) ab. Das Konzert zog über 1.200 Zuschauer an, die im Saal der „Sorema - Sociedade Recreativa Matonense“ versammelt waren.",
+        "second": "Im Projekt „Oficina de Sopros“ wurden theoretische Studien und Übungen nach der „Bona“-Methode in den Notenschlüsseln G und F durchgeführt; praktische Übungen mit den Ventiltrombonen und Zugtrombonen in den Stimmungen Bb und C unter Verwendung der Methoden „Amadeu Russo“ und „Rubank Elementary Method“."
+      },
+      "image": {
+        "first": "Veranstaltungsflyer",
+        "second": "Oficina de Sopros Gruppe",
+        "third": "Oficina de Sopros Gruppe spielt A Thousand Years",
+        "fourth": "Orchester spielt Bom Natal",
+        "fifth": "Orchester spielt Bom Natal",
+        "sixth": "Posaunen spielen Bom Natal"
+      }
+    }
+  },
+  "Footer": {
+    "backToTheTop": "Zurück nach oben",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "builtWith": "Gebaut mit"
+  }
+}

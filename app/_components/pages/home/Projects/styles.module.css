@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 40px;
+  max-width: var(--max-width-container);
+}
+
+.projects_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .projects_container {
+    justify-content: center;
+  }
+}

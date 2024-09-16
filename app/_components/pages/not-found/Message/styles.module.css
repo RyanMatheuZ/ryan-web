@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  color: var(--black);
+  text-align: center;
+}
+
+.message {
+  color: var(--black);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.link {
+  background-color: var(--white);
+  color: var(--black);
+  border: 4px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 700;
+  display: block;
+  padding: .75rem;
+}
