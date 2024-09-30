@@ -12,6 +12,12 @@
     },
     "SimoneModas": {
       "description": "E-Commerce spezialisiert auf Mode mit einem Admin-Panel."
+    },
+    "FourStore": {
+      "description": "Projekt für ein Auswahlverfahren für ein Praktikum."
+    },
+    "Farmino": {
+      "description": "Online-Shop für Bio-Produkte."
     }
   },
   "Technologies": {

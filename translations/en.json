@@ -12,6 +12,12 @@
     },
     "SimoneModas": {
       "description": "E-commerce specialized in fashion with an admin panel."
+    },
+    "FourStore": {
+      "description": "Project for an internship selection process."
+    },
+    "Farmino": {
+      "description": "Online store for organic products."
     }
   },
   "Technologies": {

@@ -40,6 +40,20 @@ function Projects() {
               "typescript",
             ]}
           />
+          <ProjectCard
+            title="4 Store"
+            description={t("FourStore.description")}
+            href="https://4-store-upgrade.vercel.app"
+            type="web"
+            technologies={["react", "javascript", "css"]}
+          />
+          <ProjectCard
+            title="Farmino"
+            description={t("Farmino.description")}
+            href="https://farmino-store.vercel.app"
+            type="web"
+            technologies={["vue-js", "javascript", "tailwind-css"]}
+          />
         </div>
       </section>
       <Divider />
